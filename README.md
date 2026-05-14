@@ -83,3 +83,26 @@ python etl/extract_with_openai.py --index data/statements_index.csv --out data/o
 
 Skrypt wysyła PDF jako wejście plikowe i zapisuje jeden obiekt JSON na dokument.
 Wynik trafia do `data/openai_extracted.jsonl`.
+
+
+## Baza analityczna
+
+Do właściwej analizy używamy znormalizowanej bazy SQLite:
+
+```powershell
+python etl/init_analysis_db.py --index data/statements_index.csv --db data/analysis.db
+```
+
+Model danych odzwierciedla sekcje formularza I-X i trzy filary analizy:
+
+- `assets`: I środki pieniężne/papiery, II nieruchomości, III udziały, IV akcje, V mienie nabyte od Skarbu Państwa/samorządu, IX ruchomości powyżej 10000 zł,
+- `earnings`: VI działalność gospodarcza, VII funkcje w spółkach i dochody, VIII inne dochody,
+- `debts`: X zobowiązania pieniężne.
+
+Najważniejsze tabele:
+
+- `people` - osoby/radni,
+- `statements` - pojedyncze oświadczenia/PDF-y,
+- `statement_sections` - zawsze 10 rekordów na oświadczenie, po jednym dla sekcji I-X,
+- `asset_items`, `income_items`, `liability_items` - zweryfikowane pozycje wyciągnięte z sekcji,
+- `statement_pillars` - widok agregujący majątek, zarobki i kredyty.
