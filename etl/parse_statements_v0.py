@@ -18,6 +18,11 @@ import sqlite3
 from pathlib import Path
 from typing import Iterable
 
+try:
+    import pdfplumber
+except ImportError:  # pragma: no cover - optional dependency path.
+    pdfplumber = None
+
 
 NUMBER_RE = re.compile(r"(?<!\d)(\d{1,3}(?:[\s.]\d{3})*(?:,\d{1,2})?|\d+)(?!\d)")
 
@@ -27,6 +32,22 @@ KEYWORDS = {
     "savings_total_pln": ["oszczędności", "środki pieniężne", "zasoby pieniężne"],
     "liabilities_total_pln": ["zobowiązania", "kredyt", "pożyczka", "dług"],
 }
+
+
+def normalize_for_match(text: str) -> str:
+    text = text.lower().replace("ł", "l")
+    replacements = str.maketrans({
+        "ą": "a",
+        "ć": "c",
+        "ę": "e",
+        "ń": "n",
+        "ó": "o",
+        "ś": "s",
+        "ź": "z",
+        "ż": "z",
+        "6": "o",
+    })
+    return text.translate(replacements)
 
 
 def to_number(token: str) -> float:
@@ -40,10 +61,10 @@ def to_number(token: str) -> float:
 def extract_numbers_for_keywords(text: str, keywords: Iterable[str]) -> float:
     total = 0.0
     lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
-    lowered_keywords = [k.lower() for k in keywords]
+    lowered_keywords = [normalize_for_match(k) for k in keywords]
 
     for line in lines:
-        lline = line.lower()
+        lline = normalize_for_match(line)
         if not any(k in lline for k in lowered_keywords):
             continue
         nums = [to_number(m.group(1)) for m in NUMBER_RE.finditer(line)]
@@ -72,11 +93,22 @@ def init_db(conn: sqlite3.Connection) -> None:
     conn.execute("CREATE INDEX IF NOT EXISTS idx_statements_v0_person_year ON statements_v0(person, year)")
 
 
-def parse_plain_text_file(path: Path) -> str:
-    # v0 parser: supports .txt directly; binary files are skipped with note.
+def parse_plain_text_file(path: Path) -> tuple[str, str]:
+    # v0 parser: supports .txt and text-based PDFs; scanned PDFs need OCR later.
     if path.suffix.lower() == ".txt":
-        return path.read_text(encoding="utf-8", errors="ignore")
-    return ""
+        return path.read_text(encoding="utf-8", errors="ignore"), ""
+    if path.suffix.lower() == ".pdf":
+        if pdfplumber is None:
+            return "", "pdfplumber not installed"
+        chunks = []
+        with pdfplumber.open(path) as pdf:
+            for page in pdf.pages:
+                chunks.append(page.extract_text() or "")
+        text = "\n".join(chunks).strip()
+        if not text:
+            return "", "no embedded text found in PDF (OCR needed)"
+        return text, ""
+    return "", "unsupported file type in v0 (expected .txt or text PDF)"
 
 
 def main() -> int:
@@ -101,7 +133,7 @@ def main() -> int:
             file_path = Path(row.get("file_path") or "")
             url = row.get("url") or ""
 
-            text = parse_plain_text_file(file_path)
+            text, parse_note = parse_plain_text_file(file_path)
             if not text:
                 conn.execute(
                     """
@@ -109,7 +141,7 @@ def main() -> int:
                     (person, year, file_path, source_url, parsed_ok, parse_note)
                     VALUES (?, ?, ?, ?, 0, ?)
                     """,
-                    (person, year, str(file_path), url, "unsupported file type in v0 (expected .txt)"),
+                    (person, year, str(file_path), url, parse_note),
                 )
                 inserted += 1
                 continue
