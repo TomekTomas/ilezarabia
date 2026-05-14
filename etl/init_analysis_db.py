@@ -67,6 +67,7 @@ def init_schema(conn: sqlite3.Connection) -> None:
           id INTEGER PRIMARY KEY AUTOINCREMENT,
           person_id INTEGER NOT NULL REFERENCES people(id) ON DELETE CASCADE,
           year INTEGER,
+          statement_date TEXT,
           source_url TEXT NOT NULL UNIQUE,
           file_path TEXT NOT NULL,
           download_status TEXT DEFAULT 'ok',
@@ -161,6 +162,9 @@ def init_schema(conn: sqlite3.Connection) -> None:
         JOIN people p ON p.id = s.person_id;
         """
     )
+    columns = {row[1] for row in conn.execute("PRAGMA table_info(statements)")}
+    if "statement_date" not in columns:
+        conn.execute("ALTER TABLE statements ADD COLUMN statement_date TEXT")
 
 
 def upsert_person(conn: sqlite3.Connection, name: str) -> int:
