@@ -69,3 +69,17 @@ python etl/download_statements_stdlib.py --out data/raw --index data/statements_
 ```
 
 Raport JSON zawiera m.in. `downloaded_now`, `errors`, `skipped_existing`.
+
+
+## Ekstrakcja przez model vision OpenAI
+
+Lokalny OCR bywa zbyt słaby dla skanów formularzy. Do dokładniejszej ekstrakcji
+można użyć modelu vision przez OpenAI API:
+
+```powershell
+$env:OPENAI_API_KEY="sk-..."
+python etl/extract_with_openai.py --index data/statements_index.csv --out data/openai_extracted.jsonl --limit 5
+```
+
+Skrypt wysyła PDF jako wejście plikowe i zapisuje jeden obiekt JSON na dokument.
+Wynik trafia do `data/openai_extracted.jsonl`.
