@@ -132,7 +132,7 @@ def extract_pdf_text(path: Path) -> str:
     return "\n".join(chunks).strip()
 
 
-def ocr_pdf(path: Path, lang: str, tessdata_dir: str | None, dpi: int, max_pages: int) -> str:
+def ocr_pdf(path: Path, lang: str, tessdata_dir: str | None, dpi: int, max_pages: int, psm: int) -> str:
     if fitz is None:
         return ""
     if pytesseract is None or Image is None:
@@ -142,7 +142,7 @@ def ocr_pdf(path: Path, lang: str, tessdata_dir: str | None, dpi: int, max_pages
     if tesseract_cmd:
         pytesseract.pytesseract.tesseract_cmd = tesseract_cmd
 
-    config = "--psm 6"
+    config = f"--psm {psm}"
     if tessdata_dir:
         tessdata_path = Path(tessdata_dir).resolve().as_posix()
         config += f" --tessdata-dir {tessdata_path}"
@@ -181,6 +181,7 @@ def parse_document(path: Path, args: argparse.Namespace) -> tuple[str, str]:
         tessdata_dir=args.tessdata_dir,
         dpi=args.ocr_dpi,
         max_pages=args.ocr_max_pages,
+        psm=args.ocr_psm,
     )
     if text:
         return text, "ocr"
@@ -202,7 +203,8 @@ def main() -> int:
     parser.add_argument("--ocr", action="store_true", help="Run Tesseract OCR for scanned PDFs")
     parser.add_argument("--ocr-lang", default="pol", help="Tesseract language, e.g. pol or pol+eng")
     parser.add_argument("--tessdata-dir", default="data/tessdata", help="Directory containing *.traineddata files")
-    parser.add_argument("--ocr-dpi", type=int, default=180)
+    parser.add_argument("--ocr-dpi", type=int, default=220)
+    parser.add_argument("--ocr-psm", type=int, default=4, help="Tesseract page segmentation mode")
     parser.add_argument("--ocr-max-pages", type=int, default=0, help="0 = all pages")
     parser.add_argument("--text-out", default="data/text", help="Write extracted/OCR text files here; empty disables")
     parser.add_argument("--replace", action="store_true", help="Clear statements_v0 before inserting")
@@ -240,9 +242,13 @@ def main() -> int:
                 continue
 
             save_text(text, file_path, person, args.text_out)
-            incomes = extract_numbers_for_keywords(text, KEYWORDS["incomes_total_pln"])
-            savings = extract_numbers_for_keywords(text, KEYWORDS["savings_total_pln"])
-            liabilities = extract_numbers_for_keywords(text, KEYWORDS["liabilities_total_pln"])
+            if parse_note == "ocr":
+                incomes = savings = liabilities = 0.0
+                parse_note = "ocr text extracted; numeric fields require review"
+            else:
+                incomes = extract_numbers_for_keywords(text, KEYWORDS["incomes_total_pln"])
+                savings = extract_numbers_for_keywords(text, KEYWORDS["savings_total_pln"])
+                liabilities = extract_numbers_for_keywords(text, KEYWORDS["liabilities_total_pln"])
 
             conn.execute(
                 """
