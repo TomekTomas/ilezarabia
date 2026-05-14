@@ -99,10 +99,20 @@ def normalize_key(text: str) -> str:
 
 
 def detect_year(text: str) -> str:
-    m = re.search(r"(20\d{2}|19\d{2})", text)
+    filename = Path(urlparse(text).path).stem if "://" in text else Path(text).stem
+    m = re.search(r"(?<!\d)(20\d{2}|19\d{2})(?!\d)", filename)
     if m:
         return m.group(1)
-    m = re.search(r"(?<!\d)(\d{2})(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\d|3[01])(?!\d)", text)
+    m = re.search(r"(?<!\d)(20\d{2}|19\d{2})(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\d|3[01])(?!\d)", filename)
+    if m:
+        return m.group(1)
+    m = re.search(r"(?<!\d)(?:0[1-9]|[12]\d|3[01])(?:0[1-9]|1[0-2])(20\d{2}|19\d{2})(?!\d)", filename)
+    if m:
+        return m.group(1)
+    m = re.search(r"(?<!\d)(\d{2})(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\d|3[01])(?!\d)", filename)
+    if m:
+        return f"20{m.group(1)}"
+    m = re.search(r"/BIP_[^/]*_(\d{2})(?:/|_)", text, flags=re.IGNORECASE)
     if m:
         return f"20{m.group(1)}"
     return "unknown"
