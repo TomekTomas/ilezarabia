@@ -47,8 +47,8 @@ body {
 }
 
 .masthead {
-  min-height: 46vh;
-  padding: 22px clamp(18px, 4vw, 58px) 34px;
+  min-height: 18vh;
+  padding: 10px clamp(12px, 2.6vw, 28px) 14px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -65,10 +65,10 @@ body {
 .brand {
   color: var(--paper);
   background: var(--ink);
-  padding: 10px 14px;
+  padding: 7px 10px;
   text-decoration: none;
   font-family: var(--display);
-  font-size: 0.95rem;
+  font-size: 0.78rem;
   letter-spacing: 0;
   text-transform: uppercase;
   transform: rotate(-1deg);
@@ -80,7 +80,7 @@ body {
   gap: 8px;
   justify-content: flex-end;
   font-family: var(--mono);
-  font-size: 0.72rem;
+  font-size: 0.62rem;
   text-transform: uppercase;
 }
 
@@ -88,20 +88,20 @@ body {
 .eyebrow,
 .panel-label {
   border: 1px solid var(--line);
-  padding: 7px 9px;
+  padding: 5px 7px;
   background: rgba(244, 239, 227, 0.68);
 }
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(230px, 330px);
-  gap: clamp(24px, 5vw, 84px);
+  grid-template-columns: minmax(0, 1fr) minmax(160px, 210px);
+  gap: clamp(14px, 3vw, 38px);
   align-items: end;
-  padding-top: clamp(42px, 7vh, 84px);
+  padding-top: clamp(10px, 2vh, 22px);
 }
 
 .hero-copy {
-  max-width: 980px;
+  max-width: 620px;
 }
 
 .kicker,
@@ -111,7 +111,7 @@ body {
 label span {
   margin: 0;
   font-family: var(--mono);
-  font-size: 0.72rem;
+  font-size: 0.62rem;
   text-transform: uppercase;
 }
 
@@ -123,23 +123,23 @@ p {
 }
 
 h1 {
-  margin-bottom: 24px;
-  max-width: 980px;
+  margin-bottom: 8px;
+  max-width: 620px;
   font-family: var(--display);
-  font-size: clamp(2.6rem, 6.3vw, 6.9rem);
-  line-height: 0.9;
+  font-size: clamp(1.55rem, 3vw, 3.35rem);
+  line-height: 0.94;
   text-transform: uppercase;
 }
 
 .lead {
-  max-width: 690px;
-  font-size: clamp(1rem, 1.4vw, 1.22rem);
-  line-height: 1.45;
+  max-width: 520px;
+  font-size: clamp(0.78rem, 0.9vw, 0.92rem);
+  line-height: 1.26;
 }
 
 .hero-panel {
-  min-height: 235px;
-  padding: 22px;
+  min-height: 104px;
+  padding: 11px;
   background: var(--civic);
   color: var(--paper);
   border: 1px solid rgba(244, 239, 227, 0.3);
@@ -147,58 +147,58 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transform: translateY(22px) rotate(1.5deg);
+  transform: translateY(8px) rotate(1deg);
 }
 
 .hero-panel strong {
   font-family: var(--display);
-  font-size: clamp(4rem, 9vw, 7rem);
+  font-size: clamp(2rem, 3.8vw, 3.2rem);
   line-height: 0.8;
   color: var(--signal);
 }
 
 .app-shell {
-  width: min(1480px, calc(100% - 32px));
+  width: min(1540px, calc(100% - 24px));
   margin: 0 auto;
-  padding: 28px 0 70px;
+  padding: 16px 0 52px;
 }
 
 .control-strip {
   position: sticky;
   top: 0;
   z-index: 5;
-  margin-top: -22px;
-  padding: 16px;
+  margin-top: -8px;
+  padding: 10px;
   background: rgba(244, 239, 227, 0.9);
   border: 1px solid var(--ink);
-  box-shadow: 8px 8px 0 var(--ink);
+  box-shadow: 5px 5px 0 var(--ink);
   backdrop-filter: blur(16px);
 }
 
 label {
   display: grid;
   gap: 6px;
-  min-width: min(100%, 260px);
+  min-width: min(100%, 210px);
 }
 
 select,
 button {
-  min-height: 44px;
+  min-height: 34px;
   border: 1px solid var(--ink);
   border-radius: 0;
   background: var(--paper);
   color: var(--ink);
   font-family: var(--mono);
-  font-size: 0.88rem;
+  font-size: 0.75rem;
 }
 
 select {
-  padding: 0 38px 0 10px;
+  padding: 0 30px 0 9px;
 }
 
 button {
   cursor: pointer;
-  padding: 0 16px;
+  padding: 0 12px;
   transition: transform 180ms ease, background 180ms ease, color 180ms ease;
 }
 
@@ -209,24 +209,24 @@ button:hover {
 }
 
 .identity-row {
-  padding: 62px 0 24px;
+  padding: 28px 0 14px;
   align-items: end;
 }
 
 h2 {
   margin-bottom: 0;
   font-family: var(--display);
-  font-size: clamp(2.2rem, 6vw, 5.6rem);
-  line-height: 0.92;
+  font-size: clamp(1.65rem, 3.8vw, 3.9rem);
+  line-height: 0.95;
   text-transform: uppercase;
 }
 
 .source-card {
   display: grid;
   gap: 8px;
-  min-width: 220px;
-  padding: 14px;
-  border-left: 6px solid var(--oxide);
+  min-width: 190px;
+  padding: 10px;
+  border-left: 5px solid var(--oxide);
   background: rgba(255, 252, 242, 0.58);
 }
 
@@ -238,7 +238,7 @@ a {
 .pillar-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
+  gap: 10px;
 }
 
 .pillar-card,
@@ -250,8 +250,8 @@ a {
 }
 
 .pillar-card {
-  min-height: 220px;
-  padding: 18px;
+  min-height: 128px;
+  padding: 12px;
   position: relative;
   overflow: hidden;
 }
@@ -259,11 +259,11 @@ a {
 .pillar-card::after {
   content: "";
   position: absolute;
-  right: -42px;
-  bottom: -54px;
-  width: 170px;
-  height: 170px;
-  border: 24px solid rgba(24, 23, 19, 0.08);
+  right: -34px;
+  bottom: -48px;
+  width: 128px;
+  height: 128px;
+  border: 18px solid rgba(24, 23, 19, 0.08);
   transform: rotate(18deg);
 }
 
@@ -281,13 +281,13 @@ a {
 
 .card-index {
   font-family: var(--mono);
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   border: 1px solid var(--ink);
   padding: 5px 7px;
 }
 
 .pillar-card p {
-  margin: 34px 0 4px;
+  margin: 20px 0 2px;
   font-family: var(--mono);
   text-transform: uppercase;
 }
@@ -295,38 +295,43 @@ a {
 .pillar-card strong {
   display: block;
   font-family: var(--display);
-  font-size: clamp(2rem, 4vw, 4rem);
+  font-size: clamp(1.45rem, 2.7vw, 3rem);
   line-height: 0.95;
 }
 
 .pillar-card small {
   display: block;
   max-width: 250px;
-  margin-top: 12px;
+  margin-top: 7px;
+  font-size: 0.82rem;
   line-height: 1.35;
 }
 
 .timeline-section,
+.comparison-lab,
 .detail-grid,
 .sections-wall {
-  margin-top: 18px;
+  margin-top: 12px;
 }
 
-.timeline-section {
-  padding: 22px 0 4px;
+.timeline-section,
+.comparison-lab {
+  padding: 12px;
+  border: 1px solid var(--line);
+  background: rgba(255, 252, 242, 0.42);
 }
 
 h3 {
   margin-bottom: 0;
   font-family: var(--display);
-  font-size: clamp(1.4rem, 3vw, 2.7rem);
+  font-size: clamp(1rem, 2vw, 1.9rem);
   text-transform: uppercase;
 }
 
 .timeline-chart {
-  margin-top: 16px;
+  margin-top: 10px;
   display: grid;
-  gap: 8px;
+  gap: 5px;
 }
 
 .year-row {
@@ -334,12 +339,12 @@ h3 {
   grid-template-columns: 74px 1fr 130px;
   gap: 12px;
   align-items: center;
-  min-height: 48px;
+  min-height: 32px;
   font-family: var(--mono);
 }
 
 .year-row button {
-  min-height: 38px;
+  min-height: 30px;
   background: transparent;
 }
 
@@ -349,7 +354,7 @@ h3 {
 }
 
 .bar {
-  height: 10px;
+  height: 7px;
   width: var(--w);
   min-width: 2px;
   border: 1px solid rgba(24, 23, 19, 0.28);
@@ -376,30 +381,30 @@ h3 {
 .detail-grid {
   display: grid;
   grid-template-columns: 1fr 1.2fr 1fr;
-  gap: 14px;
+  gap: 10px;
   align-items: start;
 }
 
 .ledger-panel,
 .sections-wall {
-  padding: 18px;
+  padding: 12px;
 }
 
 .ledger-panel.emphasis {
-  transform: translateY(18px);
+  transform: translateY(10px);
 }
 
 .item-list {
   display: grid;
-  gap: 10px;
-  margin-top: 18px;
+  gap: 6px;
+  margin-top: 10px;
 }
 
 .ledger-item {
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: 12px;
-  padding: 12px;
+  gap: 8px;
+  padding: 8px;
   border-top: 1px solid var(--line);
   background: rgba(244, 239, 227, 0.58);
 }
@@ -411,14 +416,15 @@ h3 {
 
 .ledger-item p {
   margin: 0;
-  line-height: 1.35;
+  line-height: 1.25;
+  font-size: 0.86rem;
 }
 
 .item-type {
   display: inline-block;
   margin-bottom: 5px;
   font-family: var(--mono);
-  font-size: 0.68rem;
+  font-size: 0.58rem;
   text-transform: uppercase;
   color: var(--oxide);
 }
@@ -426,13 +432,13 @@ h3 {
 .sections-grid {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 10px;
-  margin-top: 18px;
+  gap: 8px;
+  margin-top: 10px;
 }
 
 .section-tile {
-  min-height: 190px;
-  padding: 12px;
+  min-height: 126px;
+  padding: 9px;
   border: 1px solid var(--line);
   background: rgba(244, 239, 227, 0.7);
 }
@@ -441,16 +447,98 @@ h3 {
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   font-family: var(--mono);
-  font-size: 0.72rem;
+  font-size: 0.62rem;
   text-transform: uppercase;
 }
 
 .section-tile p {
   margin: 0;
-  font-size: 0.9rem;
-  line-height: 1.36;
+  font-size: 0.78rem;
+  line-height: 1.28;
+}
+
+.role-line {
+  margin: 6px 0 0;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+}
+
+.metric-picker {
+  min-width: 180px;
+}
+
+.compare-people {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 10px;
+}
+
+.person-chip {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-width: auto;
+  padding: 6px 8px;
+  border: 1px solid var(--line);
+  background: rgba(244, 239, 227, 0.7);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+}
+
+.person-chip input {
+  accent-color: var(--oxide);
+}
+
+.person-chip small {
+  color: rgba(24, 23, 19, 0.62);
+}
+
+.multi-chart {
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.compare-row {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 8px;
+  align-items: start;
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
+}
+
+.compare-row h4 {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 0.95rem;
+  text-transform: uppercase;
+}
+
+.multi-year {
+  display: grid;
+  grid-template-columns: 42px 1fr 100px;
+  gap: 8px;
+  align-items: center;
+  min-height: 22px;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+}
+
+.multi-year i {
+  display: block;
+  width: var(--w);
+  height: 6px;
+  background: var(--civic);
+}
+
+.multi-year strong {
+  text-align: right;
+  font-weight: 500;
 }
 
 .empty {
@@ -511,11 +599,11 @@ h3 {
   }
 
   .hero {
-    padding-top: 58px;
+    padding-top: 22px;
   }
 
   .hero-panel {
-    min-height: 210px;
+    min-height: 105px;
   }
 
   .year-row {

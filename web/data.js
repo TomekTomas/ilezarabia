@@ -1,10 +1,12 @@
 window.ILE_ZARABIA_DATA = {
-  "generated_at": "2026-05-15 08:37:23",
+  "generated_at": "2026-05-15 08:49:51",
   "people": [
     {
       "id": 15,
       "name": "Anielak Tomasz",
       "slug": "anielak-tomasz",
+      "role": "Radny/Radna",
+      "category": "Radni",
       "statements": [
         {
           "id": 83,

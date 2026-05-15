@@ -24,10 +24,10 @@
       <section class="hero" id="top">
         <div class="hero-copy">
           <p class="kicker">Publiczne dane, czytelny bilans</p>
-          <h1>Rejestr majątku, dochodów i zobowiązań radnych.</h1>
+          <h1>Rejestr majątku i dochodów osób publicznych.</h1>
           <p class="lead">
             Pierwsza wersja serwisu porządkuje oświadczenia w trzy filary:
-            co radny posiada, skąd ma przychody i jakie deklaruje długi.
+            majątek, dochody i zobowiązania.
           </p>
         </div>
         <aside class="hero-panel" aria-label="Podsumowanie bazy">
@@ -40,6 +40,10 @@
 
     <main class="app-shell">
       <section class="control-strip" aria-label="Filtry">
+        <label>
+          <span>Grupa</span>
+          <select id="categorySelect"></select>
+        </label>
         <label>
           <span>Osoba</span>
           <select id="personSelect"></select>
@@ -57,6 +61,7 @@
         <div>
           <p class="eyebrow">Aktualnie oglądasz</p>
           <h2 id="personName">-</h2>
+          <p id="personRole" class="role-line">-</p>
         </div>
         <div class="source-card">
           <span>Źródło PDF</span>
@@ -91,6 +96,25 @@
           <h3>Zmiana filarów w czasie</h3>
         </div>
         <div id="timelineChart" class="timeline-chart" role="img" aria-label="Porównanie wartości w kolejnych latach"></div>
+      </section>
+
+      <section class="comparison-lab">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Porównanie osób</p>
+            <h3>Dodaj kilka nazwisk do osi czasu</h3>
+          </div>
+          <label class="metric-picker">
+            <span>Metryka</span>
+            <select id="metricSelect">
+              <option value="assets_value_pln">Majątek</option>
+              <option value="income_total_pln">Dochody</option>
+              <option value="liabilities_total_pln">Zobowiązania</option>
+            </select>
+          </label>
+        </div>
+        <div id="comparePeople" class="compare-people"></div>
+        <div id="multiCompareChart" class="multi-chart" aria-label="Porównanie wybranych osób w czasie"></div>
       </section>
 
       <section class="detail-grid">

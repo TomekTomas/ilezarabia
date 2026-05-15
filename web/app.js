@@ -36,12 +36,16 @@
 
   const personSelect = document.querySelector("#personSelect");
   const yearSelect = document.querySelector("#yearSelect");
+  const categorySelect = document.querySelector("#categorySelect");
   const compareToggle = document.querySelector("#compareToggle");
   const compareSection = document.querySelector("#compareSection");
+  const metricSelect = document.querySelector("#metricSelect");
 
+  let selectedCategory = "all";
   let selectedPerson = data.people[0] || null;
   let selectedStatement = selectedPerson?.statements?.at(-1) || null;
   let compareVisible = true;
+  let comparedPeople = new Set(selectedPerson ? [String(selectedPerson.id)] : []);
 
   function formatValue(value, exact = false) {
     if (value === null || value === undefined) return "bez kwoty";
@@ -53,10 +57,21 @@
   }
 
   function renderOptions() {
-    personSelect.innerHTML = data.people
-      .map((person, index) => `<option value="${index}">${escapeHtml(person.name)}</option>`)
+    const categories = ["all", ...new Set(data.people.map((person) => person.category || "Radni"))];
+    categorySelect.innerHTML = categories
+      .map((category) => `<option value="${escapeHtml(category)}">${category === "all" ? "Wszystkie grupy" : escapeHtml(category)}</option>`)
       .join("");
+    categorySelect.value = selectedCategory;
+    personSelect.innerHTML = peopleForCategory()
+      .map((person) => `<option value="${person.id}">${escapeHtml(person.name)}</option>`)
+      .join("");
+    personSelect.value = String(selectedPerson?.id || "");
     renderYearOptions();
+  }
+
+  function peopleForCategory() {
+    if (selectedCategory === "all") return data.people;
+    return data.people.filter((person) => (person.category || "Radni") === selectedCategory);
   }
 
   function renderYearOptions() {
@@ -80,6 +95,7 @@
 
   function renderIdentity() {
     document.querySelector("#personName").textContent = selectedPerson?.name || "Brak danych";
+    document.querySelector("#personRole").textContent = [selectedPerson?.role, selectedPerson?.category].filter(Boolean).join(" · ");
     const sourceLink = document.querySelector("#sourceLink");
     sourceLink.href = selectedStatement?.source_url || "#";
     sourceLink.textContent = selectedStatement
@@ -149,6 +165,43 @@
       .join("");
   }
 
+  function renderComparePeople() {
+    const node = document.querySelector("#comparePeople");
+    node.innerHTML = data.people
+      .map((person) => `
+        <label class="person-chip">
+          <input type="checkbox" value="${person.id}" ${comparedPeople.has(String(person.id)) ? "checked" : ""} />
+          <span>${escapeHtml(person.name)}</span>
+          <small>${escapeHtml(person.category || "Radni")}</small>
+        </label>
+      `)
+      .join("");
+  }
+
+  function renderMultiCompare() {
+    const node = document.querySelector("#multiCompareChart");
+    const metric = metricSelect.value;
+    const selectedPeople = data.people.filter((person) => comparedPeople.has(String(person.id)));
+    const values = selectedPeople.flatMap((person) => person.statements.map((statement) => statement[metric] || 0));
+    const max = Math.max(1, ...values);
+    node.innerHTML = selectedPeople.length
+      ? selectedPeople
+          .map((person) => {
+            const points = person.statements
+              .map((statement) => `
+                <div class="multi-year">
+                  <span>${statement.year}</span>
+                  <i style="--w:${Math.max(2, ((statement[metric] || 0) / max) * 100)}%"></i>
+                  <strong>${formatValue(statement[metric])}</strong>
+                </div>
+              `)
+              .join("");
+            return `<article class="compare-row"><h4>${escapeHtml(person.name)}</h4>${points}</article>`;
+          })
+          .join("")
+      : '<p class="empty">Wybierz co najmniej jedną osobę do porównania.</p>';
+  }
+
   function renderSections() {
     const node = document.querySelector("#sectionsGrid");
     node.innerHTML = (selectedStatement?.sections || [])
@@ -173,6 +226,8 @@
     renderIdentity();
     renderPillars();
     renderTimeline();
+    renderComparePeople();
+    renderMultiCompare();
     renderDetails();
     renderSections();
     compareSection.hidden = !compareVisible;
@@ -180,8 +235,16 @@
   }
 
   personSelect.addEventListener("change", (event) => {
-    selectedPerson = data.people[Number(event.target.value)];
+    selectedPerson = data.people.find((person) => String(person.id) === event.target.value) || data.people[0];
     selectedStatement = selectedPerson.statements.at(-1);
+    comparedPeople.add(String(selectedPerson.id));
+    renderAll();
+  });
+
+  categorySelect.addEventListener("change", (event) => {
+    selectedCategory = event.target.value;
+    selectedPerson = peopleForCategory()[0] || data.people[0];
+    selectedStatement = selectedPerson?.statements?.at(-1) || null;
     renderAll();
   });
 
@@ -201,6 +264,14 @@
     selectedStatement = selectedPerson.statements[Number(button.dataset.yearIndex)];
     renderAll();
   });
+
+  document.querySelector("#comparePeople").addEventListener("change", (event) => {
+    if (event.target.checked) comparedPeople.add(event.target.value);
+    else comparedPeople.delete(event.target.value);
+    renderMultiCompare();
+  });
+
+  metricSelect.addEventListener("change", renderMultiCompare);
 
   renderOptions();
   renderAll();

@@ -30,6 +30,8 @@ def export_payload(db_path: Path) -> dict:
     )
 
     for person in people:
+        person["role"] = "Radny/Radna"
+        person["category"] = "Radni"
         statements = rows(
             conn,
             """
