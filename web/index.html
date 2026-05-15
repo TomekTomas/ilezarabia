@@ -39,6 +39,7 @@
     </header>
 
     <main class="app-shell">
+      <div id="chartTooltip" class="chart-tooltip" role="status" aria-live="polite"></div>
       <section class="control-strip" aria-label="Filtry">
         <label>
           <span>Grupa</span>
@@ -92,10 +93,12 @@
 
       <section class="timeline-section" id="compareSection">
         <div class="section-heading">
-          <p class="eyebrow">Trend roczny</p>
-          <h3>Zmiana filarów w czasie</h3>
+          <div>
+            <p class="eyebrow">Trend roczny</p>
+            <h3>Zmiana filarów w czasie</h3>
+          </div>
         </div>
-        <div id="timelineChart" class="timeline-chart" role="img" aria-label="Porównanie wartości w kolejnych latach"></div>
+        <div id="timelineChart" class="line-chart" role="img" aria-label="Porównanie wartości w kolejnych latach"></div>
       </section>
 
       <section class="comparison-lab">
@@ -114,7 +117,7 @@
           </label>
         </div>
         <div id="comparePeople" class="compare-people"></div>
-        <div id="multiCompareChart" class="multi-chart" aria-label="Porównanie wybranych osób w czasie"></div>
+        <div id="multiCompareChart" class="line-chart multi-line-chart" aria-label="Porównanie wybranych osób w czasie"></div>
       </section>
 
       <section class="detail-grid">

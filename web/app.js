@@ -24,6 +24,16 @@
     pension_social_security: "ZUS",
     allowance: "dieta / wynagrodzenie",
   };
+  const metricLabels = {
+    assets_value_pln: "Majątek",
+    income_total_pln: "Dochody",
+    liabilities_total_pln: "Zobowiązania",
+  };
+  const metricColors = {
+    assets_value_pln: "var(--mint)",
+    income_total_pln: "var(--signal)",
+    liabilities_total_pln: "var(--oxide)",
+  };
 
   function escapeHtml(value) {
     return String(value ?? "")
@@ -40,6 +50,7 @@
   const compareToggle = document.querySelector("#compareToggle");
   const compareSection = document.querySelector("#compareSection");
   const metricSelect = document.querySelector("#metricSelect");
+  const chartTooltip = document.querySelector("#chartTooltip");
 
   let selectedCategory = "all";
   let selectedPerson = data.people[0] || null;
@@ -54,6 +65,21 @@
 
   function normalizeText(text) {
     return text || "brak opisu";
+  }
+
+  function showTooltip(event, lines) {
+    chartTooltip.innerHTML = lines.map((line) => `<span>${escapeHtml(line)}</span>`).join("");
+    chartTooltip.style.left = `${event.clientX + 12}px`;
+    chartTooltip.style.top = `${event.clientY + 12}px`;
+    chartTooltip.dataset.visible = "true";
+  }
+
+  function hideTooltip() {
+    chartTooltip.dataset.visible = "false";
+  }
+
+  function linePath(points) {
+    return points.map((point, index) => `${index ? "L" : "M"} ${point.x.toFixed(2)} ${point.y.toFixed(2)}`).join(" ");
   }
 
   function renderOptions() {
@@ -136,33 +162,60 @@
   function renderTimeline() {
     const chart = document.querySelector("#timelineChart");
     const statements = selectedPerson?.statements || [];
-    const max = Math.max(
-      1,
-      ...statements.flatMap((statement) => [
-        statement.assets_value_pln || 0,
-        statement.income_total_pln || 0,
-        statement.liabilities_total_pln || 0,
-      ]),
-    );
-    chart.innerHTML = statements
-      .map((statement, index) => {
-        const selected = statement.id === selectedStatement?.id;
-        const width = (value) => `${Math.max(2, ((value || 0) / max) * 100)}%`;
-        return `
-          <div class="year-row">
-            <button type="button" data-year-index="${index}" aria-pressed="${selected}">
-              ${statement.year}
-            </button>
-            <div class="bars" aria-hidden="true">
-              <span class="bar assets" style="--w:${width(statement.assets_value_pln)}"></span>
-              <span class="bar income" style="--w:${width(statement.income_total_pln)}"></span>
-              <span class="bar debts" style="--w:${width(statement.liabilities_total_pln)}"></span>
-            </div>
-            <span class="year-total">${formatValue(statement.assets_value_pln + statement.income_total_pln + statement.liabilities_total_pln)}</span>
-          </div>
-        `;
+    if (!statements.length) {
+      chart.innerHTML = '<p class="empty">Brak danych do wykresu.</p>';
+      return;
+    }
+    const metrics = ["assets_value_pln", "income_total_pln", "liabilities_total_pln"];
+    const max = Math.max(1, ...statements.flatMap((statement) => metrics.map((metric) => statement[metric] || 0)));
+    const width = 920;
+    const height = 210;
+    const pad = { left: 44, right: 24, top: 18, bottom: 32 };
+    const xStep = statements.length > 1 ? (width - pad.left - pad.right) / (statements.length - 1) : 0;
+    const y = (value) => pad.top + (height - pad.top - pad.bottom) * (1 - (value || 0) / max);
+    const x = (index) => pad.left + xStep * index;
+    const grid = [0, 0.25, 0.5, 0.75, 1]
+      .map((ratio) => {
+        const gy = pad.top + (height - pad.top - pad.bottom) * ratio;
+        return `<line class="grid-line" x1="${pad.left}" y1="${gy}" x2="${width - pad.right}" y2="${gy}" />`;
       })
       .join("");
+    const paths = metrics
+      .map((metric) => {
+        const points = statements.map((statement, index) => ({ x: x(index), y: y(statement[metric]) }));
+        return `<path class="line ${metric}" d="${linePath(points)}" style="--line:${metricColors[metric]}" />`;
+      })
+      .join("");
+    const points = metrics
+      .flatMap((metric) =>
+        statements.map((statement, index) => {
+          const selected = statement.id === selectedStatement?.id;
+          const tooltip = `${statement.year} · ${metricLabels[metric]} · ${formatValue(statement[metric], true)}`;
+          return `
+            <button class="chart-point-wrap" aria-label="${escapeHtml(tooltip)}" data-year-index="${index}" data-tooltip="${escapeHtml(tooltip)}" style="left:${((x(index) - 10) / width) * 100}%; top:${((y(statement[metric]) - 10) / height) * 100}%">
+              <svg class="point-svg" viewBox="0 0 20 20">
+                <circle class="point ${selected ? "selected" : ""}" cx="10" cy="10" r="5" style="--line:${metricColors[metric]}" />
+              </svg>
+            </button>
+          `;
+        }),
+      )
+      .join("");
+    const years = statements
+      .map((statement, index) => `<span style="left:${((x(index) - 14) / width) * 100}%">${statement.year}</span>`)
+      .join("");
+    const legend = metrics.map((metric) => `<span><i style="background:${metricColors[metric]}"></i>${metricLabels[metric]}</span>`).join("");
+    chart.innerHTML = `
+      <div class="chart-legend">${legend}</div>
+      <div class="svg-stage">
+        <svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none" aria-hidden="true">
+          ${grid}
+          ${paths}
+        </svg>
+        ${points}
+        <div class="year-axis">${years}</div>
+      </div>
+    `;
   }
 
   function renderComparePeople() {
@@ -184,22 +237,56 @@
     const selectedPeople = data.people.filter((person) => comparedPeople.has(String(person.id)));
     const values = selectedPeople.flatMap((person) => person.statements.map((statement) => statement[metric] || 0));
     const max = Math.max(1, ...values);
-    node.innerHTML = selectedPeople.length
-      ? selectedPeople
-          .map((person) => {
-            const points = person.statements
-              .map((statement) => `
-                <div class="multi-year">
-                  <span>${statement.year}</span>
-                  <i style="--w:${Math.max(2, ((statement[metric] || 0) / max) * 100)}%"></i>
-                  <strong>${formatValue(statement[metric])}</strong>
-                </div>
-              `)
-              .join("");
-            return `<article class="compare-row"><h4>${escapeHtml(person.name)}</h4>${points}</article>`;
-          })
-          .join("")
-      : '<p class="empty">Wybierz co najmniej jedną osobę do porównania.</p>';
+    if (!selectedPeople.length) {
+      node.innerHTML = '<p class="empty">Wybierz co najmniej jedną osobę do porównania.</p>';
+      return;
+    }
+    const years = [...new Set(selectedPeople.flatMap((person) => person.statements.map((statement) => statement.year)))].sort();
+    const width = 920;
+    const height = 230;
+    const pad = { left: 44, right: 24, top: 20, bottom: 34 };
+    const xStep = years.length > 1 ? (width - pad.left - pad.right) / (years.length - 1) : 0;
+    const x = (year) => pad.left + xStep * years.indexOf(year);
+    const y = (value) => pad.top + (height - pad.top - pad.bottom) * (1 - (value || 0) / max);
+    const palette = ["var(--civic)", "var(--oxide)", "var(--mint)", "var(--signal)", "#5a4d93", "#2f6d52"];
+    const lines = selectedPeople
+      .map((person, personIndex) => {
+        const points = person.statements.map((statement) => ({ x: x(statement.year), y: y(statement[metric]) }));
+        return `<path class="line person-line" d="${linePath(points)}" style="--line:${palette[personIndex % palette.length]}" />`;
+      })
+      .join("");
+    const dots = selectedPeople
+      .flatMap((person, personIndex) =>
+        person.statements.map((statement) => {
+          const tooltip = `${person.name} · ${statement.year} · ${metricLabels[metric]} · ${formatValue(statement[metric], true)}`;
+          return `
+          <button class="chart-point-wrap" aria-label="${escapeHtml(tooltip)}" data-tooltip="${escapeHtml(tooltip)}" style="left:${((x(statement.year) - 10) / width) * 100}%; top:${((y(statement[metric]) - 10) / height) * 100}%">
+            <svg class="point-svg" viewBox="0 0 20 20">
+              <circle class="point" cx="10" cy="10" r="5" style="--line:${palette[personIndex % palette.length]}" />
+            </svg>
+          </button>
+        `;
+        }),
+      )
+      .join("");
+    const axis = years.map((year) => `<span style="left:${((x(year) - 14) / width) * 100}%">${year}</span>`).join("");
+    const legend = selectedPeople
+      .map((person, personIndex) => `<span><i style="background:${palette[personIndex % palette.length]}"></i>${escapeHtml(person.name)}</span>`)
+      .join("");
+    node.innerHTML = `
+      <div class="chart-legend">${legend}</div>
+      <div class="svg-stage">
+        <svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none" aria-hidden="true">
+          ${[0, 0.25, 0.5, 0.75, 1].map((ratio) => {
+            const gy = pad.top + (height - pad.top - pad.bottom) * ratio;
+            return `<line class="grid-line" x1="${pad.left}" y1="${gy}" x2="${width - pad.right}" y2="${gy}" />`;
+          }).join("")}
+          ${lines}
+        </svg>
+        ${dots}
+        <div class="year-axis">${axis}</div>
+      </div>
+    `;
   }
 
   function renderSections() {
@@ -263,6 +350,23 @@
     if (!button) return;
     selectedStatement = selectedPerson.statements[Number(button.dataset.yearIndex)];
     renderAll();
+  });
+
+  document.body.addEventListener("pointerover", (event) => {
+    const point = event.target.closest("[data-tooltip]");
+    if (!point) return;
+    showTooltip(event, point.dataset.tooltip.split(" · "));
+  });
+
+  document.body.addEventListener("pointermove", (event) => {
+    if (chartTooltip.dataset.visible !== "true") return;
+    chartTooltip.style.left = `${event.clientX + 12}px`;
+    chartTooltip.style.top = `${event.clientY + 12}px`;
+  });
+
+  document.body.addEventListener("pointerout", (event) => {
+    if (!event.target.closest("[data-tooltip]")) return;
+    hideTooltip();
   });
 
   document.querySelector("#comparePeople").addEventListener("change", (event) => {
