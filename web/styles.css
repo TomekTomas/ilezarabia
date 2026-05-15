@@ -335,6 +335,62 @@ h3 {
   align-items: start;
 }
 
+.timeline-chart {
+  margin-top: 10px;
+  display: grid;
+  gap: 5px;
+}
+
+.year-row {
+  display: grid;
+  grid-template-columns: 64px 1fr 112px;
+  gap: 10px;
+  align-items: center;
+  min-height: 30px;
+  font-family: var(--mono);
+}
+
+.year-row > button {
+  min-height: 28px;
+  background: transparent;
+}
+
+.bars {
+  display: grid;
+  gap: 3px;
+}
+
+.bar-hit {
+  width: 100%;
+  min-height: 7px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: help;
+}
+
+.bar-hit:hover,
+.bar-hit:focus-visible {
+  background: transparent;
+  transform: none;
+}
+
+.bar-hit span {
+  display: block;
+  width: var(--w);
+  min-width: 2px;
+  height: 7px;
+  border: 1px solid rgba(24, 23, 19, 0.28);
+  background: var(--bar);
+  transform-origin: left;
+  animation: grow 700ms ease both;
+}
+
+.year-total {
+  text-align: right;
+  font-size: 0.72rem;
+}
+
 .ledger-panel,
 .sections-wall {
   padding: 12px;

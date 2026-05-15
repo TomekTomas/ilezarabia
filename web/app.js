@@ -168,53 +168,28 @@
     }
     const metrics = ["assets_value_pln", "income_total_pln", "liabilities_total_pln"];
     const max = Math.max(1, ...statements.flatMap((statement) => metrics.map((metric) => statement[metric] || 0)));
-    const width = 920;
-    const height = 210;
-    const pad = { left: 44, right: 24, top: 18, bottom: 32 };
-    const xStep = statements.length > 1 ? (width - pad.left - pad.right) / (statements.length - 1) : 0;
-    const y = (value) => pad.top + (height - pad.top - pad.bottom) * (1 - (value || 0) / max);
-    const x = (index) => pad.left + xStep * index;
-    const grid = [0, 0.25, 0.5, 0.75, 1]
-      .map((ratio) => {
-        const gy = pad.top + (height - pad.top - pad.bottom) * ratio;
-        return `<line class="grid-line" x1="${pad.left}" y1="${gy}" x2="${width - pad.right}" y2="${gy}" />`;
-      })
-      .join("");
-    const paths = metrics
-      .map((metric) => {
-        const points = statements.map((statement, index) => ({ x: x(index), y: y(statement[metric]) }));
-        return `<path class="line ${metric}" d="${linePath(points)}" style="--line:${metricColors[metric]}" />`;
-      })
-      .join("");
-    const points = metrics
-      .flatMap((metric) =>
-        statements.map((statement, index) => {
-          const selected = statement.id === selectedStatement?.id;
-          const tooltip = `${statement.year} · ${metricLabels[metric]} · ${formatValue(statement[metric], true)}`;
-          return `
-            <button class="chart-point-wrap" aria-label="${escapeHtml(tooltip)}" data-year-index="${index}" data-tooltip="${escapeHtml(tooltip)}" style="left:${((x(index) - 10) / width) * 100}%; top:${((y(statement[metric]) - 10) / height) * 100}%">
-              <svg class="point-svg" viewBox="0 0 20 20">
-                <circle class="point ${selected ? "selected" : ""}" cx="10" cy="10" r="5" style="--line:${metricColors[metric]}" />
-              </svg>
-            </button>
-          `;
-        }),
-      )
-      .join("");
-    const years = statements
-      .map((statement, index) => `<span style="left:${((x(index) - 14) / width) * 100}%">${statement.year}</span>`)
-      .join("");
     const legend = metrics.map((metric) => `<span><i style="background:${metricColors[metric]}"></i>${metricLabels[metric]}</span>`).join("");
     chart.innerHTML = `
       <div class="chart-legend">${legend}</div>
-      <div class="svg-stage">
-        <svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none" aria-hidden="true">
-          ${grid}
-          ${paths}
-        </svg>
-        ${points}
-        <div class="year-axis">${years}</div>
-      </div>
+      ${statements
+        .map((statement, index) => {
+          const selected = statement.id === selectedStatement?.id;
+          const bars = metrics
+            .map((metric) => {
+              const value = statement[metric] || 0;
+              const tooltip = `${statement.year} · ${metricLabels[metric]} · ${formatValue(value, true)}`;
+              return `<button class="bar-hit" aria-label="${escapeHtml(tooltip)}" data-tooltip="${escapeHtml(tooltip)}" style="--w:${Math.max(2, (value / max) * 100)}%; --bar:${metricColors[metric]}"><span></span></button>`;
+            })
+            .join("");
+          return `
+            <div class="year-row">
+              <button type="button" data-year-index="${index}" aria-pressed="${selected}">${statement.year}</button>
+              <div class="bars">${bars}</div>
+              <span class="year-total">${formatValue(statement.assets_value_pln + statement.income_total_pln + statement.liabilities_total_pln)}</span>
+            </div>
+          `;
+        })
+        .join("")}
     `;
   }
 
