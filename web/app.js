@@ -15,22 +15,39 @@
 
   const labels = {
     cash_pln: "gotówka",
+    foreign_currency: "waluty i krypto",
+    securities: "akcje / papiery",
     real_estate_flat: "mieszkanie",
+    real_estate_house: "dom",
+    real_estate_land: "działka",
+    movable_property: "ruchomości",
     vehicle: "pojazd",
     employment: "umowa o pracę",
+    business_income: "działalność gospodarcza",
+    company_role_income: "funkcje w spółkach",
+    other_income: "inne dochody",
     council_allowance: "dieta samorządowa",
     supervisory_board_allowance: "rada nadzorcza",
     election_commission_allowance: "komisja wyborcza",
     pension_social_security: "ZUS",
     allowance: "dieta / wynagrodzenie",
+    mortgage: "kredyt hipoteczny",
+    cash_loan: "kredyt gotówkowy",
+  };
+  const pillarLabels = {
+    assets: "majątek",
+    earnings: "dochody",
+    debts: "zobowiązania",
   };
   const metricLabels = {
-    assets_value_pln: "Majątek",
+    assets_value_pln: "Majątek deklarowany",
+    assets_estimated_total_pln: "Majątek z wyceną",
     income_total_pln: "Dochody",
     liabilities_total_pln: "Zobowiązania",
   };
   const metricColors = {
     assets_value_pln: "var(--mint)",
+    assets_estimated_total_pln: "var(--civic)",
     income_total_pln: "var(--signal)",
     liabilities_total_pln: "var(--oxide)",
   };
@@ -61,6 +78,15 @@
   function formatValue(value, exact = false) {
     if (value === null || value === undefined) return "bez kwoty";
     return exact ? moneyExact.format(value) : money.format(value);
+  }
+
+  function displayYear(statement) {
+    return statement?.report_year || statement?.year || "";
+  }
+
+  function yearLabel(statement) {
+    if (!statement) return "";
+    return `${displayYear(statement)} (złożone ${statement.filing_year || statement.year})`;
   }
 
   function normalizeText(text) {
@@ -106,7 +132,7 @@
       return;
     }
     yearSelect.innerHTML = selectedPerson.statements
-      .map((statement, index) => `<option value="${index}">${escapeHtml(statement.year)}</option>`)
+      .map((statement, index) => `<option value="${index}">${escapeHtml(yearLabel(statement))}</option>`)
       .join("");
     yearSelect.value = String(selectedPerson.statements.indexOf(selectedStatement));
   }
@@ -125,12 +151,17 @@
     const sourceLink = document.querySelector("#sourceLink");
     sourceLink.href = selectedStatement?.source_url || "#";
     sourceLink.textContent = selectedStatement
-      ? `${selectedStatement.year}, PDF źródłowy`
+      ? `dane za ${displayYear(selectedStatement)}, PDF źródłowy`
       : "brak dokumentu";
   }
 
   function renderPillars() {
+    const estimatedTotal = selectedStatement?.assets_estimated_total_pln;
+    const estimatedExtra = selectedStatement?.assets_estimated_extra_pln || 0;
     document.querySelector("#assetsTotal").textContent = formatValue(selectedStatement?.assets_value_pln);
+    document.querySelector("#assetsEstimate").textContent = estimatedExtra
+      ? `z instrumentami: ${formatValue(estimatedTotal)}`
+      : "bez dodatkowej wyceny rynkowej";
     document.querySelector("#incomeTotal").textContent = formatValue(selectedStatement?.income_total_pln);
     document.querySelector("#liabilitiesTotal").textContent = formatValue(selectedStatement?.liabilities_total_pln);
   }
@@ -138,9 +169,13 @@
   function itemMarkup(item, typeKey, valueKey) {
     const type = labels[item[typeKey]] || item[typeKey] || "pozycja";
     const details = [item.description, item.area, item.legal_title, item.creditor].filter(Boolean).join(" · ");
+    const estimate = item.estimated_value_pln
+      ? `<span class="estimate-line">szacunek dziś: ${formatValue(item.estimated_value_pln, true)}</span>`
+      : "";
+    const note = item.estimate_note ? `<span class="estimate-note">${escapeHtml(item.estimate_note)}</span>` : "";
     return `
       <div class="ledger-item">
-        <p><span class="item-type">${escapeHtml(type)}</span>${escapeHtml(normalizeText(details))}</p>
+        <p><span class="item-type">${escapeHtml(type)}</span>${escapeHtml(normalizeText(details))}${estimate}${note}</p>
         <strong>${formatValue(item[valueKey], true)}</strong>
       </div>
     `;
@@ -177,13 +212,13 @@
           const bars = metrics
             .map((metric) => {
               const value = statement[metric] || 0;
-              const tooltip = `${statement.year} · ${metricLabels[metric]} · ${formatValue(value, true)}`;
+              const tooltip = `${yearLabel(statement)} · ${metricLabels[metric]} · ${formatValue(value, true)}`;
               return `<button class="bar-hit" aria-label="${escapeHtml(tooltip)}" data-tooltip="${escapeHtml(tooltip)}" style="--w:${Math.max(2, (value / max) * 100)}%; --bar:${metricColors[metric]}"><span></span></button>`;
             })
             .join("");
           return `
             <div class="year-row">
-              <button type="button" data-year-index="${index}" aria-pressed="${selected}">${statement.year}</button>
+              <button type="button" data-year-index="${index}" aria-pressed="${selected}">${displayYear(statement)}</button>
               <div class="bars">${bars}</div>
               <span class="year-total">${formatValue(statement.assets_value_pln + statement.income_total_pln + statement.liabilities_total_pln)}</span>
             </div>
@@ -216,7 +251,7 @@
       node.innerHTML = '<p class="empty">Wybierz co najmniej jedną osobę do porównania.</p>';
       return;
     }
-    const years = [...new Set(selectedPeople.flatMap((person) => person.statements.map((statement) => statement.year)))].sort();
+    const years = [...new Set(selectedPeople.flatMap((person) => person.statements.map((statement) => displayYear(statement))))].sort();
     const width = 920;
     const height = 230;
     const pad = { left: 44, right: 24, top: 20, bottom: 34 };
@@ -226,16 +261,16 @@
     const palette = ["var(--civic)", "var(--oxide)", "var(--mint)", "var(--signal)", "#5a4d93", "#2f6d52"];
     const lines = selectedPeople
       .map((person, personIndex) => {
-        const points = person.statements.map((statement) => ({ x: x(statement.year), y: y(statement[metric]) }));
+        const points = person.statements.map((statement) => ({ x: x(displayYear(statement)), y: y(statement[metric]) }));
         return `<path class="line person-line" d="${linePath(points)}" style="--line:${palette[personIndex % palette.length]}" />`;
       })
       .join("");
     const dots = selectedPeople
       .flatMap((person, personIndex) =>
         person.statements.map((statement) => {
-          const tooltip = `${person.name} · ${statement.year} · ${metricLabels[metric]} · ${formatValue(statement[metric], true)}`;
+          const tooltip = `${person.name} · ${yearLabel(statement)} · ${metricLabels[metric]} · ${formatValue(statement[metric], true)}`;
           return `
-          <button class="chart-point-wrap" aria-label="${escapeHtml(tooltip)}" data-tooltip="${escapeHtml(tooltip)}" style="left:${((x(statement.year) - 10) / width) * 100}%; top:${((y(statement[metric]) - 10) / height) * 100}%">
+          <button class="chart-point-wrap" aria-label="${escapeHtml(tooltip)}" data-tooltip="${escapeHtml(tooltip)}" style="left:${((x(displayYear(statement)) - 10) / width) * 100}%; top:${((y(statement[metric]) - 10) / height) * 100}%">
             <svg class="point-svg" viewBox="0 0 20 20">
               <circle class="point" cx="10" cy="10" r="5" style="--line:${palette[personIndex % palette.length]}" />
             </svg>
@@ -273,7 +308,7 @@
           <article class="section-tile">
             <header>
               <strong>${escapeHtml(section.section_code)}</strong>
-              <span>${escapeHtml(section.pillar)}</span>
+              <span>${escapeHtml(pillarLabels[section.pillar] || section.pillar)}</span>
             </header>
             <p>${escapeHtml(text)}</p>
           </article>

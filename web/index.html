@@ -50,7 +50,7 @@
           <select id="personSelect"></select>
         </label>
         <label>
-          <span>Rok</span>
+          <span>Rok danych</span>
           <select id="yearSelect"></select>
         </label>
         <button id="compareToggle" class="ghost-button" type="button" aria-pressed="true">
@@ -75,7 +75,7 @@
           <span class="card-index">I</span>
           <p>Majątek</p>
           <strong id="assetsTotal">0 zł</strong>
-          <small>gotówka, nieruchomości, udziały, ruchomości</small>
+          <small id="assetsEstimate">gotówka, nieruchomości, udziały, ruchomości</small>
         </article>
         <article class="pillar-card income">
           <span class="card-index">VIII</span>
@@ -110,7 +110,8 @@
           <label class="metric-picker">
             <span>Metryka</span>
             <select id="metricSelect">
-              <option value="assets_value_pln">Majątek</option>
+              <option value="assets_value_pln">Majątek deklarowany</option>
+              <option value="assets_estimated_total_pln">Majątek z wyceną</option>
               <option value="income_total_pln">Dochody</option>
               <option value="liabilities_total_pln">Zobowiązania</option>
             </select>

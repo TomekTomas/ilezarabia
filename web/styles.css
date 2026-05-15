@@ -452,6 +452,24 @@ h3 {
   color: var(--oxide);
 }
 
+.estimate-line,
+.estimate-note {
+  display: block;
+  margin-top: 4px;
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  line-height: 1.25;
+}
+
+.estimate-line {
+  color: var(--civic);
+  font-weight: 700;
+}
+
+.estimate-note {
+  color: rgba(24, 23, 19, 0.62);
+}
+
 .sections-grid {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
