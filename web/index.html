@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ile Zarabia? | Rejestr oświadczeń majątkowych</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&family=Spline+Sans+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="masthead">
+      <nav class="topline" aria-label="Nawigacja serwisu">
+        <a class="brand" href="#top">Ile Zarabia?</a>
+        <div class="nav-meta">
+          <span>Łódź</span>
+          <span>Oświadczenia majątkowe</span>
+          <span id="generatedAt">baza lokalna</span>
+        </div>
+      </nav>
+
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="kicker">Publiczne dane, czytelny bilans</p>
+          <h1>Rejestr majątku, dochodów i zobowiązań radnych.</h1>
+          <p class="lead">
+            Pierwsza wersja serwisu porządkuje oświadczenia w trzy filary:
+            co radny posiada, skąd ma przychody i jakie deklaruje długi.
+          </p>
+        </div>
+        <aside class="hero-panel" aria-label="Podsumowanie bazy">
+          <span class="panel-label">Zweryfikowane ręcznie</span>
+          <strong id="heroStatements">0</strong>
+          <span>oświadczeń w bazie analitycznej</span>
+        </aside>
+      </section>
+    </header>
+
+    <main class="app-shell">
+      <section class="control-strip" aria-label="Filtry">
+        <label>
+          <span>Osoba</span>
+          <select id="personSelect"></select>
+        </label>
+        <label>
+          <span>Rok</span>
+          <select id="yearSelect"></select>
+        </label>
+        <button id="compareToggle" class="ghost-button" type="button" aria-pressed="true">
+          Widok porównawczy
+        </button>
+      </section>
+
+      <section class="identity-row" aria-live="polite">
+        <div>
+          <p class="eyebrow">Aktualnie oglądasz</p>
+          <h2 id="personName">-</h2>
+        </div>
+        <div class="source-card">
+          <span>Źródło PDF</span>
+          <a id="sourceLink" href="#" target="_blank" rel="noreferrer">otwórz dokument</a>
+        </div>
+      </section>
+
+      <section class="pillar-grid" aria-label="Trzy filary">
+        <article class="pillar-card assets">
+          <span class="card-index">I</span>
+          <p>Majątek</p>
+          <strong id="assetsTotal">0 zł</strong>
+          <small>gotówka, nieruchomości, udziały, ruchomości</small>
+        </article>
+        <article class="pillar-card income">
+          <span class="card-index">VIII</span>
+          <p>Dochody</p>
+          <strong id="incomeTotal">0 zł</strong>
+          <small>praca, diety, funkcje, świadczenia</small>
+        </article>
+        <article class="pillar-card debts">
+          <span class="card-index">X</span>
+          <p>Zobowiązania</p>
+          <strong id="liabilitiesTotal">0 zł</strong>
+          <small>kredyty, pożyczki i warunki spłaty</small>
+        </article>
+      </section>
+
+      <section class="timeline-section" id="compareSection">
+        <div class="section-heading">
+          <p class="eyebrow">Trend roczny</p>
+          <h3>Zmiana filarów w czasie</h3>
+        </div>
+        <div id="timelineChart" class="timeline-chart" role="img" aria-label="Porównanie wartości w kolejnych latach"></div>
+      </section>
+
+      <section class="detail-grid">
+        <article class="ledger-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Majątek</p>
+            <h3>Co składa się na sumę</h3>
+          </div>
+          <div id="assetList" class="item-list"></div>
+        </article>
+
+        <article class="ledger-panel emphasis">
+          <div class="section-heading">
+            <p class="eyebrow">Dochody</p>
+            <h3>Rodzaje przychodów</h3>
+          </div>
+          <div id="incomeList" class="item-list"></div>
+        </article>
+
+        <article class="ledger-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Kredyty</p>
+            <h3>Zobowiązania pieniężne</h3>
+          </div>
+          <div id="liabilityList" class="item-list"></div>
+        </article>
+      </section>
+
+      <section class="sections-wall">
+        <div class="section-heading">
+          <p class="eyebrow">Formularz I-X</p>
+          <h3>Pełny układ oświadczenia</h3>
+        </div>
+        <div id="sectionsGrid" class="sections-grid"></div>
+      </section>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

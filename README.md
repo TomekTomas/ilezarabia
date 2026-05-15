@@ -106,3 +106,22 @@ Najważniejsze tabele:
 - `statement_sections` - zawsze 10 rekordów na oświadczenie, po jednym dla sekcji I-X,
 - `asset_items`, `income_items`, `liability_items` - zweryfikowane pozycje wyciągnięte z sekcji,
 - `statement_pillars` - widok agregujący majątek, zarobki i kredyty.
+## Serwis WWW
+
+Pierwsza wersja frontendu jest statyczna i korzysta z danych wyeksportowanych z
+`data/analysis.db`:
+
+```powershell
+python etl/export_web_data.py --db data/analysis.db --out web/data.js
+python -m http.server 8000 --bind 127.0.0.1 --directory web
+```
+
+Nastepnie otworz `http://127.0.0.1:8000`.
+
+Frontend pokazuje:
+
+- porownanie trzech filarow w czasie,
+- rozbicie majatku na typy pozycji,
+- rozbicie dochodow na rodzaje przychodow,
+- zobowiazania z wierzycielem i opisem,
+- podglad sekcji formularza I-X.
