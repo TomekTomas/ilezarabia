@@ -1,5 +1,5 @@
 window.ILE_ZARABIA_DATA = {
-  "generated_at": "2026-05-15 10:23:28",
+  "generated_at": "2026-05-15 13:31:27",
   "market_context": {
     "generated_label": "wyceny z 2026-05-15",
     "fx_effective_date": "2026-05-14",
@@ -1606,6 +1606,529 @@ window.ILE_ZARABIA_DATA = {
       "category": "Radni",
       "statements": [
         {
+          "id": 95,
+          "year": 2020,
+          "statement_date": "2020-05-29",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_20/domaszewicz_bartosz_2020.pdf",
+          "file_path": "data\\raw\\domaszewicz-bartosz\\2020_dd89592b76f7.pdf",
+          "confidence": "high",
+          "notes": "Older manual review. Typed/clean form; data year is filing year minus one.",
+          "assets_value_pln": 30000.0,
+          "income_total_pln": 35574.06,
+          "liabilities_total_pln": 0,
+          "filing_year": 2020,
+          "report_year": 2019,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 30000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "30 000 zł",
+              "confidence": "high"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "foreign_currency",
+              "description": "Waluty obce",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "1100 BRL; 400 EUR; 500 USD",
+              "confidence": "high",
+              "estimated_value_pln": 3506.29,
+              "estimate_note": "400 EUR x 4.2401 PLN; 500 USD x 3.6205 PLN"
+            }
+          ],
+          "assets_estimated_extra_pln": 3506.29,
+          "assets_estimated_total_pln": 33506.29,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego",
+              "amount_pln": 32209.56,
+              "raw_text": "Dieta radnego",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "umowa o pracę",
+              "description": "Umowa o pracę",
+              "amount_pln": 3364.5,
+              "raw_text": "Umowa o pracę",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: 30 000 zł; waluty obce: 1100 BRL, 400 EUR, 500 USD; papiery wartościowe: brak.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Nieruchomości: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udzialy w spolkach handlowych",
+              "pillar": "assets",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spolkach handlowych",
+              "pillar": "assets",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Panstwa lub samorzadu",
+              "pillar": "assets",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona dzialalnosc gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spolkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Umowa o pracę 3 364,50 zł; dieta radnego 32 209,56 zł.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Mienie ruchome powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Składniki mienia ruchomego: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0
+        },
+        {
+          "id": 144,
+          "year": 2021,
+          "statement_date": "2021-04-30",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_21/domaszewicz_bartosz_2021.pdf",
+          "file_path": "data\\raw\\domaszewicz-bartosz\\2021_28156791db75.pdf",
+          "confidence": "low",
+          "notes": "Older manual review from contact sheet. Handwritten income values require confirmation.",
+          "assets_value_pln": 10000.0,
+          "income_total_pln": 53900.0,
+          "liabilities_total_pln": 0,
+          "filing_year": 2021,
+          "report_year": 2020,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 10000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "10 000 zł",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "foreign_currency",
+              "description": "Waluty obce",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "1 000 USD",
+              "confidence": "medium",
+              "estimated_value_pln": 3620.5,
+              "estimate_note": "1000 USD x 3.6205 PLN"
+            }
+          ],
+          "assets_estimated_extra_pln": 3620.5,
+          "assets_estimated_total_pln": 13620.5,
+          "incomes": [
+            {
+              "section_code": "VI",
+              "income_type": "business_income",
+              "payer": "działalność gospodarcza",
+              "description": "Dochód z działalności gospodarczej",
+              "amount_pln": 9400.0,
+              "raw_text": "Dochód z działalności gospodarczej",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego / inne dochody",
+              "amount_pln": 44500.0,
+              "raw_text": "ok. 44 500 zł - do potwierdzenia",
+              "confidence": "low"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: 10 000 zł; waluty obce: 1 000 USD; papiery wartościowe: brak.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Nieruchomości: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udzialy w spolkach handlowych",
+              "pillar": "assets",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spolkach handlowych",
+              "pillar": "assets",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Panstwa lub samorzadu",
+              "pillar": "assets",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Działalność gospodarcza: dochód 9 400 zł.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spolkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta radnego / inne dochody: ok. 44 500 zł do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Mienie ruchome powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Składniki mienia ruchomego: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 203,
+          "year": 2022,
+          "statement_date": "2022-05-06",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_22/domaszewicz_bartosz_2022.pdf",
+          "file_path": "data\\raw\\domaszewicz-bartosz\\2022_e0dc47c9af75.pdf",
+          "confidence": "medium",
+          "notes": "Older manual review from contact sheet. Real estate is readable; business income still needs second review.",
+          "assets_value_pln": 1004000.0,
+          "income_total_pln": 82824.54000000001,
+          "liabilities_total_pln": 0,
+          "filing_year": 2022,
+          "report_year": 2021,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 10000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "10 000 zł",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_house",
+              "description": "Dom",
+              "value_pln": 504000.0,
+              "area": "131,5 m2",
+              "legal_title": "współwłasność",
+              "ownership": "",
+              "raw_text": "Dom 131,5 m2, 504 000 zł",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_house",
+              "description": "Dom 100 m2",
+              "value_pln": 250000.0,
+              "area": "100 m2",
+              "legal_title": "współwłasność",
+              "ownership": "",
+              "raw_text": "Dom 100 m2, 250 000 zł",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka 1511 m2",
+              "value_pln": 240000.0,
+              "area": "1511 m2",
+              "legal_title": "współwłasność",
+              "ownership": "",
+              "raw_text": "Działka 1511 m2, 240 000 zł",
+              "confidence": "medium"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 1004000.0,
+          "incomes": [
+            {
+              "section_code": "VI",
+              "income_type": "business_income",
+              "payer": "działalność gospodarcza",
+              "description": "Dochód z działalności gospodarczej",
+              "amount_pln": 44896.61,
+              "raw_text": "ok. 44 896,61 zł - do potwierdzenia",
+              "confidence": "low"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego",
+              "amount_pln": 37927.93,
+              "raw_text": "Dieta radnego",
+              "confidence": "medium"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: 10 000 zł; waluty obce i papiery wartościowe: brak.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Dom 131,5 m2 504 000 zł; dom 100 m2 250 000 zł; działka 1511 m2 240 000 zł; pozostałe działki do weryfikacji.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udzialy w spolkach handlowych",
+              "pillar": "assets",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spolkach handlowych",
+              "pillar": "assets",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Panstwa lub samorzadu",
+              "pillar": "assets",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Działalność gospodarcza: dochód ok. 44 896,61 zł do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spolkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta radnego 37 927,93 zł.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Mienie ruchome powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Składniki mienia ruchomego: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "asset_jump",
+              "severity": "medium",
+              "title": "Skok majątku większy niż deklarowane źródła",
+              "description": "Wzrost aktywów jest większy niż suma dochodu i wzrostu zadłużenia w tym okresie.",
+              "amount_pln": 907554.96,
+              "metrics": {
+                "income_pln": 82824.54,
+                "asset_delta_pln": 990379.5,
+                "debt_delta_pln": 0
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": [
+              {
+                "label": "Dom",
+                "value_pln": 504000.0
+              },
+              {
+                "label": "Dom 100 m2",
+                "value_pln": 250000.0
+              },
+              {
+                "label": "Działka 1511 m2",
+                "value_pln": 240000.0
+              }
+            ]
+          }
+        },
+        {
           "id": 248,
           "year": 2023,
           "statement_date": "2023-04-30",
@@ -1812,8 +2335,33 @@ window.ILE_ZARABIA_DATA = {
               "structured": {}
             }
           ],
-          "anomalies": [],
-          "anomaly_score": 0
+          "anomalies": [
+            {
+              "type": "asset_jump",
+              "severity": "medium",
+              "title": "Skok majątku większy niż deklarowane źródła",
+              "description": "Wzrost aktywów jest większy niż suma dochodu i wzrostu zadłużenia w tym okresie.",
+              "amount_pln": 671346.04,
+              "metrics": {
+                "income_pln": 33053.96,
+                "asset_delta_pln": 704400.0,
+                "debt_delta_pln": 0
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": [
+              {
+                "label": "Działka 651 m2",
+                "value_pln": 60000.0
+              },
+              {
+                "label": "Działka 254 m2",
+                "value_pln": 100000.0
+              }
+            ]
+          }
         },
         {
           "id": 303,
@@ -2623,6 +3171,680 @@ window.ILE_ZARABIA_DATA = {
       "category": "Radni",
       "statements": [
         {
+          "id": 106,
+          "year": 2020,
+          "statement_date": "2020-05-28",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_20/makowski_krzysztof_2020.pdf",
+          "file_path": "data\\raw\\makowski-krzysztof\\2020_c2cc71e1381d.pdf",
+          "confidence": "low",
+          "notes": "Makowski 2020: handwritten statement. Income and liability totals are low-confidence working reads.",
+          "assets_value_pln": 10000.0,
+          "income_total_pln": 125704.20999999999,
+          "liabilities_total_pln": 290000.0,
+          "filing_year": 2020,
+          "report_year": 2019,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 10000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "10 000 zł",
+              "confidence": "low"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 10000.0,
+          "incomes": [
+            {
+              "section_code": "VII",
+              "income_type": "company_role_income",
+              "payer": "spółki handlowe",
+              "description": "Dochód z funkcji w spółkach - wartość robocza",
+              "amount_pln": 15704.21,
+              "raw_text": "Dochód z funkcji w spółkach - wartość robocza",
+              "confidence": "low"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi / inne dochody",
+              "description": "Dochody z rękopisu - wartość robocza",
+              "amount_pln": 110000.0,
+              "raw_text": "Dochody z rękopisu - wartość robocza",
+              "confidence": "low"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "do weryfikacji",
+              "description": "Zobowiązania z rękopisu - wartość robocza",
+              "amount_pln": 290000.0,
+              "currency": "PLN",
+              "raw_text": "Zobowiązania z rękopisu - wartość robocza",
+              "confidence": "low"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: 10 000 zł; waluty obce i papiery wartościowe: nie dotyczy.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Nieruchomości: nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach handlowych: wpisane ręcznie; szczegóły do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spolkach handlowych",
+              "pillar": "assets",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Panstwa lub samorzadu",
+              "pillar": "assets",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona dzialalnosc gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych",
+              "pillar": "earnings",
+              "raw_text": "Dochód z funkcji w spółkach: ok. 15 704.21 zł do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Inne dochody / dieta / praca: roboczo ok. 110 000.00 zł do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Mienie ruchome powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Składniki mienia ruchomego: wpisy ręczne, kwoty do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: roboczo ok. 290 000.00 zł do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0
+        },
+        {
+          "id": 156,
+          "year": 2021,
+          "statement_date": "2021-04-28",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_21/makowski_krzysztof_2021.pdf",
+          "file_path": "data\\raw\\makowski-krzysztof\\2021_60252cc9df5a.pdf",
+          "confidence": "low",
+          "notes": "Makowski 2021: handwritten statement. Most section VIII-X values require confirmation.",
+          "assets_value_pln": 10000.0,
+          "income_total_pln": 167750.0,
+          "liabilities_total_pln": 400000.0,
+          "filing_year": 2021,
+          "report_year": 2020,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 10000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "10 000 zł",
+              "confidence": "low"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 10000.0,
+          "incomes": [
+            {
+              "section_code": "VII",
+              "income_type": "company_role_income",
+              "payer": "spółki handlowe",
+              "description": "Dochód z funkcji w spółkach - wartość robocza",
+              "amount_pln": 22750.0,
+              "raw_text": "Dochód z funkcji w spółkach - wartość robocza",
+              "confidence": "low"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi / inne dochody",
+              "description": "Dochody z rękopisu - wartość robocza",
+              "amount_pln": 145000.0,
+              "raw_text": "Dochody z rękopisu - wartość robocza",
+              "confidence": "low"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "do weryfikacji",
+              "description": "Zobowiązania z rękopisu - wartość robocza",
+              "amount_pln": 400000.0,
+              "currency": "PLN",
+              "raw_text": "Zobowiązania z rękopisu - wartość robocza",
+              "confidence": "low"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: 10 000 zł; waluty obce i papiery wartościowe: nie dotyczy.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Nieruchomości: nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach handlowych: wpisane ręcznie; szczegóły do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spolkach handlowych",
+              "pillar": "assets",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Panstwa lub samorzadu",
+              "pillar": "assets",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona dzialalnosc gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych",
+              "pillar": "earnings",
+              "raw_text": "Dochód z funkcji w spółkach: ok. 22 750.00 zł do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Inne dochody / dieta / praca: roboczo ok. 145 000.00 zł do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Mienie ruchome powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Składniki mienia ruchomego: wpisy ręczne, kwoty do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: roboczo ok. 400 000.00 zł do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "medium",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 167750.0,
+              "metrics": {
+                "income_pln": 167750.0,
+                "net_delta_pln": -110000.0,
+                "asset_delta_pln": 0.0,
+                "debt_delta_pln": 110000.0
+              }
+            },
+            {
+              "type": "debt_jump",
+              "severity": "medium",
+              "title": "Wzrost zobowiązań bez podobnego wzrostu aktywów",
+              "description": "Zadłużenie wzrosło dużo mocniej niż widoczny majątek.",
+              "amount_pln": 110000.0,
+              "metrics": {
+                "asset_delta_pln": 0.0,
+                "debt_delta_pln": 110000.0
+              }
+            }
+          ],
+          "anomaly_score": 2,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 213,
+          "year": 2022,
+          "statement_date": "2022-04-29",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_22/makowski_krzysztof_2022.pdf",
+          "file_path": "data\\raw\\makowski-krzysztof\\2022_2440ba693dc1.pdf",
+          "confidence": "low",
+          "notes": "Makowski 2022: handwritten statement. Imported only as low-confidence working baseline.",
+          "assets_value_pln": 20000.0,
+          "income_total_pln": 176000.0,
+          "liabilities_total_pln": 450000.0,
+          "filing_year": 2022,
+          "report_year": 2021,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 20000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "20 000 zł",
+              "confidence": "low"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 20000.0,
+          "incomes": [
+            {
+              "section_code": "VII",
+              "income_type": "company_role_income",
+              "payer": "spółki handlowe",
+              "description": "Dochód z funkcji w spółkach - wartość robocza",
+              "amount_pln": 26000.0,
+              "raw_text": "Dochód z funkcji w spółkach - wartość robocza",
+              "confidence": "low"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi / inne dochody",
+              "description": "Dochody z rękopisu - wartość robocza",
+              "amount_pln": 150000.0,
+              "raw_text": "Dochody z rękopisu - wartość robocza",
+              "confidence": "low"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "do weryfikacji",
+              "description": "Zobowiązania z rękopisu - wartość robocza",
+              "amount_pln": 450000.0,
+              "currency": "PLN",
+              "raw_text": "Zobowiązania z rękopisu - wartość robocza",
+              "confidence": "low"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: 20 000 zł; waluty obce i papiery wartościowe: nie dotyczy.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Nieruchomości: nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach handlowych: wpisane ręcznie; szczegóły do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spolkach handlowych",
+              "pillar": "assets",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Panstwa lub samorzadu",
+              "pillar": "assets",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona dzialalnosc gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych",
+              "pillar": "earnings",
+              "raw_text": "Dochód z funkcji w spółkach: ok. 26 000.00 zł do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Inne dochody / dieta / praca: roboczo ok. 150 000.00 zł do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Mienie ruchome powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Składniki mienia ruchomego: wpisy ręczne, kwoty do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: roboczo ok. 450 000.00 zł do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "medium",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 176000.0,
+              "metrics": {
+                "income_pln": 176000.0,
+                "net_delta_pln": -40000.0,
+                "asset_delta_pln": 10000.0,
+                "debt_delta_pln": 50000.0
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 258,
+          "year": 2023,
+          "statement_date": "2023-04-27",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_23/Makowski_Krzysztof_2023.pdf",
+          "file_path": "data\\raw\\makowski-krzysztof\\2023_7171cbba2f75.pdf",
+          "confidence": "low",
+          "notes": "Makowski 2023: handwritten statement. Values are approximate pending manual confirmation.",
+          "assets_value_pln": 20000.0,
+          "income_total_pln": 205700.0,
+          "liabilities_total_pln": 500000.0,
+          "filing_year": 2023,
+          "report_year": 2022,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 20000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "20 000 zł",
+              "confidence": "low"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 20000.0,
+          "incomes": [
+            {
+              "section_code": "VII",
+              "income_type": "company_role_income",
+              "payer": "spółki handlowe",
+              "description": "Dochód z funkcji w spółkach - wartość robocza",
+              "amount_pln": 40700.0,
+              "raw_text": "Dochód z funkcji w spółkach - wartość robocza",
+              "confidence": "low"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi / inne dochody",
+              "description": "Dochody z rękopisu - wartość robocza",
+              "amount_pln": 165000.0,
+              "raw_text": "Dochody z rękopisu - wartość robocza",
+              "confidence": "low"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "do weryfikacji",
+              "description": "Zobowiązania z rękopisu - wartość robocza",
+              "amount_pln": 500000.0,
+              "currency": "PLN",
+              "raw_text": "Zobowiązania z rękopisu - wartość robocza",
+              "confidence": "low"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: 20 000 zł; waluty obce i papiery wartościowe: nie dotyczy.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Nieruchomości: nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach handlowych: wpisane ręcznie; szczegóły do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spolkach handlowych",
+              "pillar": "assets",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Panstwa lub samorzadu",
+              "pillar": "assets",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona dzialalnosc gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "",
+              "confidence": "unreviewed",
+              "review_status": "pending",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych",
+              "pillar": "earnings",
+              "raw_text": "Dochód z funkcji w spółkach: ok. 40 700.00 zł do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Inne dochody / dieta / praca: roboczo ok. 165 000.00 zł do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Mienie ruchome powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Składniki mienia ruchomego: wpisy ręczne, kwoty do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: roboczo ok. 500 000.00 zł do potwierdzenia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "medium",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 205700.0,
+              "metrics": {
+                "income_pln": 205700.0,
+                "net_delta_pln": -50000.0,
+                "asset_delta_pln": 0.0,
+                "debt_delta_pln": 50000.0
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
           "id": 326,
           "year": 2024,
           "statement_date": "2024-04-25",
@@ -2806,7 +4028,10 @@ window.ILE_ZARABIA_DATA = {
             }
           ],
           "anomalies": [],
-          "anomaly_score": 0
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
         },
         {
           "id": 380,
