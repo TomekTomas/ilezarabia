@@ -1,5 +1,5 @@
 window.ILE_ZARABIA_DATA = {
-  "generated_at": "2026-05-15 08:49:51",
+  "generated_at": "2026-05-15 09:31:13",
   "people": [
     {
       "id": 15,
@@ -1431,6 +1431,789 @@ window.ILE_ZARABIA_DATA = {
               "structured": {
                 "has_liabilities_over_10000_pln": false
               }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Domaszewicz Bartosz",
+      "slug": "domaszewicz-bartosz",
+      "role": "Radny/Radna",
+      "category": "Radni",
+      "statements": [
+        {
+          "id": 366,
+          "year": 2025,
+          "statement_date": "2025-04-20",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_25/domaszewicz_bartosz_2025.pdf",
+          "file_path": "data\\raw\\domaszewicz-bartosz\\2025_22a99b25c363.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered PDF pages. Foreign currencies and securities kept without PLN conversion.",
+          "assets_value_pln": 2621527.15,
+          "income_total_pln": 1033273.45,
+          "liabilities_total_pln": 0,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "?rodki pieni??ne w walucie polskiej",
+              "value_pln": 121527.15,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "121 527,15 z?",
+              "confidence": "high"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "foreign_currency",
+              "description": "Waluty obce i kryptoaktywa",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "10 000 USD; 2 048,20 EUR; 0,60815252 BTC; 177,289928 XRP",
+              "confidence": "high"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "securities",
+              "description": "Papiery warto?ciowe",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "NVIDIA 22,5038642; kwota 3 017,77 USD",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_house",
+              "description": "Dom",
+              "value_pln": 1250000.0,
+              "area": "131 m2",
+              "legal_title": "wsp??w?asno??",
+              "ownership": "",
+              "raw_text": "Dom 131 m2, warto?? 1 250 000 z?",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_house",
+              "description": "Dom 100 m2",
+              "value_pln": 650000.0,
+              "area": "100 m2",
+              "legal_title": "wsp??w?asno??",
+              "ownership": "",
+              "raw_text": "Dom 100 m2, warto?? 650 000 z?",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Dzia?ka 1511 m2",
+              "value_pln": 400000.0,
+              "area": "1511 m2",
+              "legal_title": "wsp??w?asno??",
+              "ownership": "",
+              "raw_text": "Dzia?ka 1511 m2, warto?? 400 000 z?",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Dzia?ka 651 m2",
+              "value_pln": 100000.0,
+              "area": "651 m2",
+              "legal_title": "wsp??w?asno??",
+              "ownership": "",
+              "raw_text": "Dzia?ka 651 m2, warto?? 100 000 z?",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Dzia?ka 254 m2",
+              "value_pln": 100000.0,
+              "area": "254 m2",
+              "legal_title": "u?ytkowanie wieczyste",
+              "ownership": "",
+              "raw_text": "Dzia?ka 254 m2, warto?? 100 000 z?",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Husqvarna Svartpilen 125 (2022)",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Husqvarna Svartpilen 125 (2022)",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Renault Captur (2017)",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Renault Captur (2017)",
+              "confidence": "high"
+            }
+          ],
+          "incomes": [
+            {
+              "section_code": "VI",
+              "income_type": "business_income",
+              "payer": "",
+              "description": "Doch?d z dzia?alno?ci gospodarczej",
+              "amount_pln": 996952.24,
+              "raw_text": "Doch?d z dzia?alno?ci gospodarczej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "",
+              "description": "Dieta radnego",
+              "amount_pln": 36321.21,
+              "raw_text": "Dieta radnego",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Srodki pieniezne i papiery wartosciowe",
+              "pillar": "assets",
+              "raw_text": "?rodki pieni??ne: 121 527,15 z?; waluty obce: 10 000 USD, 2 048,20 EUR, 0,60815252 BTC, 177,289928 XRP; papiery warto?ciowe: NVIDIA 22,5038642 na kwot? 3 017,77 USD.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {
+                "cash_pln": 121527.15
+              }
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomosci",
+              "pillar": "assets",
+              "raw_text": "Dom 131 m2, warto?? 1 250 000 z?. Inne nieruchomo?ci: dom 100 m2 warto?? 650 000 z? wsp??w?asno??; dzia?ka 1511 m2 warto?? 400 000 z? wsp??w?asno??; dzia?ka 651 m2 warto?? 100 000 z? wsp??w?asno??; dzia?ka 254 m2 warto?? 100 000 z? u?ytkowanie wieczyste.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udzialy w spolkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udzia?y w sp??kach handlowych z udzia?em gminnych os?b prawnych: nie dotyczy / nie posiada.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spolkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje w sp??kach handlowych: nie dotyczy / nie posiada.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Panstwa lub samorzadu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Pa?stwa lub jednostek publicznych w drodze przetargu: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona dzialalnosc gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Dzia?alno?? gospodarcza: firma ?wiadcz?ca us?ugi utrzymania czysto?ci. Przych?d 1 087 517,24 z?; doch?d 996 952,24 z?.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {
+                "business_income_pln": 996952.24,
+                "business_revenue_pln": 1087517.24
+              }
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spolkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje w sp??kach handlowych: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta radnego: 36 321,21 z?.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {
+                "council_allowance_pln": 36321.21
+              }
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Skladniki mienia ruchomego powyzej 10000 zl",
+              "pillar": "assets",
+              "raw_text": "Sk?adniki mienia ruchomego: Husqvarna Svartpilen 125, rok 2022; Renault Captur, rok 2017.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiazania pieniezne",
+              "pillar": "debts",
+              "raw_text": "Zobowi?zania pieni??ne powy?ej 10 000 z?: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {
+                "has_liabilities_over_10000_pln": false
+              }
+            }
+          ]
+        },
+        {
+          "id": 53,
+          "year": 2026,
+          "statement_date": "2026-04-30",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_MW_26/domaszewicz_bartosz_2026.pdf",
+          "file_path": "data\\raw\\domaszewicz-bartosz\\2026_3d670d37989f.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered PDF pages. Foreign currencies and securities kept without PLN conversion.",
+          "assets_value_pln": 2862176.32,
+          "income_total_pln": 1315740.4000000001,
+          "liabilities_total_pln": 0,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "?rodki pieni??ne w walucie polskiej",
+              "value_pln": 44668.75,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "44 668,75 z?",
+              "confidence": "high"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "foreign_currency",
+              "description": "Waluty obce i kryptoaktywa",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "15 000 USD; 516,30 EUR; 3,35 DKK; 0,40362829 BTC; 176,598497 XRP",
+              "confidence": "high"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "securities",
+              "description": "Papiery warto?ciowe",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "NVIDIA 53,54173916; ACHR 282,72222174; kwota 12 113,59 USD",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 317507.57,
+              "area": "48,33 m2",
+              "legal_title": "w?asno??",
+              "ownership": "",
+              "raw_text": "Mieszkanie 48,33 m2, warto?? 317 507,57 z?",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_house",
+              "description": "Dom",
+              "value_pln": 1250000.0,
+              "area": "131 m2",
+              "legal_title": "wsp??w?asno??",
+              "ownership": "",
+              "raw_text": "Dom 131 m2, warto?? 1 250 000 z?",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_house",
+              "description": "Dom 100 m2",
+              "value_pln": 650000.0,
+              "area": "100 m2",
+              "legal_title": "wsp??w?asno??",
+              "ownership": "",
+              "raw_text": "Dom 100 m2, warto?? 650 000 z?",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Dzia?ka 1511 m2",
+              "value_pln": 400000.0,
+              "area": "1511 m2",
+              "legal_title": "wsp??w?asno??",
+              "ownership": "",
+              "raw_text": "Dzia?ka 1511 m2, warto?? 400 000 z?",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Dzia?ka 651 m2",
+              "value_pln": 100000.0,
+              "area": "651 m2",
+              "legal_title": "wsp??w?asno??",
+              "ownership": "",
+              "raw_text": "Dzia?ka 651 m2, warto?? 100 000 z?",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Dzia?ka 234 m2",
+              "value_pln": 100000.0,
+              "area": "234 m2",
+              "legal_title": "wsp??w?asno??",
+              "ownership": "",
+              "raw_text": "Dzia?ka 234 m2, warto?? 100 000 z?",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Husqvarna Svartpilen 125 (2022)",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Husqvarna Svartpilen 125 (2022)",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Renault Captur (2017)",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Renault Captur (2017)",
+              "confidence": "high"
+            }
+          ],
+          "incomes": [
+            {
+              "section_code": "VI",
+              "income_type": "business_income",
+              "payer": "",
+              "description": "Doch?d z dzia?alno?ci gospodarczej",
+              "amount_pln": 1265422.54,
+              "raw_text": "Doch?d z dzia?alno?ci gospodarczej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "",
+              "description": "Dieta radnego",
+              "amount_pln": 50317.86,
+              "raw_text": "Dieta radnego",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Srodki pieniezne i papiery wartosciowe",
+              "pillar": "assets",
+              "raw_text": "?rodki pieni??ne: 44 668,75 z?; waluty obce: 15 000 USD, 516,30 EUR, 3,35 DKK, 0,40362829 BTC, 176,598497 XRP; papiery warto?ciowe: NVIDIA 53,54173916, ACHR 282,72222174 na kwot? 12 113,59 USD.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {
+                "cash_pln": 44668.75
+              }
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomosci",
+              "pillar": "assets",
+              "raw_text": "Dom 131 m2, warto?? 1 250 000 z?, wsp??w?asno??. Mieszkanie 48,33 m2, warto?? 317 507,57 z?, w?asno??. Inne nieruchomo?ci: dom 100 m2 warto?? 650 000 z? wsp??w?asno??; dzia?ka 1511 m2 warto?? 400 000 z? wsp??w?asno??; dzia?ka 651 m2 warto?? 100 000 z? wsp??w?asno??; dzia?ka 234 m2 warto?? 100 000 z? wsp??w?asno??.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udzialy w spolkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udzia?y w sp??kach handlowych z udzia?em gminnych os?b prawnych: nie dotyczy / nie posiada.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spolkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje w sp??kach handlowych: nie dotyczy / nie posiada.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Panstwa lub samorzadu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Pa?stwa lub jednostek publicznych w drodze przetargu: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona dzialalnosc gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Dzia?alno?? gospodarcza: firma ?wiadcz?ca us?ugi utrzymania czysto?ci. Przych?d 1 289 441,29 z?; doch?d 1 265 422,54 z?.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {
+                "business_income_pln": 1265422.54,
+                "business_revenue_pln": 1289441.29
+              }
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spolkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje w sp??kach handlowych: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta radnego: 50 317,86 z?.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {
+                "council_allowance_pln": 50317.86
+              }
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Skladniki mienia ruchomego powyzej 10000 zl",
+              "pillar": "assets",
+              "raw_text": "Sk?adniki mienia ruchomego: Husqvarna Svartpilen 125, rok 2022; Renault Captur, rok 2017.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiazania pieniezne",
+              "pillar": "debts",
+              "raw_text": "Zobowi?zania pieni??ne powy?ej 10 000 z?: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {
+                "has_liabilities_over_10000_pln": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Makowski Krzysztof",
+      "slug": "makowski-krzysztof",
+      "role": "Radny/Radna",
+      "category": "Radni",
+      "statements": [
+        {
+          "id": 65,
+          "year": 2026,
+          "statement_date": "2026-04-29",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_MW_26/makowski_krzysztof_2026.pdf",
+          "file_path": "data\\raw\\makowski-krzysztof\\2026_019fd9fbe3b6.pdf",
+          "confidence": "medium",
+          "notes": "Manual review from rendered PDF pages. Handwritten statement; several values marked medium confidence and require second review.",
+          "assets_value_pln": 355996.41000000003,
+          "income_total_pln": 568245.89,
+          "liabilities_total_pln": 790068.0,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "?rodki pieni??ne w walucie polskiej",
+              "value_pln": 20000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "20 000 z?",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 208000.0,
+              "area": "51,16 m2",
+              "legal_title": "wsp?lno?? maj?tkowa ma??e?ska / w?asno??",
+              "ownership": "",
+              "raw_text": "Mieszkanie 51,16 m2, warto?? 208 000 z?",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Inna nieruchomo?? 0,0352 ha",
+              "value_pln": 1000.0,
+              "area": "0,0352 ha",
+              "legal_title": "wsp??w?asno?? ma??e?ska",
+              "ownership": "",
+              "raw_text": "0,0352 ha, warto?? 1 000 z?",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "movable_property",
+              "description": "Domek letniskowy",
+              "value_pln": 30000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Domek letniskowy 30 000 z?",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "movable_property",
+              "description": "Urz?dzenie/automat po?yczkowy",
+              "value_pln": 49996.41,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Urz?dzenie/automat po?yczkowy 49 996,41 z?",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Przyczepa kempingowa KABE",
+              "value_pln": 47000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Przyczepa kempingowa KABE 47 000 z?",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "VW Caddy (2013)",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "VW Caddy, rok 2013, warto?? do weryfikacji",
+              "confidence": "medium"
+            }
+          ],
+          "incomes": [
+            {
+              "section_code": "VII",
+              "income_type": "company_role_income",
+              "payer": "",
+              "description": "Doch?d z funkcji w sp??kach",
+              "amount_pln": 26680.0,
+              "raw_text": "Widoczny doch?d 26 680,00 z?",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "",
+              "description": "Rada Miejska w ?odzi",
+              "amount_pln": 176441.12,
+              "raw_text": "Rada Miejska w ?odzi 176 441,12 z?",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "other_income",
+              "payer": "",
+              "description": "Inne dochody z r?kopisu",
+              "amount_pln": 14905.01,
+              "raw_text": "Pozycja dochodowa 14 905,01 z?",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "other_income",
+              "payer": "",
+              "description": "Inne dochody z r?kopisu",
+              "amount_pln": 70304.71,
+              "raw_text": "Pozycja dochodowa 70 304,71 z?",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "other_income",
+              "payer": "",
+              "description": "Inne dochody z r?kopisu",
+              "amount_pln": 279915.05,
+              "raw_text": "Pozycja dochodowa 279 915,05 z?",
+              "confidence": "medium"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "BNP Paribas",
+              "description": "Kredyt got?wkowy 120 000 z?, do sp?aty ok. 116 850 z?",
+              "amount_pln": 116850.0,
+              "currency": "PLN",
+              "raw_text": "BNP Paribas kredyt got?wkowy 120 000 z?, do sp?aty 116 850 z?",
+              "confidence": "medium"
+            },
+            {
+              "creditor": "DEKA S.A.",
+              "description": "Kredyt hipoteczny/mieszkaniowy ok. 644 450 z?, do sp?aty ok. 625 251 z?",
+              "amount_pln": 625251.0,
+              "currency": "PLN",
+              "raw_text": "DEKA S.A. kredyt mieszkaniowy/hipoteczny 644 450 z?, do sp?aty ok. 625 251 z?",
+              "confidence": "medium"
+            },
+            {
+              "creditor": "BNP Paribas",
+              "description": "Kredyt 56 000 z?, do sp?aty 47 967 z?",
+              "amount_pln": 47967.0,
+              "currency": "PLN",
+              "raw_text": "BNP Paribas 56 000 z?, do sp?aty 47 967 z?",
+              "confidence": "medium"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Srodki pieniezne i papiery wartosciowe",
+              "pillar": "assets",
+              "raw_text": "?rodki pieni??ne: 20 000 z?; waluta obca: nie dotyczy; papiery warto?ciowe: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {
+                "cash_pln": 20000
+              }
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomosci",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie 51,16 m2, warto?? 208 000 z?, tytu?: wsp?lno?? maj?tkowa ma??e?ska / w?asno??. Inne nieruchomo?ci: 0,0352 ha, warto?? 1 000 z?, wsp??w?asno?? ma??e?ska.",
+              "confidence": "medium",
+              "review_status": "reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udzialy w spolkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udzia?y w innych sp??kach handlowych: m.in. LT&BUD sp. z o.o. oraz Nasza Ksi?garnia sp. z o.o.; doch?d 0 z?. Odczyt r?kopisu cz??ciowy.",
+              "confidence": "medium",
+              "review_status": "reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spolkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje w sp??kach handlowych: nie dotyczy / nie posiada.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Panstwa lub samorzadu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Pa?stwa lub jednostek publicznych w drodze przetargu: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona dzialalnosc gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Dzia?alno?? gospodarcza: nie dotyczy. Zarz?dzanie/funkcje w dzia?alno?ci: Fundacja Bezpieczni, Akademia Walki z Rakiem; doch?d 0 z?.",
+              "confidence": "medium",
+              "review_status": "reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spolkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje w sp??kach handlowych i dochody: kilka pozycji, odczyt r?kopisu cz??ciowy; widoczny doch?d 26 680,00 z?.",
+              "confidence": "medium",
+              "review_status": "reviewed",
+              "structured": {
+                "company_roles_income_pln": 26680
+              }
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Inne dochody: Rada Miejska w ?odzi 176 441,12 z?; inne pozycje odczytane z r?kopisu: 14 905,01 z?, 70 304,71 z?, 279 915,05 z?.",
+              "confidence": "medium",
+              "review_status": "reviewed",
+              "structured": {
+                "total_income_pln": 541245.89
+              }
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Skladniki mienia ruchomego powyzej 10000 zl",
+              "pillar": "assets",
+              "raw_text": "Sk?adniki mienia ruchomego: m.in. domek letniskowy, przyczepa kempingowa KABE, VW Caddy 2013, automat/urz?dzenie po?yczkowe; odczyt warto?ci cz??ciowy.",
+              "confidence": "medium",
+              "review_status": "reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiazania pieniezne",
+              "pillar": "debts",
+              "raw_text": "Zobowi?zania: BNP Paribas kredyt got?wkowy 120 000 z?, do sp?aty ok. 116 850 z?; DEKA S.A. kredyt hipoteczny/mieszkaniowy ok. 644 450 z?, do sp?aty ok. 625 251 z?; BNP Paribas 56 000 z?, do sp?aty 47 967 z?. Odczyt r?kopisu wymaga p??niejszej kontroli.",
+              "confidence": "medium",
+              "review_status": "reviewed",
+              "structured": {}
             }
           ]
         }
