@@ -1,5 +1,5 @@
 window.ILE_ZARABIA_DATA = {
-  "generated_at": "2026-05-15 13:31:27",
+  "generated_at": "2026-05-15 14:29:12",
   "market_context": {
     "generated_label": "wyceny z 2026-05-15",
     "fx_effective_date": "2026-05-14",
@@ -4529,6 +4529,2606 @@ window.ILE_ZARABIA_DATA = {
                 "value_pln": 208000.0
               }
             ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Marzec Radosław",
+      "slug": "marzec-radoslaw",
+      "role": "Radny/Radna",
+      "category": "Radni",
+      "statements": [
+        {
+          "id": 110,
+          "year": 2020,
+          "statement_date": "2020-05-29",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_20/marzec_radoslaw_2020.pdf",
+          "file_path": "data\\raw\\marzec-radoslaw\\2020_57be4a7e2a04.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 725711.6,
+          "income_total_pln": 160158.18,
+          "liabilities_total_pln": 501809.2,
+          "filing_year": 2020,
+          "report_year": 2019,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 8000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "retirement_account",
+              "description": "IKZE",
+              "value_pln": 25493.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "IKZE",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_house",
+              "description": "Dom",
+              "value_pln": 650000.0,
+              "area": "233,22 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Dom",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Nieruchomość, na której znajduje się dom",
+              "value_pln": 37500.0,
+              "area": "0,1135 ha",
+              "legal_title": "umowa darowizny",
+              "ownership": "",
+              "raw_text": "Nieruchomość, na której znajduje się dom",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Udział 1/12 w nieruchomości",
+              "value_pln": 2500.0,
+              "area": "0,2415 ha",
+              "legal_title": "umowa darowizny",
+              "ownership": "",
+              "raw_text": "Udział 1/12 w nieruchomości",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IV",
+              "asset_type": "securities",
+              "description": "Akcje Bioton 190 szt. i JSW 70 szt.",
+              "value_pln": 2218.6,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Akcje Bioton 190 szt. i JSW 70 szt.",
+              "confidence": "high"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 725711.6,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "contract_work",
+              "payer": "Umowa zlecenia",
+              "description": "Umowa zlecenia",
+              "amount_pln": 7200.0,
+              "raw_text": "Umowa zlecenia",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego miejskiego w Łodzi",
+              "amount_pln": 32122.57,
+              "raw_text": "Dieta radnego miejskiego w Łodzi",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Umowa o pracę",
+              "description": "Umowa o pracę",
+              "amount_pln": 104956.74,
+              "raw_text": "Umowa o pracę",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "insurance_benefit",
+              "payer": "Świadczenie z polisy PZU",
+              "description": "Świadczenie z polisy PZU",
+              "amount_pln": 2200.0,
+              "raw_text": "Świadczenie z polisy PZU",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "other_income",
+              "payer": "Zapłata za sieć wodociągową",
+              "description": "Zapłata za sieć wodociągową",
+              "amount_pln": 5700.31,
+              "raw_text": "Zapłata za sieć wodociągową",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "public_media_allowance",
+              "payer": "Dieta Rada Programowa TVP",
+              "description": "Dieta Rada Programowa TVP",
+              "amount_pln": 4394.0,
+              "raw_text": "Dieta Rada Programowa TVP",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "social_benefit",
+              "payer": "Zasiłek macierzyński / urlop ojcowski",
+              "description": "Zasiłek macierzyński / urlop ojcowski",
+              "amount_pln": 3584.56,
+              "raw_text": "Zasiłek macierzyński / urlop ojcowski",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Kredyt hipoteczny, kapitał do spłaty na koniec roku",
+              "amount_pln": 493809.2,
+              "currency": "PLN",
+              "raw_text": "Kredyt hipoteczny, kapitał do spłaty na koniec roku",
+              "confidence": "high"
+            },
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Limit karty kredytowej",
+              "amount_pln": 7000.0,
+              "currency": "PLN",
+              "raw_text": "Limit karty kredytowej",
+              "confidence": "high"
+            },
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Kredyt odnawialny",
+              "amount_pln": 1000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt odnawialny",
+              "confidence": "high"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne, IKZE oraz akcje Bioton/JSW odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Dom oraz dwie pozycje gruntowe; wartości odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach handlowych: nie dotyczy / nie posiada.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje: Bioton 190 szt. oraz JSW 70 szt., wartości według deklaracji rocznej.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Państwa lub samorządu: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Prowadzona działalność gospodarcza: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje w spółkach handlowych: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dochody rozpisane według pozycji z części VIII.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Brak składników mienia ruchomego powyżej progu.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania BOŚ S.A. oraz WFOŚiGW odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0
+        },
+        {
+          "id": 162,
+          "year": 2021,
+          "statement_date": "2021-04-29",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_21/marzec_radoslaw_2021.pdf",
+          "file_path": "data\\raw\\marzec-radoslaw\\2021_1c6ea996a908.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 737989.6,
+          "income_total_pln": 168193.78,
+          "liabilities_total_pln": 524299.26,
+          "filing_year": 2021,
+          "report_year": 2020,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 5000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "retirement_account",
+              "description": "IKZE",
+              "value_pln": 40350.4,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "IKZE",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_house",
+              "description": "Dom",
+              "value_pln": 650000.0,
+              "area": "233,22 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Dom",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Nieruchomość, na której znajduje się dom",
+              "value_pln": 37500.0,
+              "area": "0,1135 ha",
+              "legal_title": "umowa darowizny",
+              "ownership": "",
+              "raw_text": "Nieruchomość, na której znajduje się dom",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Udział 1/12 w nieruchomości",
+              "value_pln": 2500.0,
+              "area": "0,2415 ha",
+              "legal_title": "umowa darowizny",
+              "ownership": "",
+              "raw_text": "Udział 1/12 w nieruchomości",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IV",
+              "asset_type": "securities",
+              "description": "Akcje Bioton 190 szt. i JSW 70 szt.",
+              "value_pln": 2639.2,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Akcje Bioton 190 szt. i JSW 70 szt.",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Peugeot 308 1.6 HDI SW, rocznik 2008, kupiony i sprzedany w 2020 r.",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Peugeot 308 1.6 HDI SW, rocznik 2008, kupiony i sprzedany w 2020 r.",
+              "confidence": "high"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 737989.6,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego miejskiego w Łodzi",
+              "amount_pln": 31283.54,
+              "raw_text": "Dieta radnego miejskiego w Łodzi",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Umowa o pracę",
+              "description": "Umowa o pracę",
+              "amount_pln": 121044.24,
+              "raw_text": "Umowa o pracę",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "grant",
+              "payer": "Dotacja WFOŚiGW w Łodzi",
+              "description": "Dotacja WFOŚiGW w Łodzi",
+              "amount_pln": 13500.0,
+              "raw_text": "Dotacja WFOŚiGW w Łodzi",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "public_media_allowance",
+              "payer": "Dieta Rada Programowa TVP",
+              "description": "Dieta Rada Programowa TVP",
+              "amount_pln": 2366.0,
+              "raw_text": "Dieta Rada Programowa TVP",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Kredyt hipoteczny, kapitał do spłaty na koniec roku",
+              "amount_pln": 480944.09,
+              "currency": "PLN",
+              "raw_text": "Kredyt hipoteczny, kapitał do spłaty na koniec roku",
+              "confidence": "high"
+            },
+            {
+              "creditor": "WFOŚiGW w Łodzi",
+              "description": "Pożyczka/dofinansowanie, kwota do spłaty na koniec roku",
+              "amount_pln": 35355.17,
+              "currency": "PLN",
+              "raw_text": "Pożyczka/dofinansowanie, kwota do spłaty na koniec roku",
+              "confidence": "high"
+            },
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Limit karty kredytowej",
+              "amount_pln": 7000.0,
+              "currency": "PLN",
+              "raw_text": "Limit karty kredytowej",
+              "confidence": "high"
+            },
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Kredyt odnawialny",
+              "amount_pln": 1000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt odnawialny",
+              "confidence": "high"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne, IKZE oraz akcje Bioton/JSW odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Dom oraz dwie pozycje gruntowe; wartości odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach handlowych: nie dotyczy / nie posiada.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje: Bioton 190 szt. oraz JSW 70 szt., wartości według deklaracji rocznej.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Państwa lub samorządu: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Prowadzona działalność gospodarcza: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje w spółkach handlowych: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dochody rozpisane według pozycji z części VIII.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Peugeot 308 1.6 HDI SW, rocznik 2008, kupiony i sprzedany w 2020 r.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania BOŚ S.A. oraz WFOŚiGW odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "medium",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 168193.78,
+              "metrics": {
+                "income_pln": 168193.78,
+                "net_delta_pln": -10212.06,
+                "asset_delta_pln": 12278.0,
+                "debt_delta_pln": 22490.06
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 218,
+          "year": 2022,
+          "statement_date": "2022-04-29",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_22/marzec_radoslaw_2022.pdf",
+          "file_path": "data\\raw\\marzec-radoslaw\\2022_3f884810a463.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 878996.41,
+          "income_total_pln": 355254.76,
+          "liabilities_total_pln": 511156.57999999996,
+          "filing_year": 2022,
+          "report_year": 2021,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 4500.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "retirement_account",
+              "description": "IKZE",
+              "value_pln": 51261.31,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "IKZE",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_house",
+              "description": "Dom",
+              "value_pln": 780000.0,
+              "area": "233,22 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Dom",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Nieruchomość, na której znajduje się dom",
+              "value_pln": 37500.0,
+              "area": "0,1135 ha",
+              "legal_title": "umowa darowizny",
+              "ownership": "",
+              "raw_text": "Nieruchomość, na której znajduje się dom",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Udział 1/12 w nieruchomości",
+              "value_pln": 2500.0,
+              "area": "0,2415 ha",
+              "legal_title": "umowa darowizny",
+              "ownership": "",
+              "raw_text": "Udział 1/12 w nieruchomości",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IV",
+              "asset_type": "securities",
+              "description": "Akcje Bioton 190 szt. i JSW 70 szt.",
+              "value_pln": 3235.1,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Akcje Bioton 190 szt. i JSW 70 szt.",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "renewable_energy_installation",
+              "description": "Instalacja fotowoltaiczna 9,77 kWp",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Instalacja fotowoltaiczna 9,77 kWp",
+              "confidence": "high"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 878996.41,
+          "incomes": [
+            {
+              "section_code": "VII",
+              "income_type": "company_role_income",
+              "payer": "KPS SKRA Bełchatów S.A.",
+              "description": "KPS SKRA Bełchatów S.A., wiceprezes od 1.03.2021",
+              "amount_pln": 249544.35,
+              "raw_text": "KPS SKRA Bełchatów S.A., wiceprezes od 1.03.2021",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego miejskiego w Łodzi",
+              "amount_pln": 37330.13,
+              "raw_text": "Dieta radnego miejskiego w Łodzi",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Umowa o pracę",
+              "description": "Umowa o pracę",
+              "amount_pln": 57704.28,
+              "raw_text": "Umowa o pracę",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "grant",
+              "payer": "Dotacja WFOŚiGW w Łodzi",
+              "description": "Dotacja WFOŚiGW w Łodzi",
+              "amount_pln": 5000.0,
+              "raw_text": "Dotacja WFOŚiGW w Łodzi",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "public_media_allowance",
+              "payer": "Dieta Rada Programowa TVP",
+              "description": "Dieta Rada Programowa TVP",
+              "amount_pln": 5676.0,
+              "raw_text": "Dieta Rada Programowa TVP",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Kredyt hipoteczny, kapitał do spłaty na koniec roku",
+              "amount_pln": 466352.22,
+              "currency": "PLN",
+              "raw_text": "Kredyt hipoteczny, kapitał do spłaty na koniec roku",
+              "confidence": "high"
+            },
+            {
+              "creditor": "WFOŚiGW w Łodzi",
+              "description": "Pożyczka/dofinansowanie, kwota do spłaty na koniec roku",
+              "amount_pln": 36804.36,
+              "currency": "PLN",
+              "raw_text": "Pożyczka/dofinansowanie, kwota do spłaty na koniec roku",
+              "confidence": "high"
+            },
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Limit karty kredytowej",
+              "amount_pln": 7000.0,
+              "currency": "PLN",
+              "raw_text": "Limit karty kredytowej",
+              "confidence": "high"
+            },
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Kredyt odnawialny",
+              "amount_pln": 1000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt odnawialny",
+              "confidence": "high"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne, IKZE oraz akcje Bioton/JSW odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Dom oraz dwie pozycje gruntowe; wartości odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach handlowych: nie dotyczy / nie posiada.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje: Bioton 190 szt. oraz JSW 70 szt., wartości według deklaracji rocznej.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Państwa lub samorządu: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Prowadzona działalność gospodarcza: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "KPS SKRA Bełchatów S.A., wiceprezes od 1.03.2021",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dochody rozpisane według pozycji z części VIII.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Instalacja fotowoltaiczna 9,77 kWp",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania BOŚ S.A. oraz WFOŚiGW odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "medium",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 201105.27,
+              "metrics": {
+                "income_pln": 355254.76,
+                "net_delta_pln": 154149.49,
+                "asset_delta_pln": 141006.81,
+                "debt_delta_pln": -13142.68
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": [
+              {
+                "label": "IKZE",
+                "value_pln": 51261.31
+              }
+            ]
+          }
+        },
+        {
+          "id": 261,
+          "year": 2023,
+          "statement_date": "2023-04-26",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_23/Marzec_Radoslaw_2023.pdf",
+          "file_path": "data\\raw\\marzec-radoslaw\\2023_2dbbde7086f3.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 931051.09,
+          "income_total_pln": 416176.87999999995,
+          "liabilities_total_pln": 510869.74,
+          "filing_year": 2023,
+          "report_year": 2022,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 53000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "retirement_account",
+              "description": "IKZE",
+              "value_pln": 53339.59,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "IKZE",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_house",
+              "description": "Dom",
+              "value_pln": 780000.0,
+              "area": "233,22 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Dom",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Nieruchomość, na której znajduje się dom",
+              "value_pln": 37500.0,
+              "area": "0,1135 ha",
+              "legal_title": "umowa darowizny",
+              "ownership": "",
+              "raw_text": "Nieruchomość, na której znajduje się dom",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Udział 1/12 w nieruchomości",
+              "value_pln": 2500.0,
+              "area": "0,2415 ha",
+              "legal_title": "umowa darowizny",
+              "ownership": "",
+              "raw_text": "Udział 1/12 w nieruchomości",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IV",
+              "asset_type": "securities",
+              "description": "Akcje Bioton 190 szt. i JSW 70 szt.",
+              "value_pln": 4711.5,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Akcje Bioton 190 szt. i JSW 70 szt.",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "renewable_energy_installation",
+              "description": "Instalacja fotowoltaiczna 9,77 kWp",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Instalacja fotowoltaiczna 9,77 kWp",
+              "confidence": "high"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 931051.09,
+          "incomes": [
+            {
+              "section_code": "VII",
+              "income_type": "company_role_income",
+              "payer": "KPS SKRA Bełchatów S.A.",
+              "description": "KPS SKRA Bełchatów S.A., wiceprezes od 1.03.2021",
+              "amount_pln": 361748.72,
+              "raw_text": "KPS SKRA Bełchatów S.A., wiceprezes od 1.03.2021",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego miejskiego w Łodzi",
+              "amount_pln": 47861.36,
+              "raw_text": "Dieta radnego miejskiego w Łodzi",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "public_media_allowance",
+              "payer": "Dieta Rada Programowa TVP",
+              "description": "Dieta Rada Programowa TVP",
+              "amount_pln": 5000.0,
+              "raw_text": "Dieta Rada Programowa TVP",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "social_benefit",
+              "payer": "Zasiłek z ubezpieczenia społecznego",
+              "description": "Zasiłek z ubezpieczenia społecznego",
+              "amount_pln": 1566.8,
+              "raw_text": "Zasiłek z ubezpieczenia społecznego",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Kredyt hipoteczny, kapitał do spłaty na koniec roku",
+              "amount_pln": 460450.88,
+              "currency": "PLN",
+              "raw_text": "Kredyt hipoteczny, kapitał do spłaty na koniec roku",
+              "confidence": "high"
+            },
+            {
+              "creditor": "WFOŚiGW w Łodzi",
+              "description": "Pożyczka/dofinansowanie, kwota do spłaty na koniec roku",
+              "amount_pln": 42418.86,
+              "currency": "PLN",
+              "raw_text": "Pożyczka/dofinansowanie, kwota do spłaty na koniec roku",
+              "confidence": "high"
+            },
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Limit karty kredytowej",
+              "amount_pln": 7000.0,
+              "currency": "PLN",
+              "raw_text": "Limit karty kredytowej",
+              "confidence": "high"
+            },
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Kredyt odnawialny",
+              "amount_pln": 1000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt odnawialny",
+              "confidence": "high"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne, IKZE oraz akcje Bioton/JSW odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Dom oraz dwie pozycje gruntowe; wartości odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach handlowych: nie dotyczy / nie posiada.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje: Bioton 190 szt. oraz JSW 70 szt., wartości według deklaracji rocznej.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Państwa lub samorządu: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Prowadzona działalność gospodarcza: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "KPS SKRA Bełchatów S.A., wiceprezes od 1.03.2021",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dochody rozpisane według pozycji z części VIII.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Instalacja fotowoltaiczna 9,77 kWp",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania BOŚ S.A. oraz WFOŚiGW odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "high",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 363835.36,
+              "metrics": {
+                "income_pln": 416176.88,
+                "net_delta_pln": 52341.52,
+                "asset_delta_pln": 52054.68,
+                "debt_delta_pln": -286.84
+              }
+            }
+          ],
+          "anomaly_score": 2,
+          "asset_changes": {
+            "new_significant_assets": [
+              {
+                "label": "Środki pieniężne w walucie polskiej",
+                "value_pln": 53000.0
+              }
+            ]
+          }
+        },
+        {
+          "id": 328,
+          "year": 2024,
+          "statement_date": "2024-04-30",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_24/marzec_radoslaw_20240430.pdf",
+          "file_path": "data\\raw\\marzec-radoslaw\\2024_ba01c95530c5.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 910120.4,
+          "income_total_pln": 425021.91,
+          "liabilities_total_pln": 456157.49,
+          "filing_year": 2024,
+          "report_year": 2023,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 12000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "retirement_account",
+              "description": "IKZE",
+              "value_pln": 74500.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "IKZE",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_house",
+              "description": "Dom",
+              "value_pln": 780000.0,
+              "area": "233,22 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Dom",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Nieruchomość, na której znajduje się dom",
+              "value_pln": 37500.0,
+              "area": "0,1135 ha",
+              "legal_title": "umowa darowizny",
+              "ownership": "",
+              "raw_text": "Nieruchomość, na której znajduje się dom",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Udział 1/12 w nieruchomości",
+              "value_pln": 2500.0,
+              "area": "0,2415 ha",
+              "legal_title": "umowa darowizny",
+              "ownership": "",
+              "raw_text": "Udział 1/12 w nieruchomości",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IV",
+              "asset_type": "securities",
+              "description": "Akcje Bioton 190 szt. i JSW 70 szt.",
+              "value_pln": 3620.4,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Akcje Bioton 190 szt. i JSW 70 szt.",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "renewable_energy_installation",
+              "description": "Instalacja fotowoltaiczna 9,77 kWp",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Instalacja fotowoltaiczna 9,77 kWp",
+              "confidence": "high"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 910120.4,
+          "incomes": [
+            {
+              "section_code": "VII",
+              "income_type": "company_role_income",
+              "payer": "KPS SKRA Bełchatów S.A.",
+              "description": "KPS SKRA Bełchatów S.A., p.o. prezesa od 16.06.2023",
+              "amount_pln": 372588.18,
+              "raw_text": "KPS SKRA Bełchatów S.A., p.o. prezesa od 16.06.2023",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego miejskiego w Łodzi",
+              "amount_pln": 46933.73,
+              "raw_text": "Dieta radnego miejskiego w Łodzi",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "public_media_allowance",
+              "payer": "Dieta Rada Programowa TVP",
+              "description": "Dieta Rada Programowa TVP",
+              "amount_pln": 5500.0,
+              "raw_text": "Dieta Rada Programowa TVP",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Kredyt hipoteczny, kapitał do spłaty na koniec roku",
+              "amount_pln": 412109.36,
+              "currency": "PLN",
+              "raw_text": "Kredyt hipoteczny, kapitał do spłaty na koniec roku",
+              "confidence": "high"
+            },
+            {
+              "creditor": "WFOŚiGW w Łodzi",
+              "description": "Pożyczka/dofinansowanie, kwota do spłaty na koniec roku",
+              "amount_pln": 36048.13,
+              "currency": "PLN",
+              "raw_text": "Pożyczka/dofinansowanie, kwota do spłaty na koniec roku",
+              "confidence": "high"
+            },
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Limit karty kredytowej",
+              "amount_pln": 7000.0,
+              "currency": "PLN",
+              "raw_text": "Limit karty kredytowej",
+              "confidence": "high"
+            },
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Kredyt odnawialny",
+              "amount_pln": 1000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt odnawialny",
+              "confidence": "high"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne, IKZE oraz akcje Bioton/JSW odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Dom oraz dwie pozycje gruntowe; wartości odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach handlowych: nie dotyczy / nie posiada.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje: Bioton 190 szt. oraz JSW 70 szt., wartości według deklaracji rocznej.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Państwa lub samorządu: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Prowadzona działalność gospodarcza: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "KPS SKRA Bełchatów S.A., p.o. prezesa od 16.06.2023",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dochody rozpisane według pozycji z części VIII.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Instalacja fotowoltaiczna 9,77 kWp",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania BOŚ S.A. oraz WFOŚiGW odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "high",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 391240.35,
+              "metrics": {
+                "income_pln": 425021.91,
+                "net_delta_pln": 33781.56,
+                "asset_delta_pln": -20930.69,
+                "debt_delta_pln": -54712.25
+              }
+            }
+          ],
+          "anomaly_score": 2,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 381,
+          "year": 2025,
+          "statement_date": "2025-04-23",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_25/marzec_radoslaw_2025.pdf",
+          "file_path": "data\\raw\\marzec-radoslaw\\2025_a45e0eef982d.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 945281.75,
+          "income_total_pln": 266906.9,
+          "liabilities_total_pln": 441772.44,
+          "filing_year": 2025,
+          "report_year": 2024,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 35000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "retirement_account",
+              "description": "IKZE",
+              "value_pln": 88282.95,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "IKZE",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_house",
+              "description": "Dom",
+              "value_pln": 780000.0,
+              "area": "233,22 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Dom",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Nieruchomość, na której znajduje się dom",
+              "value_pln": 37500.0,
+              "area": "0,1135 ha",
+              "legal_title": "umowa darowizny",
+              "ownership": "",
+              "raw_text": "Nieruchomość, na której znajduje się dom",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Udział 1/12 w nieruchomości",
+              "value_pln": 2500.0,
+              "area": "0,2415 ha",
+              "legal_title": "umowa darowizny",
+              "ownership": "",
+              "raw_text": "Udział 1/12 w nieruchomości",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IV",
+              "asset_type": "securities",
+              "description": "Akcje Bioton 190 szt. i JSW 70 szt.",
+              "value_pln": 1998.8,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Akcje Bioton 190 szt. i JSW 70 szt.",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "renewable_energy_installation",
+              "description": "Instalacja fotowoltaiczna 9,77 kWp",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Instalacja fotowoltaiczna 9,77 kWp",
+              "confidence": "high"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 945281.75,
+          "incomes": [
+            {
+              "section_code": "VII",
+              "income_type": "company_role_income",
+              "payer": "KPS SKRA Bełchatów S.A.",
+              "description": "KPS SKRA Bełchatów S.A., p.o. prezesa od 16.06.2023",
+              "amount_pln": 110748.58,
+              "raw_text": "KPS SKRA Bełchatów S.A., p.o. prezesa od 16.06.2023",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego miejskiego w Łodzi",
+              "amount_pln": 44769.25,
+              "raw_text": "Dieta radnego miejskiego w Łodzi",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Świadczenie z umowy o pracę",
+              "description": "Świadczenie z umowy o pracę",
+              "amount_pln": 106389.07,
+              "raw_text": "Świadczenie z umowy o pracę",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "public_media_allowance",
+              "payer": "Dieta Rada Programowa TVP",
+              "description": "Dieta Rada Programowa TVP",
+              "amount_pln": 5000.0,
+              "raw_text": "Dieta Rada Programowa TVP",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Kredyt hipoteczny, kapitał do spłaty na koniec roku",
+              "amount_pln": 400995.24,
+              "currency": "PLN",
+              "raw_text": "Kredyt hipoteczny, kapitał do spłaty na koniec roku",
+              "confidence": "high"
+            },
+            {
+              "creditor": "WFOŚiGW w Łodzi",
+              "description": "Pożyczka/dofinansowanie, kwota do spłaty na koniec roku",
+              "amount_pln": 32777.2,
+              "currency": "PLN",
+              "raw_text": "Pożyczka/dofinansowanie, kwota do spłaty na koniec roku",
+              "confidence": "high"
+            },
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Limit karty kredytowej",
+              "amount_pln": 7000.0,
+              "currency": "PLN",
+              "raw_text": "Limit karty kredytowej",
+              "confidence": "high"
+            },
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Kredyt odnawialny",
+              "amount_pln": 1000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt odnawialny",
+              "confidence": "high"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne, IKZE oraz akcje Bioton/JSW odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Dom oraz dwie pozycje gruntowe; wartości odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach handlowych: nie dotyczy / nie posiada.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje: Bioton 190 szt. oraz JSW 70 szt., wartości według deklaracji rocznej.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Państwa lub samorządu: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Prowadzona działalność gospodarcza: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "KPS SKRA Bełchatów S.A., p.o. prezesa od 16.06.2023",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dochody rozpisane według pozycji z części VIII.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Instalacja fotowoltaiczna 9,77 kWp",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania BOŚ S.A. oraz WFOŚiGW odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "medium",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 217360.5,
+              "metrics": {
+                "income_pln": 266906.9,
+                "net_delta_pln": 49546.4,
+                "asset_delta_pln": 35161.35,
+                "debt_delta_pln": -14385.05
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 66,
+          "year": 2026,
+          "statement_date": "2026-04-29",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_MW_26/marzec_radoslaw_2026.pdf",
+          "file_path": "data\\raw\\marzec-radoslaw\\2026_3b739ee0a64d.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 1139676.4,
+          "income_total_pln": 284779.13,
+          "liabilities_total_pln": 423723.08999999997,
+          "filing_year": 2026,
+          "report_year": 2025,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 88000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "retirement_account",
+              "description": "IKZE",
+              "value_pln": 109305.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "IKZE",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_house",
+              "description": "Dom",
+              "value_pln": 900000.0,
+              "area": "233,22 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Dom",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Nieruchomość, na której znajduje się dom",
+              "value_pln": 37500.0,
+              "area": "0,1135 ha",
+              "legal_title": "umowa darowizny",
+              "ownership": "",
+              "raw_text": "Nieruchomość, na której znajduje się dom",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Udział 1/12 w nieruchomości",
+              "value_pln": 2500.0,
+              "area": "0,2415 ha",
+              "legal_title": "umowa darowizny",
+              "ownership": "",
+              "raw_text": "Udział 1/12 w nieruchomości",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IV",
+              "asset_type": "securities",
+              "description": "Akcje Bioton 190 szt. i JSW 70 szt.",
+              "value_pln": 2371.4,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Akcje Bioton 190 szt. i JSW 70 szt.",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Opel Corsa 2012, 1.2",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Opel Corsa 2012, 1.2",
+              "confidence": "high"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 1139676.4,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego miejskiego w Łodzi",
+              "amount_pln": 49569.79,
+              "raw_text": "Dieta radnego miejskiego w Łodzi",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Świadczenie z umowy o pracę",
+              "description": "Świadczenie z umowy o pracę",
+              "amount_pln": 131402.59,
+              "raw_text": "Świadczenie z umowy o pracę",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Świadczenie z umowy o pracę",
+              "description": "Świadczenie z umowy o pracę",
+              "amount_pln": 37306.75,
+              "raw_text": "Świadczenie z umowy o pracę",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "personal_services",
+              "payer": "Działalność wykonywana osobiście",
+              "description": "Działalność wykonywana osobiście",
+              "amount_pln": 65000.0,
+              "raw_text": "Działalność wykonywana osobiście",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "public_media_allowance",
+              "payer": "Dieta Rada Programowa TVP",
+              "description": "Dieta Rada Programowa TVP",
+              "amount_pln": 1500.0,
+              "raw_text": "Dieta Rada Programowa TVP",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Kredyt hipoteczny, kapitał do spłaty na koniec roku",
+              "amount_pln": 388372.55,
+              "currency": "PLN",
+              "raw_text": "Kredyt hipoteczny, kapitał do spłaty na koniec roku",
+              "confidence": "high"
+            },
+            {
+              "creditor": "WFOŚiGW w Łodzi",
+              "description": "Pożyczka/dofinansowanie, kwota do spłaty na koniec roku",
+              "amount_pln": 27350.54,
+              "currency": "PLN",
+              "raw_text": "Pożyczka/dofinansowanie, kwota do spłaty na koniec roku",
+              "confidence": "high"
+            },
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Limit karty kredytowej",
+              "amount_pln": 7000.0,
+              "currency": "PLN",
+              "raw_text": "Limit karty kredytowej",
+              "confidence": "high"
+            },
+            {
+              "creditor": "BOŚ S.A.",
+              "description": "Kredyt odnawialny",
+              "amount_pln": 1000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt odnawialny",
+              "confidence": "high"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne, IKZE oraz akcje Bioton/JSW odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Dom oraz dwie pozycje gruntowe; wartości odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach handlowych: nie dotyczy / nie posiada.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje: Bioton 190 szt. oraz JSW 70 szt., wartości według deklaracji rocznej.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Państwa lub samorządu: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Prowadzona działalność gospodarcza: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje w spółkach handlowych: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dochody rozpisane według pozycji z części VIII.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Opel Corsa 2012, 1.2",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania BOŚ S.A. oraz WFOŚiGW odczytane ręcznie z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": [
+              {
+                "label": "Środki pieniężne w walucie polskiej",
+                "value_pln": 88000.0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Masłowski Marcin",
+      "slug": "maslowski-marcin",
+      "role": "Radny/Radna",
+      "category": "Radni",
+      "statements": [
+        {
+          "id": 330,
+          "year": 2024,
+          "statement_date": "2024-05-06",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_24/maslowski_marcin_240506.pdf",
+          "file_path": "data\\raw\\maslowski-marcin\\2024_5878e908b43d.pdf",
+          "confidence": "low",
+          "notes": "Masłowski 2024: rękopis, wartości części VII-X są robocze i do późniejszej weryfikacji hurtowej.",
+          "assets_value_pln": 24000.0,
+          "income_total_pln": 278497.9,
+          "liabilities_total_pln": 537000.0,
+          "filing_year": 2024,
+          "report_year": 2023,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 4000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "low"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Subaru Outback 2010",
+              "value_pln": 20000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Subaru Outback 2010",
+              "confidence": "low"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 24000.0,
+          "incomes": [
+            {
+              "section_code": "VII",
+              "income_type": "company_role_income",
+              "payer": "EXPO Łódź sp. z o.o.",
+              "description": "Wynagrodzenie z funkcji w EXPO Łódź, odczyt roboczy",
+              "amount_pln": 23769.99,
+              "raw_text": "Wynagrodzenie z funkcji w EXPO Łódź, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "contract_work",
+              "payer": "Agencja reklamy / Fala",
+              "description": "Umowa zlecenie, odczyt roboczy",
+              "amount_pln": 35680.0,
+              "raw_text": "Umowa zlecenie, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "contract_work",
+              "payer": "do weryfikacji",
+              "description": "Umowa zlecenie, odczyt roboczy",
+              "amount_pln": 28668.0,
+              "raw_text": "Umowa zlecenie, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Urząd Miasta Łodzi",
+              "description": "Umowa o pracę w UMŁ, odczyt roboczy",
+              "amount_pln": 190379.91,
+              "raw_text": "Umowa o pracę w UMŁ, odczyt roboczy",
+              "confidence": "low"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "Bank Pocztowy",
+              "description": "Kredyt hipoteczny / gotówkowy, odczyt roboczy",
+              "amount_pln": 252000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt hipoteczny / gotówkowy, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "creditor": "Santander Bank",
+              "description": "Kredyt gotówkowy, odczyt roboczy",
+              "amount_pln": 180000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt gotówkowy, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "creditor": "Deutsche Bank",
+              "description": "Kredyt gotówkowy, odczyt roboczy",
+              "amount_pln": 105000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt gotówkowy, odczyt roboczy",
+              "confidence": "low"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne w PLN: 4 000 zł; waluty obce i papiery wartościowe: brak.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Nieruchomości: brak pozycji odczytanych z formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach handlowych: nie dotyczy / brak odczytanej pozycji.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje w spółkach handlowych: nie dotyczy / brak odczytanej pozycji.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Państwa lub samorządu: nie dotyczy / brak odczytanej pozycji.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Prowadzona działalność gospodarcza: nie dotyczy / brak odczytanej pozycji.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje i wynagrodzenia w spółkach: roboczy odczyt rękopisu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Inne dochody: roboczy odczyt rękopisu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Subaru Outback 2010  wartość roboczo 20 000 zł.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania pieniężne: roboczy odczyt rękopisu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0
+        },
+        {
+          "id": 382,
+          "year": 2025,
+          "statement_date": "2025-04-30",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_25/maslowski_marcin_2025.pdf",
+          "file_path": "data\\raw\\maslowski-marcin\\2025_473501b42c70.pdf",
+          "confidence": "low",
+          "notes": "Masłowski 2025: rękopis, kwoty zobowiązań i dochodów niskiej pewności.",
+          "assets_value_pln": 25000.0,
+          "income_total_pln": 211350.64,
+          "liabilities_total_pln": 600000.0,
+          "filing_year": 2025,
+          "report_year": 2024,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 0.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "low"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Subaru XV 2012",
+              "value_pln": 25000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Subaru XV 2012",
+              "confidence": "low"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 25000.0,
+          "incomes": [
+            {
+              "section_code": "VII",
+              "income_type": "company_role_income",
+              "payer": "EXPO Łódź sp. z o.o.",
+              "description": "Rada Nadzorcza EXPO Łódź, odczyt roboczy",
+              "amount_pln": 14619.68,
+              "raw_text": "Rada Nadzorcza EXPO Łódź, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "contract_work",
+              "payer": "Agencja Fala sp. z o.o.",
+              "description": "Umowa / wynagrodzenie, odczyt roboczy",
+              "amount_pln": 138041.26,
+              "raw_text": "Umowa / wynagrodzenie, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego, odczyt roboczy",
+              "amount_pln": 26508.36,
+              "raw_text": "Dieta radnego, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Urząd Miasta Łodzi",
+              "description": "UMŁ, odczyt roboczy",
+              "amount_pln": 32181.34,
+              "raw_text": "UMŁ, odczyt roboczy",
+              "confidence": "low"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "Bank Pocztowy",
+              "description": "Kredyt hipoteczny / gotówkowy, odczyt roboczy",
+              "amount_pln": 330000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt hipoteczny / gotówkowy, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "creditor": "Santander Bank",
+              "description": "Kredyt konsumencki, odczyt roboczy",
+              "amount_pln": 130000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt konsumencki, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "creditor": "PKO BP",
+              "description": "Kredyt konsumencki, odczyt roboczy",
+              "amount_pln": 15000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt konsumencki, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "creditor": "mBank",
+              "description": "Kredyt konsumencki, odczyt roboczy",
+              "amount_pln": 25000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt konsumencki, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "creditor": "Deutsche Bank",
+              "description": "Kredyt konsumencki z 2009 r., odczyt roboczy",
+              "amount_pln": 100000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt konsumencki z 2009 r., odczyt roboczy",
+              "confidence": "low"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne w PLN: 0 zł; waluty obce i papiery wartościowe: brak.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Nieruchomości: brak pozycji odczytanych z formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach handlowych: nie dotyczy / brak odczytanej pozycji.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje w spółkach handlowych: nie dotyczy / brak odczytanej pozycji.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Państwa lub samorządu: nie dotyczy / brak odczytanej pozycji.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Prowadzona działalność gospodarcza: nie dotyczy / brak odczytanej pozycji.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje i wynagrodzenia w spółkach: roboczy odczyt rękopisu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Inne dochody: roboczy odczyt rękopisu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Subaru XV 2012  wartość roboczo 25 000 zł.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania pieniężne: roboczy odczyt rękopisu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "medium",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 211350.64,
+              "metrics": {
+                "income_pln": 211350.64,
+                "net_delta_pln": -62000.0,
+                "asset_delta_pln": 1000.0,
+                "debt_delta_pln": 63000.0
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 67,
+          "year": 2026,
+          "statement_date": "2026-04-30",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_MW_26/maslowski_marcin_2026.pdf",
+          "file_path": "data\\raw\\maslowski-marcin\\2026_7fdca0d02c41.pdf",
+          "confidence": "low",
+          "notes": "Masłowski 2026: rękopis, część X niejednoznaczna; wpisane jako roboczy odczyt do weryfikacji.",
+          "assets_value_pln": 20000.0,
+          "income_total_pln": 300772.33,
+          "liabilities_total_pln": 593700.0,
+          "filing_year": 2026,
+          "report_year": 2025,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 0.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "low"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Subaru XV 2012",
+              "value_pln": 20000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Subaru XV 2012",
+              "confidence": "low"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 20000.0,
+          "incomes": [
+            {
+              "section_code": "VII",
+              "income_type": "company_role_income",
+              "payer": "Holding Łódzki sp. z o.o.",
+              "description": "Wynagrodzenie, odczyt roboczy",
+              "amount_pln": 17203.2,
+              "raw_text": "Wynagrodzenie, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "contract_work",
+              "payer": "Agencja Reklamy Fala sp. z o.o.",
+              "description": "Wynagrodzenie, odczyt roboczy",
+              "amount_pln": 236434.4,
+              "raw_text": "Wynagrodzenie, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego, odczyt roboczy",
+              "amount_pln": 47134.73,
+              "raw_text": "Dieta radnego, odczyt roboczy",
+              "confidence": "low"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "Bank Pocztowy",
+              "description": "Kredyt hipoteczny / gotówkowy, odczyt roboczy",
+              "amount_pln": 281000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt hipoteczny / gotówkowy, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "creditor": "mBank",
+              "description": "Kredyt, odczyt roboczy",
+              "amount_pln": 81700.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "creditor": "PKO BP",
+              "description": "Kredyt, odczyt roboczy",
+              "amount_pln": 231000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt, odczyt roboczy",
+              "confidence": "low"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne w PLN: 0 zł; waluty obce i papiery wartościowe: brak.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Nieruchomości: brak pozycji odczytanych z formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach handlowych: nie dotyczy / brak odczytanej pozycji.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje w spółkach handlowych: nie dotyczy / brak odczytanej pozycji.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Państwa lub samorządu: nie dotyczy / brak odczytanej pozycji.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Prowadzona działalność gospodarcza: nie dotyczy / brak odczytanej pozycji.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje i wynagrodzenia w spółkach: roboczy odczyt rękopisu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Inne dochody: roboczy odczyt rękopisu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Subaru XV 2012  wartość roboczo 20 000 zł.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania pieniężne: roboczy odczyt rękopisu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "high",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 299472.33,
+              "metrics": {
+                "income_pln": 300772.33,
+                "net_delta_pln": 1300.0,
+                "asset_delta_pln": -5000.0,
+                "debt_delta_pln": -6300.0
+              }
+            }
+          ],
+          "anomaly_score": 2,
+          "asset_changes": {
+            "new_significant_assets": []
           }
         }
       ]
