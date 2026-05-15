@@ -1,5 +1,5 @@
 window.ILE_ZARABIA_DATA = {
-  "generated_at": "2026-05-15 14:29:12",
+  "generated_at": "2026-05-15 18:16:12",
   "market_context": {
     "generated_label": "wyceny z 2026-05-15",
     "fx_effective_date": "2026-05-14",
@@ -7129,6 +7129,1416 @@ window.ILE_ZARABIA_DATA = {
           "anomaly_score": 2,
           "asset_changes": {
             "new_significant_assets": []
+          }
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Nykiel Kosma",
+      "slug": "nykiel-kosma",
+      "role": "Radny/Radna",
+      "category": "Radni",
+      "statements": [
+        {
+          "id": 333,
+          "year": 2024,
+          "statement_date": "2024-05-20",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_24/nykiel_kosma_240520.pdf",
+          "file_path": "data\\raw\\nykiel-kosma\\2024_ebedd98c2f0e.pdf",
+          "confidence": "medium",
+          "notes": "Manual review from rendered contact sheets. Foreign-currency incomes are kept in raw text unless PLN was declared.",
+          "assets_value_pln": 164668.5,
+          "income_total_pln": 4171.58,
+          "liabilities_total_pln": 0,
+          "filing_year": 2024,
+          "report_year": 2023,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 2300.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "foreign_currency",
+              "description": "Waluty obce",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "213 USD; 50 BWP; 114,38 GBP; 150 KES",
+              "confidence": "medium",
+              "estimated_value_pln": 771.17,
+              "estimate_note": "213 USD x 3.6205 PLN"
+            },
+            {
+              "section_code": "IV",
+              "asset_type": "securities",
+              "description": "Obligacje, akcje NYSE i fundusze inwestycyjne",
+              "value_pln": 162368.5,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Obligacje Skarbu Państwa 100 820 PLN; akcje na giełdzie NYSE 17 000 USD.",
+              "confidence": "medium"
+            }
+          ],
+          "assets_estimated_extra_pln": 771.17,
+          "assets_estimated_total_pln": 165439.67,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "contract_work",
+              "payer": "Umowy cywilnoprawne",
+              "description": "Umowy cywilnoprawne",
+              "amount_pln": 2002.08,
+              "raw_text": "2 002,08 PLN netto",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "dividend",
+              "payer": "Dywidendy z akcji giełdy NYSE",
+              "description": "Dywidendy z akcji giełdy NYSE",
+              "amount_pln": null,
+              "raw_text": "800 USD netto",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Umowa o pracę w Polsce",
+              "description": "Umowa o pracę w Polsce",
+              "amount_pln": 2169.5,
+              "raw_text": "2 169,50 PLN netto",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "foreign_employment",
+              "payer": "Umowa o pracę w Wielkiej Brytanii",
+              "description": "Umowa o pracę w Wielkiej Brytanii",
+              "amount_pln": null,
+              "raw_text": "15 023 GBP netto",
+              "confidence": "medium"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki PLN: 2300 PLN; waluty obce: 213 USD; 50 BWP; 114,38 GBP; 150 KES; papiery wartościowe: Obligacje Skarbu Państwa 100 820 PLN; akcje na giełdzie NYSE 17 000 USD.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Nieruchomości: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach handlowych: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje i dywidendy z giełdy NYSE wykazane w formularzu.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Państwa lub samorządu: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Prowadzona działalność gospodarcza: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje w spółkach handlowych: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dochody z diet, pracy, umów cywilnoprawnych, odsetek i dywidend.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Składniki mienia ruchomego powyżej progu: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0
+        },
+        {
+          "id": 384,
+          "year": 2025,
+          "statement_date": "2025-04-17",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_25/nykiel_kosma_2025.pdf",
+          "file_path": "data\\raw\\nykiel-kosma\\2025_fc53a1807359.pdf",
+          "confidence": "medium",
+          "notes": "Manual review from rendered contact sheets. Foreign-currency incomes are kept in raw text unless PLN was declared.",
+          "assets_value_pln": 188324.2,
+          "income_total_pln": 72104.57,
+          "liabilities_total_pln": 0,
+          "filing_year": 2025,
+          "report_year": 2024,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 8800.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "foreign_currency",
+              "description": "Waluty obce",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "6005 GBP; 6 USD; 7 EUR; 50 BWP; 150 KES",
+              "confidence": "medium",
+              "estimated_value_pln": 51.4,
+              "estimate_note": "6 USD x 3.6205 PLN; 7 EUR x 4.2401 PLN"
+            },
+            {
+              "section_code": "IV",
+              "asset_type": "securities",
+              "description": "Obligacje, akcje NYSE i fundusze inwestycyjne",
+              "value_pln": 179524.2,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Obligacje Skarbu Państwa 117 400 PLN; akcje NYSE 13 317 USD; Uniqo Fundusz Akcji Amerykańskich 4 438 PLN; Uniqo FIO/IKZE 9 472 PLN.",
+              "confidence": "medium"
+            }
+          ],
+          "assets_estimated_extra_pln": 51.4,
+          "assets_estimated_total_pln": 188375.6,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "contract_work",
+              "payer": "Umowy cywilnoprawne",
+              "description": "Umowy cywilnoprawne",
+              "amount_pln": 2378.08,
+              "raw_text": "2 378,08 PLN",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Dieta radnego",
+              "description": "Dieta radnego",
+              "amount_pln": 27545.5,
+              "raw_text": "27 545,50 PLN",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "dividend",
+              "payer": "Dywidendy z akcji giełdy NYSE",
+              "description": "Dywidendy z akcji giełdy NYSE",
+              "amount_pln": null,
+              "raw_text": "808 GBP",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Wynagrodzenie z umowy o pracę w Polsce",
+              "description": "Wynagrodzenie z umowy o pracę w Polsce",
+              "amount_pln": 36802.33,
+              "raw_text": "36 802,33 PLN",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "foreign_employment",
+              "payer": "Wynagrodzenie z umowy o pracę w Wielkiej Brytanii",
+              "description": "Wynagrodzenie z umowy o pracę w Wielkiej Brytanii",
+              "amount_pln": null,
+              "raw_text": "17 654,32 GBP",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "interest",
+              "payer": "Odsetki od obligacji Skarbu Państwa",
+              "description": "Odsetki od obligacji Skarbu Państwa",
+              "amount_pln": 5378.66,
+              "raw_text": "5 378,66 PLN",
+              "confidence": "medium"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki PLN: 8800 PLN; waluty obce: 6005 GBP; 6 USD; 7 EUR; 50 BWP; 150 KES; papiery wartościowe: Obligacje Skarbu Państwa 117 400 PLN; akcje NYSE 13 317 USD; Uniqo Fundusz Akcji Amerykańskich 4 438 PLN; Uniqo FIO/IKZE 9 472 PLN.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Nieruchomości: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach handlowych: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje i dywidendy z giełdy NYSE wykazane w formularzu.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Państwa lub samorządu: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Prowadzona działalność gospodarcza: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje w spółkach handlowych: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dochody z diet, pracy, umów cywilnoprawnych, odsetek i dywidend.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Składniki mienia ruchomego powyżej progu: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 69,
+          "year": 2026,
+          "statement_date": "2026-04-22",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_MW_26/nykiel_kosma_2026.pdf",
+          "file_path": "data\\raw\\nykiel-kosma\\2026_be7e86465c7f.pdf",
+          "confidence": "medium",
+          "notes": "Manual review from rendered contact sheets. Foreign-currency incomes are kept in raw text unless PLN was declared.",
+          "assets_value_pln": 257481.87,
+          "income_total_pln": 247358.5,
+          "liabilities_total_pln": 0,
+          "filing_year": 2026,
+          "report_year": 2025,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 63094.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "foreign_currency",
+              "description": "Waluty obce",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "7663,67 GBP; 3568,57 USD; 50 BWP; 150 KES; 40 HKD; 100 PHP; 100 TWD",
+              "confidence": "medium",
+              "estimated_value_pln": 12920.01,
+              "estimate_note": "3568.57 USD x 3.6205 PLN"
+            },
+            {
+              "section_code": "IV",
+              "asset_type": "securities",
+              "description": "Obligacje, akcje NYSE i fundusze inwestycyjne",
+              "value_pln": 194387.87,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Obligacje Skarbu Państwa 125 000 PLN; akcje na giełdzie NYSE 12 030,47 USD; Uniqo Fundusz Akcji Amerykańskich 5 002,44 PLN; fundusze inwestycyjne Uniqo IKZE 20 829,11 PLN.",
+              "confidence": "medium"
+            }
+          ],
+          "assets_estimated_extra_pln": 12920.01,
+          "assets_estimated_total_pln": 270401.88,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "contract_work",
+              "payer": "Umowy cywilnoprawne",
+              "description": "Umowy cywilnoprawne",
+              "amount_pln": 20755.05,
+              "raw_text": "20 755,05 PLN",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Dieta radnego",
+              "description": "Dieta radnego",
+              "amount_pln": 49075.05,
+              "raw_text": "49 075,05 PLN",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "dividend",
+              "payer": "Dywidendy z akcji giełdy NYSE",
+              "description": "Dywidendy z akcji giełdy NYSE",
+              "amount_pln": null,
+              "raw_text": "768,91 GBP",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Umowa o pracę",
+              "description": "Umowa o pracę",
+              "amount_pln": 91324.52,
+              "raw_text": "91 324,52 PLN",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment_tax_relief",
+              "payer": "Dochód z umowy o pracę objęty ulgą",
+              "description": "Dochód z umowy o pracę objęty ulgą",
+              "amount_pln": 85528.0,
+              "raw_text": "85 528,00 PLN",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "interest",
+              "payer": "Odsetki od obligacji Skarbu Państwa",
+              "description": "Odsetki od obligacji Skarbu Państwa",
+              "amount_pln": 675.88,
+              "raw_text": "675,88 PLN",
+              "confidence": "medium"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki PLN: 63094 PLN; waluty obce: 7663,67 GBP; 3568,57 USD; 50 BWP; 150 KES; 40 HKD; 100 PHP; 100 TWD; papiery wartościowe: Obligacje Skarbu Państwa 125 000 PLN; akcje na giełdzie NYSE 12 030,47 USD; Uniqo Fundusz Akcji Amerykańskich 5 002,44 PLN; fundusze inwestycyjne Uniqo IKZE 20 829,11 PLN.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Nieruchomości: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach handlowych: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje i dywidendy z giełdy NYSE wykazane w formularzu.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Państwa lub samorządu: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Prowadzona działalność gospodarcza: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje w spółkach handlowych: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dochody z diet, pracy, umów cywilnoprawnych, odsetek i dywidend.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Składniki mienia ruchomego powyżej progu: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "medium",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 165332.22,
+              "metrics": {
+                "income_pln": 247358.5,
+                "net_delta_pln": 82026.28,
+                "asset_delta_pln": 82026.28,
+                "debt_delta_pln": 0
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": [
+              {
+                "label": "Środki pieniężne w walucie polskiej",
+                "value_pln": 63094.0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Ścibor Kamila",
+      "slug": "scibor-kamila",
+      "role": "Radny/Radna",
+      "category": "Radni",
+      "statements": [
+        {
+          "id": 344,
+          "year": 2024,
+          "statement_date": "2024-06-03",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_24/scibor_kamila_240603.pdf",
+          "file_path": "data\\raw\\scibor-kamila\\2024_8779ea9237a5.pdf",
+          "confidence": "medium",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 1208238.0,
+          "income_total_pln": 32858.92,
+          "liabilities_total_pln": 240159.06,
+          "filing_year": 2024,
+          "report_year": 2023,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 20000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka leśna",
+              "value_pln": 128238.0,
+              "area": "3886 m2",
+              "legal_title": "małżeńska wspólność majątkowa",
+              "ownership": "",
+              "raw_text": "Działka leśna",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka z pawilonem handlowym",
+              "value_pln": 585000.0,
+              "area": "udział 538/3968",
+              "legal_title": "małżeńska wspólność majątkowa",
+              "ownership": "",
+              "raw_text": "Działka z pawilonem handlowym",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka drogowa i działka budowlana",
+              "value_pln": 25000.0,
+              "area": "50 m2 i 70 m2",
+              "legal_title": "małżeńska wspólność majątkowa",
+              "ownership": "",
+              "raw_text": "Działka drogowa i działka budowlana",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka budowlano-przemysłowa",
+              "value_pln": 450000.0,
+              "area": "808 m2",
+              "legal_title": "małżeńska wspólność majątkowa",
+              "ownership": "",
+              "raw_text": "Działka budowlano-przemysłowa",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Mazda RX8 2007",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Mazda RX8 2007",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Skoda Fabia 2013",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Skoda Fabia 2013",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Fiat Panda 2014",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Fiat Panda 2014",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "BMW 330 2008",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "BMW 330 2008",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Mercedes Vito 2011",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Mercedes Vito 2011",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "VW ID.Buzz 2022",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "VW ID.Buzz 2022",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Citroen Hobby 2021",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Citroen Hobby 2021",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Citroen C0 2011",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Citroen C0 2011",
+              "confidence": "medium"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 1208238.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska / rada osiedla",
+              "description": "Dieta radnego osiedla",
+              "amount_pln": 858.92,
+              "raw_text": "Dieta radnego osiedla",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "rental_income",
+              "payer": "Wynajem powierzchni biurowych",
+              "description": "Wynajem powierzchni biurowych",
+              "amount_pln": 32000.0,
+              "raw_text": "Wynajem powierzchni biurowych",
+              "confidence": "medium"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "Bank Millennium",
+              "description": "Kredyt obrotowy, wykorzystanie na dzień oświadczenia",
+              "amount_pln": 22931.13,
+              "currency": "PLN",
+              "raw_text": "Kredyt obrotowy, wykorzystanie na dzień oświadczenia",
+              "confidence": "medium"
+            },
+            {
+              "creditor": "Bank Millennium",
+              "description": "Kredyt firmowy z 11.2022, pozostało do spłaty",
+              "amount_pln": 217227.93,
+              "currency": "PLN",
+              "raw_text": "Kredyt firmowy z 11.2022, pozostało do spłaty",
+              "confidence": "medium"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne w PLN: 20000 zł; waluty obce i papiery wartościowe: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie i/lub działki odczytane z części II formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach handlowych: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje w spółkach handlowych: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Państwa lub samorządu: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Prowadzona działalność gospodarcza: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje w spółkach handlowych: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Diety i dochody z wynajmu według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Mazda RX8 2007; Skoda Fabia 2013; Fiat Panda 2014; BMW 330 2008; Mercedes Vito 2011; VW ID.Buzz 2022; Citroen Hobby 2021; Citroen C0 2011",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania bankowe według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0
+        },
+        {
+          "id": 391,
+          "year": 2025,
+          "statement_date": "2025-04-23",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_25/scibor_kamila_2025.pdf",
+          "file_path": "data\\raw\\scibor-kamila\\2025_3431a866b01d.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 1547238.0,
+          "income_total_pln": 175005.16,
+          "liabilities_total_pln": 0,
+          "filing_year": 2025,
+          "report_year": 2024,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 29000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 355000.0,
+              "area": "54,36 m2",
+              "legal_title": "majątek odrębny, nabyty w drodze spadku",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka leśna",
+              "value_pln": 128238.0,
+              "area": "3886 m2, udział 1/2",
+              "legal_title": "majątek odrębny",
+              "ownership": "",
+              "raw_text": "Działka leśna",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka z pawilonem handlowym",
+              "value_pln": 585000.0,
+              "area": "udział 538/3968, udział 1/2",
+              "legal_title": "majątek odrębny",
+              "ownership": "",
+              "raw_text": "Działka z pawilonem handlowym",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka budowlano-przemysłowa",
+              "value_pln": 450000.0,
+              "area": "808 m2, udział 1/2",
+              "legal_title": "majątek odrębny",
+              "ownership": "",
+              "raw_text": "Działka budowlano-przemysłowa",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Citroen C0 2011",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Citroen C0 2011",
+              "confidence": "high"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 1547238.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska / rada osiedla",
+              "description": "Dieta rady osiedla",
+              "amount_pln": 1259.75,
+              "raw_text": "Dieta rady osiedla",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska / rada osiedla",
+              "description": "Dieta radnego",
+              "amount_pln": 77745.41,
+              "raw_text": "Dieta radnego",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "rental_income",
+              "payer": "Wynajem powierzchni biurowych",
+              "description": "Wynajem powierzchni biurowych",
+              "amount_pln": 96000.0,
+              "raw_text": "Wynajem powierzchni biurowych",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne w PLN: 29000 zł; waluty obce i papiery wartościowe: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie i/lub działki odczytane z części II formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach handlowych: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje w spółkach handlowych: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Państwa lub samorządu: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Prowadzona działalność gospodarcza: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje w spółkach handlowych: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Diety i dochody z wynajmu według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Citroen C0 2011",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "asset_jump",
+              "severity": "medium",
+              "title": "Skok majątku większy niż deklarowane źródła",
+              "description": "Wzrost aktywów jest większy niż suma dochodu i wzrostu zadłużenia w tym okresie.",
+              "amount_pln": 163994.84,
+              "metrics": {
+                "income_pln": 175005.16,
+                "asset_delta_pln": 339000.0,
+                "debt_delta_pln": -240159.06
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": [
+              {
+                "label": "Mieszkanie",
+                "value_pln": 355000.0
+              },
+              {
+                "label": "Działka leśna",
+                "value_pln": 128238.0
+              },
+              {
+                "label": "Działka z pawilonem handlowym",
+                "value_pln": 585000.0
+              },
+              {
+                "label": "Działka budowlano-przemysłowa",
+                "value_pln": 450000.0
+              }
+            ]
+          }
+        },
+        {
+          "id": 74,
+          "year": 2026,
+          "statement_date": "2026-04-27",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_MW_26/scibor_kamila_2026.pdf",
+          "file_path": "data\\raw\\scibor-kamila\\2026_da63ab34f294.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 2123238.0,
+          "income_total_pln": 145262.05,
+          "liabilities_total_pln": 0,
+          "filing_year": 2026,
+          "report_year": 2025,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 42000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 370000.0,
+              "area": "54,36 m2",
+              "legal_title": "majątek odrębny, nabyty w drodze spadku",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka leśna",
+              "value_pln": 128238.0,
+              "area": "2508,93 m2, udział 1/2",
+              "legal_title": "majątek odrębny",
+              "ownership": "",
+              "raw_text": "Działka leśna",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka budowlana",
+              "value_pln": 548000.0,
+              "area": "1377,07 m2, udział 1/2",
+              "legal_title": "majątek odrębny",
+              "ownership": "",
+              "raw_text": "Działka budowlana",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka z pawilonem handlowym",
+              "value_pln": 585000.0,
+              "area": "udział 538/3968",
+              "legal_title": "majątek odrębny",
+              "ownership": "",
+              "raw_text": "Działka z pawilonem handlowym",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka budowlano-przemysłowa",
+              "value_pln": 450000.0,
+              "area": "808 m2, udział 1/2",
+              "legal_title": "majątek odrębny",
+              "ownership": "",
+              "raw_text": "Działka budowlano-przemysłowa",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Citroen C0 2011, udział 1/2",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Citroen C0 2011, udział 1/2",
+              "confidence": "high"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 2123238.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska / rada osiedla",
+              "description": "Dieta radnego",
+              "amount_pln": 49562.05,
+              "raw_text": "Dieta radnego",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "rental_income",
+              "payer": "Wynajem powierzchni lokali",
+              "description": "Wynajem powierzchni lokali",
+              "amount_pln": 95700.0,
+              "raw_text": "Wynajem powierzchni lokali",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne w PLN: 42000 zł; waluty obce i papiery wartościowe: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie i/lub działki odczytane z części II formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach handlowych: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje w spółkach handlowych: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Państwa lub samorządu: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Prowadzona działalność gospodarcza: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje w spółkach handlowych: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Diety i dochody z wynajmu według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Citroen C0 2011, udział 1/2",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "asset_jump",
+              "severity": "medium",
+              "title": "Skok majątku większy niż deklarowane źródła",
+              "description": "Wzrost aktywów jest większy niż suma dochodu i wzrostu zadłużenia w tym okresie.",
+              "amount_pln": 430737.95,
+              "metrics": {
+                "income_pln": 145262.05,
+                "asset_delta_pln": 576000.0,
+                "debt_delta_pln": 0
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": [
+              {
+                "label": "Działka leśna",
+                "value_pln": 128238.0
+              },
+              {
+                "label": "Działka budowlana",
+                "value_pln": 548000.0
+              },
+              {
+                "label": "Działka z pawilonem handlowym",
+                "value_pln": 585000.0
+              }
+            ]
           }
         }
       ]
