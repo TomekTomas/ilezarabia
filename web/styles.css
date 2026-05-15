@@ -309,12 +309,14 @@ a {
 
 .timeline-section,
 .comparison-lab,
+.anomaly-panel,
 .detail-grid,
 .sections-wall {
   margin-top: 12px;
 }
 
 .timeline-section,
+.anomaly-panel,
 .comparison-lab {
   padding: 12px;
   border: 1px solid var(--line);
@@ -468,6 +470,66 @@ h3 {
 
 .estimate-note {
   color: rgba(24, 23, 19, 0.62);
+}
+
+.anomaly-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.anomaly-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid var(--line);
+  background: rgba(244, 239, 227, 0.7);
+}
+
+.anomaly-card.high {
+  border-color: var(--oxide);
+  box-shadow: inset 4px 0 0 var(--oxide);
+}
+
+.anomaly-card.medium {
+  border-color: rgba(169, 67, 44, 0.42);
+  box-shadow: inset 4px 0 0 var(--signal);
+}
+
+.anomaly-card.asset-note {
+  box-shadow: inset 4px 0 0 var(--civic);
+}
+
+.anomaly-card h4 {
+  margin: 0 0 5px;
+  font-family: var(--display);
+  font-size: 0.82rem;
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+
+.anomaly-card p {
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.28;
+}
+
+.anomaly-card > strong {
+  font-family: var(--mono);
+  white-space: nowrap;
+}
+
+.anomaly-card footer {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
+  font-family: var(--mono);
+  font-size: 0.64rem;
 }
 
 .sections-grid {
@@ -735,7 +797,8 @@ h3 {
 @media (max-width: 980px) {
   .hero,
   .pillar-grid,
-  .detail-grid {
+  .detail-grid,
+  .anomaly-list {
     grid-template-columns: 1fr;
   }
 

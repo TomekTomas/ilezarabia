@@ -181,6 +181,51 @@
     `;
   }
 
+  function anomalyMarkup(anomaly) {
+    const metrics = anomaly.metrics || {};
+    const metricRows = [
+      ["dochód", metrics.income_pln],
+      ["zmiana netto", metrics.net_delta_pln],
+      ["zmiana majątku", metrics.asset_delta_pln],
+      ["zmiana długu", metrics.debt_delta_pln],
+    ]
+      .filter(([, value]) => value !== undefined)
+      .map(([label, value]) => `<span>${label}: <strong>${formatValue(value, true)}</strong></span>`)
+      .join("");
+    return `
+      <article class="anomaly-card ${escapeHtml(anomaly.severity)}">
+        <div>
+          <span class="item-type">${escapeHtml(anomaly.severity === "high" ? "wysoki sygnał" : "do sprawdzenia")}</span>
+          <h4>${escapeHtml(anomaly.title)}</h4>
+          <p>${escapeHtml(anomaly.description)}</p>
+        </div>
+        <strong>${formatValue(anomaly.amount_pln, true)}</strong>
+        <footer>${metricRows}</footer>
+      </article>
+    `;
+  }
+
+  function renderAnomalies() {
+    const node = document.querySelector("#anomalyList");
+    const anomalies = selectedStatement?.anomalies || [];
+    const newAssets = selectedStatement?.asset_changes?.new_significant_assets || [];
+    const assetNotes = newAssets
+      .map((item) => `
+        <article class="anomaly-card asset-note">
+          <div>
+            <span class="item-type">nowy składnik</span>
+            <h4>${escapeHtml(item.label)}</h4>
+            <p>Składnik pojawia się jako nowa istotna pozycja względem poprzedniego roku danych.</p>
+          </div>
+          <strong>${formatValue(item.value_pln, true)}</strong>
+        </article>
+      `)
+      .join("");
+    node.innerHTML = anomalies.length || assetNotes
+      ? `${anomalies.map(anomalyMarkup).join("")}${assetNotes}`
+      : '<p class="empty">Brak mocnych sygnałów w porównaniu z poprzednim rokiem danych.</p>';
+  }
+
   function renderList(selector, items, typeKey, valueKey, emptyText) {
     const node = document.querySelector(selector);
     node.innerHTML = items.length
@@ -323,6 +368,7 @@
     renderIdentity();
     renderPillars();
     renderTimeline();
+    renderAnomalies();
     renderComparePeople();
     renderMultiCompare();
     renderDetails();

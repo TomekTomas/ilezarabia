@@ -81,6 +81,114 @@ def estimate_item_value(item: dict) -> None:
         item["estimate_note"] = "; ".join(parts)
 
 
+def item_key(item: dict) -> str:
+    parts = [
+        item.get("asset_type") or "",
+        item.get("description") or "",
+        item.get("area") or "",
+        item.get("legal_title") or "",
+    ]
+    return re.sub(r"\s+", " ", " ".join(parts).lower()).strip()
+
+
+def significant_assets(statement: dict) -> list[dict]:
+    items = []
+    for item in statement.get("assets", []):
+        value = item.get("value_pln") or item.get("estimated_value_pln") or 0
+        if value >= 50_000:
+            items.append({"key": item_key(item), "label": item.get("description") or item.get("asset_type"), "value": value})
+    return items
+
+
+def attach_anomalies(statements: list[dict]) -> None:
+    previous = None
+    for statement in statements:
+        statement["anomalies"] = []
+        statement["anomaly_score"] = 0
+        if previous is None:
+            previous = statement
+            continue
+
+        income = statement.get("income_total_pln") or 0
+        asset_total = statement.get("assets_estimated_total_pln") or statement.get("assets_value_pln") or 0
+        previous_asset_total = previous.get("assets_estimated_total_pln") or previous.get("assets_value_pln") or 0
+        debt_total = statement.get("liabilities_total_pln") or 0
+        previous_debt_total = previous.get("liabilities_total_pln") or 0
+        asset_delta = asset_total - previous_asset_total
+        debt_delta = debt_total - previous_debt_total
+        net_delta = (asset_total - debt_total) - (previous_asset_total - previous_debt_total)
+        unexplained_gap = income - max(net_delta, 0)
+
+        previous_assets = {item["key"] for item in significant_assets(previous)}
+        current_assets = significant_assets(statement)
+        new_assets = [item for item in current_assets if item["key"] not in previous_assets]
+
+        if income >= 100_000 and unexplained_gap >= max(100_000, income * 0.35):
+            severity = "high" if unexplained_gap >= max(250_000, income * 0.55) else "medium"
+            statement["anomalies"].append(
+                {
+                    "type": "income_gap",
+                    "severity": severity,
+                    "title": "Dochód nie widać w zmianie majątku",
+                    "description": (
+                        "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. "
+                        "Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu "
+                        "albo brak pełnego odzwierciedlenia w aktywach."
+                    ),
+                    "amount_pln": round(unexplained_gap, 2),
+                    "metrics": {
+                        "income_pln": round(income, 2),
+                        "net_delta_pln": round(net_delta, 2),
+                        "asset_delta_pln": round(asset_delta, 2),
+                        "debt_delta_pln": round(debt_delta, 2),
+                    },
+                }
+            )
+
+        if asset_delta >= max(150_000, income + max(debt_delta, 0) + 100_000):
+            statement["anomalies"].append(
+                {
+                    "type": "asset_jump",
+                    "severity": "medium",
+                    "title": "Skok majątku większy niż deklarowane źródła",
+                    "description": "Wzrost aktywów jest większy niż suma dochodu i wzrostu zadłużenia w tym okresie.",
+                    "amount_pln": round(asset_delta - income - max(debt_delta, 0), 2),
+                    "metrics": {
+                        "income_pln": round(income, 2),
+                        "asset_delta_pln": round(asset_delta, 2),
+                        "debt_delta_pln": round(debt_delta, 2),
+                    },
+                }
+            )
+
+        if debt_delta >= 100_000 and asset_delta < debt_delta * 0.4:
+            statement["anomalies"].append(
+                {
+                    "type": "debt_jump",
+                    "severity": "medium",
+                    "title": "Wzrost zobowiązań bez podobnego wzrostu aktywów",
+                    "description": "Zadłużenie wzrosło dużo mocniej niż widoczny majątek.",
+                    "amount_pln": round(debt_delta, 2),
+                    "metrics": {
+                        "asset_delta_pln": round(asset_delta, 2),
+                        "debt_delta_pln": round(debt_delta, 2),
+                    },
+                }
+            )
+
+        if new_assets:
+            statement["asset_changes"] = {
+                "new_significant_assets": [
+                    {"label": item["label"], "value_pln": round(item["value"], 2)} for item in new_assets[:5]
+                ]
+            }
+        else:
+            statement["asset_changes"] = {"new_significant_assets": []}
+
+        statement["anomaly_score"] = sum(2 if item["severity"] == "high" else 1 for item in statement["anomalies"])
+        previous = statement
+
+
 def rows(conn: sqlite3.Connection, query: str, params: tuple = ()) -> list[dict]:
     conn.row_factory = sqlite3.Row
     return [dict(row) for row in conn.execute(query, params)]
@@ -191,6 +299,7 @@ def export_payload(db_path: Path) -> dict:
                 except json.JSONDecodeError:
                     section["structured"] = {}
 
+        attach_anomalies(statements)
         person["statements"] = statements
 
     return {

@@ -1,5 +1,5 @@
 window.ILE_ZARABIA_DATA = {
-  "generated_at": "2026-05-15 09:58:14",
+  "generated_at": "2026-05-15 10:23:28",
   "market_context": {
     "generated_label": "wyceny z 2026-05-15",
     "fx_effective_date": "2026-05-14",
@@ -262,7 +262,9 @@ window.ILE_ZARABIA_DATA = {
                 "has_liabilities_over_10000_pln": true
               }
             }
-          ]
+          ],
+          "anomalies": [],
+          "anomaly_score": 0
         },
         {
           "id": 129,
@@ -479,7 +481,26 @@ window.ILE_ZARABIA_DATA = {
                 "has_liabilities_over_10000_pln": true
               }
             }
-          ]
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "medium",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 126650.53,
+              "metrics": {
+                "income_pln": 126650.53,
+                "net_delta_pln": -25648.23,
+                "asset_delta_pln": -8650.41,
+                "debt_delta_pln": 16997.82
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
         },
         {
           "id": 192,
@@ -687,7 +708,26 @@ window.ILE_ZARABIA_DATA = {
                 "has_liabilities_over_10000_pln": true
               }
             }
-          ]
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "medium",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 146779.5,
+              "metrics": {
+                "income_pln": 146779.5,
+                "net_delta_pln": -4388.11,
+                "asset_delta_pln": -4388.11,
+                "debt_delta_pln": 0.0
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
         },
         {
           "id": 239,
@@ -886,7 +926,26 @@ window.ILE_ZARABIA_DATA = {
                 "has_liabilities_over_10000_pln": false
               }
             }
-          ]
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "medium",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 150279.02,
+              "metrics": {
+                "income_pln": 175633.76,
+                "net_delta_pln": 25354.74,
+                "asset_delta_pln": 5856.92,
+                "debt_delta_pln": -19497.82
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
         },
         {
           "id": 15,
@@ -1085,7 +1144,26 @@ window.ILE_ZARABIA_DATA = {
                 "has_liabilities_over_10000_pln": false
               }
             }
-          ]
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "medium",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 109983.29,
+              "metrics": {
+                "income_pln": 182580.89,
+                "net_delta_pln": 72597.6,
+                "asset_delta_pln": 72597.6,
+                "debt_delta_pln": 0
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
         },
         {
           "id": 358,
@@ -1275,7 +1353,26 @@ window.ILE_ZARABIA_DATA = {
                 "has_liabilities_over_10000_pln": false
               }
             }
-          ]
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "medium",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 182367.39,
+              "metrics": {
+                "income_pln": 182367.39,
+                "net_delta_pln": -11611.0,
+                "asset_delta_pln": -11611.0,
+                "debt_delta_pln": 0
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
         },
         {
           "id": 46,
@@ -1492,7 +1589,12 @@ window.ILE_ZARABIA_DATA = {
                 "has_liabilities_over_10000_pln": false
               }
             }
-          ]
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
         }
       ]
     },
@@ -1709,7 +1811,9 @@ window.ILE_ZARABIA_DATA = {
               "review_status": "manual_reviewed",
               "structured": {}
             }
-          ]
+          ],
+          "anomalies": [],
+          "anomaly_score": 0
         },
         {
           "id": 303,
@@ -1930,7 +2034,17 @@ window.ILE_ZARABIA_DATA = {
               "review_status": "manual_reviewed",
               "structured": {}
             }
-          ]
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": [
+              {
+                "label": "Dom",
+                "value_pln": 1000000.0
+              }
+            ]
+          }
         },
         {
           "id": 366,
@@ -2185,7 +2299,21 @@ window.ILE_ZARABIA_DATA = {
                 "has_liabilities_over_10000_pln": false
               }
             }
-          ]
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": [
+              {
+                "label": "Środki pieniężne w walucie polskiej",
+                "value_pln": 121527.15
+              },
+              {
+                "label": "Waluty obce i kryptoaktywa",
+                "value_pln": 224746.76
+              }
+            ]
+          }
         },
         {
           "id": 53,
@@ -2451,7 +2579,39 @@ window.ILE_ZARABIA_DATA = {
                 "has_liabilities_over_10000_pln": false
               }
             }
-          ]
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "high",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 1090601.1,
+              "metrics": {
+                "income_pln": 1315740.4,
+                "net_delta_pln": 225139.3,
+                "asset_delta_pln": 225139.3,
+                "debt_delta_pln": 0
+              }
+            }
+          ],
+          "anomaly_score": 2,
+          "asset_changes": {
+            "new_significant_assets": [
+              {
+                "label": "Papiery wartościowe",
+                "value_pln": 52258.95
+              },
+              {
+                "label": "Mieszkanie",
+                "value_pln": 317507.57
+              },
+              {
+                "label": "Działka 234 m2",
+                "value_pln": 100000.0
+              }
+            ]
+          }
         }
       ]
     },
@@ -2644,7 +2804,9 @@ window.ILE_ZARABIA_DATA = {
               "review_status": "manual_reviewed",
               "structured": {}
             }
-          ]
+          ],
+          "anomalies": [],
+          "anomaly_score": 0
         },
         {
           "id": 380,
@@ -2828,7 +2990,31 @@ window.ILE_ZARABIA_DATA = {
               "review_status": "manual_reviewed",
               "structured": {}
             }
-          ]
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "medium",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 174500.0,
+              "metrics": {
+                "income_pln": 239500.0,
+                "net_delta_pln": 65000.0,
+                "asset_delta_pln": 85000.0,
+                "debt_delta_pln": 20000.0
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": [
+              {
+                "label": "Środki pieniężne w walucie polskiej",
+                "value_pln": 60000.0
+              }
+            ]
+          }
         },
         {
           "id": 65,
@@ -3094,7 +3280,31 @@ window.ILE_ZARABIA_DATA = {
               "review_status": "reviewed",
               "structured": {}
             }
-          ]
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "high",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 568245.89,
+              "metrics": {
+                "income_pln": 568245.89,
+                "net_delta_pln": -249071.59,
+                "asset_delta_pln": 220996.41,
+                "debt_delta_pln": 470068.0
+              }
+            }
+          ],
+          "anomaly_score": 2,
+          "asset_changes": {
+            "new_significant_assets": [
+              {
+                "label": "Mieszkanie",
+                "value_pln": 208000.0
+              }
+            ]
+          }
         }
       ]
     }
