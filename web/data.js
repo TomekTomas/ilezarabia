@@ -1,5 +1,5 @@
 window.ILE_ZARABIA_DATA = {
-  "generated_at": "2026-05-16 23:12:36",
+  "generated_at": "2026-05-16 23:19:20",
   "market_context": {
     "generated_label": "wyceny z 2026-05-15",
     "fx_effective_date": "2026-05-14",
@@ -1588,6 +1588,1191 @@ window.ILE_ZARABIA_DATA = {
               "structured": {
                 "has_liabilities_over_10000_pln": false
               }
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Chojnacka-Duraj Justyna",
+      "slug": "chojnacka-duraj-justyna",
+      "role": "Radny/Radna",
+      "category": "Radni",
+      "statements": [
+        {
+          "id": 93,
+          "year": 2020,
+          "statement_date": "2020-05-29",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_20/chojnacka-duraj_justyna_2020.pdf",
+          "file_path": "data\\raw\\chojnacka-duraj-justyna\\2020_90d28241f0e1.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 460000.0,
+          "income_total_pln": 129674.31,
+          "liabilities_total_pln": 0,
+          "filing_year": 2020,
+          "report_year": 2019,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 60000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 400000.0,
+              "area": "65 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Ford Focus 2010",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Ford Focus 2010",
+              "confidence": "high"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 460000.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska / rada osiedla",
+              "description": "Dieta radnego",
+              "amount_pln": 31404.32,
+              "raw_text": "Dieta radnego",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska / rada osiedla",
+              "description": "Dieta rady osiedla",
+              "amount_pln": 561.94,
+              "raw_text": "Dieta rady osiedla",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Umowa o pracę",
+              "description": "Umowa o pracę",
+              "amount_pln": 97708.05,
+              "raw_text": "Umowa o pracę",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: około 60000 zł; waluty i papiery wartościowe: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie oraz ewentualna działka odczytane z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta, umowa o pracę i inne źródła dochodu.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Ford Focus 2010",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0
+        },
+        {
+          "id": 140,
+          "year": 2021,
+          "statement_date": "2021-04-30",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_21/chojnacka-duraj_justyna_2021.pdf",
+          "file_path": "data\\raw\\chojnacka-duraj-justyna\\2021_157420d907c4.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 580000.0,
+          "income_total_pln": 133674.36000000002,
+          "liabilities_total_pln": 6100.0,
+          "filing_year": 2021,
+          "report_year": 2020,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 80000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 500000.0,
+              "area": "65 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Nissan 2020",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Nissan 2020",
+              "confidence": "high"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 580000.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska / rada osiedla",
+              "description": "Dieta radnego",
+              "amount_pln": 30800.4,
+              "raw_text": "Dieta radnego",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Umowa o pracę",
+              "description": "Umowa o pracę",
+              "amount_pln": 95587.16,
+              "raw_text": "Umowa o pracę",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "other_income",
+              "payer": "Inne źródła",
+              "description": "Inne źródła",
+              "amount_pln": 7286.8,
+              "raw_text": "Inne źródła",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "ZFŚS",
+              "description": "Pożyczka z ZFŚS",
+              "amount_pln": 6100.0,
+              "currency": "PLN",
+              "raw_text": "Pożyczka z ZFŚS",
+              "confidence": "high"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: około 80000 zł; waluty i papiery wartościowe: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie oraz ewentualna działka odczytane z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta, umowa o pracę i inne źródła dochodu.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Nissan 2020",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania z ZFŚS według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 201,
+          "year": 2022,
+          "statement_date": "2022-04-28",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_22/chojnacka-duraj_justyna_2022.pdf",
+          "file_path": "data\\raw\\chojnacka-duraj-justyna\\2022_ed7b593652f6.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 570000.0,
+          "income_total_pln": 79155.11,
+          "liabilities_total_pln": 40666.56,
+          "filing_year": 2022,
+          "report_year": 2021,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 120000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 450000.0,
+              "area": "65 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "X-Trail Nissan 2020",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "X-Trail Nissan 2020",
+              "confidence": "high"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 570000.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska / rada osiedla",
+              "description": "Dieta radnego",
+              "amount_pln": 34464.6,
+              "raw_text": "Dieta radnego",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "other_income",
+              "payer": "Inne źródła",
+              "description": "Inne źródła",
+              "amount_pln": 37990.92,
+              "raw_text": "Inne źródła",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "other_income",
+              "payer": "Inne źródła",
+              "description": "Inne źródła",
+              "amount_pln": 1886.2,
+              "raw_text": "Inne źródła",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "personal_services",
+              "payer": "Działalność wykonywana osobiście",
+              "description": "Działalność wykonywana osobiście",
+              "amount_pln": 4813.39,
+              "raw_text": "Działalność wykonywana osobiście",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "ZFŚS",
+              "description": "Pożyczka gotówkowa z ZFŚS, pozostało do spłaty",
+              "amount_pln": 40666.56,
+              "currency": "PLN",
+              "raw_text": "Pożyczka gotówkowa z ZFŚS, pozostało do spłaty",
+              "confidence": "high"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: około 120000 zł; waluty i papiery wartościowe: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie oraz ewentualna działka odczytane z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta, umowa o pracę i inne źródła dochodu.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "X-Trail Nissan 2020",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania z ZFŚS według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 246,
+          "year": 2023,
+          "statement_date": "2023-04-28",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_23/Chojnacka-Duraj_Justyna_2023.pdf",
+          "file_path": "data\\raw\\chojnacka-duraj-justyna\\2023_db54f7654c12.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 700000.0,
+          "income_total_pln": 132636.67,
+          "liabilities_total_pln": 25416.0,
+          "filing_year": 2023,
+          "report_year": 2022,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 200000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 500000.0,
+              "area": "65 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "X-Trail Nissan 2020",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "X-Trail Nissan 2020",
+              "confidence": "high"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 700000.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska / rada osiedla",
+              "description": "Dieta radnego",
+              "amount_pln": 48115.96,
+              "raw_text": "Dieta radnego",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Umowa o pracę",
+              "description": "Umowa o pracę",
+              "amount_pln": 80514.69,
+              "raw_text": "Umowa o pracę",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "other_income",
+              "payer": "Inne źródła",
+              "description": "Inne źródła",
+              "amount_pln": 4006.02,
+              "raw_text": "Inne źródła",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "ZFŚS",
+              "description": "Pożyczka gotówkowa z ZFŚS, pozostało do spłaty",
+              "amount_pln": 25416.0,
+              "currency": "PLN",
+              "raw_text": "Pożyczka gotówkowa z ZFŚS, pozostało do spłaty",
+              "confidence": "high"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: około 200000 zł; waluty i papiery wartościowe: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie oraz ewentualna działka odczytane z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta, umowa o pracę i inne źródła dochodu.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "X-Trail Nissan 2020",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania z ZFŚS według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 298,
+          "year": 2024,
+          "statement_date": "2024-04-29",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_24/chojnacka-duraj_justyna_20240429.pdf",
+          "file_path": "data\\raw\\chojnacka-duraj-justyna\\2024_0e3637b66f8e.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 1049000.0,
+          "income_total_pln": 151566.05,
+          "liabilities_total_pln": 100666.64,
+          "filing_year": 2024,
+          "report_year": 2023,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 40000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 500000.0,
+              "area": "55 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_house",
+              "description": "Dom",
+              "value_pln": 500000.0,
+              "area": "90 m2",
+              "legal_title": "własność, działka 190 m2",
+              "ownership": "",
+              "raw_text": "Dom",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka",
+              "value_pln": 9000.0,
+              "area": "0,9835 ha",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Działka",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "X-Trail Nissan 2020",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "X-Trail Nissan 2020",
+              "confidence": "high"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 1049000.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska / rada osiedla",
+              "description": "Dieta radnego",
+              "amount_pln": 47088.35,
+              "raw_text": "Dieta radnego",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "other_income",
+              "payer": "Inne źródła",
+              "description": "Inne źródła",
+              "amount_pln": 12968.89,
+              "raw_text": "Inne źródła",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "other_income",
+              "payer": "Inne źródła",
+              "description": "Inne źródła",
+              "amount_pln": 77648.4,
+              "raw_text": "Inne źródła",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "personal_services",
+              "payer": "Działalność wykonywana osobiście",
+              "description": "Działalność wykonywana osobiście",
+              "amount_pln": 13860.41,
+              "raw_text": "Działalność wykonywana osobiście",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "ZFŚS",
+              "description": "Pożyczka gotówkowa z ZFŚS, pozostało do spłaty",
+              "amount_pln": 100666.64,
+              "currency": "PLN",
+              "raw_text": "Pożyczka gotówkowa z ZFŚS, pozostało do spłaty",
+              "confidence": "high"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: około 40000 zł; waluty i papiery wartościowe: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie oraz ewentualna działka odczytane z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta, umowa o pracę i inne źródła dochodu.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "X-Trail Nissan 2020",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania z ZFŚS według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "asset_jump",
+              "severity": "medium",
+              "title": "Skok majątku większy niż deklarowane źródła",
+              "description": "Wzrost aktywów jest większy niż suma dochodu i wzrostu zadłużenia w tym okresie.",
+              "amount_pln": 122183.31,
+              "metrics": {
+                "income_pln": 151566.05,
+                "asset_delta_pln": 349000.0,
+                "debt_delta_pln": 75250.64
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": [
+              {
+                "label": "Mieszkanie",
+                "value_pln": 500000.0
+              },
+              {
+                "label": "Dom",
+                "value_pln": 500000.0
+              }
+            ]
+          }
+        },
+        {
+          "id": 364,
+          "year": 2025,
+          "statement_date": "2025-04-29",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_25/chojnacka-duraj_justyna_2025.pdf",
+          "file_path": "data\\raw\\chojnacka-duraj-justyna\\2025_5811d253b061.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 1039000.0,
+          "income_total_pln": 186507.13999999998,
+          "liabilities_total_pln": 0,
+          "filing_year": 2025,
+          "report_year": 2024,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 30000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 500000.0,
+              "area": "55 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_house",
+              "description": "Dom",
+              "value_pln": 500000.0,
+              "area": "90 m2",
+              "legal_title": "własność, działka 190 m2",
+              "ownership": "",
+              "raw_text": "Dom",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka",
+              "value_pln": 9000.0,
+              "area": "0,9835 ha",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Działka",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "X-Trail Nissan 2020",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "X-Trail Nissan 2020",
+              "confidence": "high"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 1039000.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska / rada osiedla",
+              "description": "Dieta radnego",
+              "amount_pln": 46624.52,
+              "raw_text": "Dieta radnego",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "other_income",
+              "payer": "PIT-37",
+              "description": "PIT-37",
+              "amount_pln": 139882.62,
+              "raw_text": "PIT-37",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: około 30000 zł; waluty i papiery wartościowe: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie oraz ewentualna działka odczytane z formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta, umowa o pracę i inne źródła dochodu.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "X-Trail Nissan 2020",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
             }
           ],
           "anomalies": [],
@@ -10504,6 +11689,729 @@ window.ILE_ZARABIA_DATA = {
                 "value_pln": 585000.0
               }
             ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Żuraw Elżbieta",
+      "slug": "zuraw-elzbieta",
+      "role": "Radny/Radna",
+      "category": "Radni",
+      "statements": [
+        {
+          "id": 357,
+          "year": 2024,
+          "statement_date": "2024-06-05",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_24/zuraw_elzbieta_240605.pdf",
+          "file_path": "data\\raw\\zuraw-elzbieta\\2024_d84d71fea5a1.pdf",
+          "confidence": "low",
+          "notes": "Manual review from rendered contact sheets. Handwritten values are working reads.",
+          "assets_value_pln": 1275800.0,
+          "income_total_pln": 22374.0,
+          "liabilities_total_pln": 267728.0,
+          "filing_year": 2024,
+          "report_year": 2023,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne i lokaty w PLN",
+              "value_pln": 40800.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne i lokaty w PLN",
+              "confidence": "low"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 370000.0,
+              "area": "64,4 m2",
+              "legal_title": "własność indywidualna / kredyt hipoteczny",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "low"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_house",
+              "description": "Dom",
+              "value_pln": 450000.0,
+              "area": "99,6 m2",
+              "legal_title": "własność indywidualna / kredyt hipoteczny",
+              "ownership": "",
+              "raw_text": "Dom",
+              "confidence": "low"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Udział w nieruchomości z domem i działką",
+              "value_pln": 400000.0,
+              "area": "350 m2 domu, 1000 m2 działki",
+              "legal_title": "współwłasność w udziale 12,5%, tytuł spadku",
+              "ownership": "",
+              "raw_text": "Udział w nieruchomości z domem i działką",
+              "confidence": "low"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "VW Golf 5, 2007",
+              "value_pln": 15000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "VW Golf 5, 2007",
+              "confidence": "low"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 1275800.0,
+          "incomes": [
+            {
+              "section_code": "VII",
+              "income_type": "company_role_income",
+              "payer": "Polska Press / ProMedia",
+              "description": "Funkcja w spółce, odczyt ręczny",
+              "amount_pln": 0.0,
+              "raw_text": "Funkcja w spółce, odczyt ręczny",
+              "confidence": "low"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "association_income",
+              "payer": "Stowarzyszenie / repertuar",
+              "description": "Stowarzyszenie / repertuar",
+              "amount_pln": 200.0,
+              "raw_text": "Stowarzyszenie / repertuar",
+              "confidence": "low"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego",
+              "amount_pln": 17174.0,
+              "raw_text": "Dieta radnego",
+              "confidence": "low"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "rental_income",
+              "payer": "Wynajem mieszkania",
+              "description": "Wynajem mieszkania",
+              "amount_pln": 5000.0,
+              "raw_text": "Wynajem mieszkania",
+              "confidence": "low"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "mBank",
+              "description": "Kredyt hipoteczny, odczyt ręczny",
+              "amount_pln": 245500.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt hipoteczny, odczyt ręczny",
+              "confidence": "low"
+            },
+            {
+              "creditor": "InBank",
+              "description": "Kredyt gotówkowy, odczyt ręczny",
+              "amount_pln": 22228.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt gotówkowy, odczyt ręczny",
+              "confidence": "low"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne, lokaty i papiery wartościowe według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Dom, mieszkanie i udział w nieruchomości spadkowej.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach: nie dotyczy.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje i papiery wartościowe według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Państwa lub samorządu: nie dotyczy.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Działalność gospodarcza zawieszona / bez dochodu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje w spółkach Polska Press / ProMedia.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Diety, najem i inne dochody.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "VW Golf 5, 2007",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Kredyty hipoteczne/gotówkowe według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0
+        },
+        {
+          "id": 400,
+          "year": 2025,
+          "statement_date": "2025-04-25",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_25/zuraw_elzbieta_2025.pdf",
+          "file_path": "data\\raw\\zuraw-elzbieta\\2025_5a85b032247f.pdf",
+          "confidence": "medium",
+          "notes": "Manual review from rendered contact sheets. Handwritten values are working reads.",
+          "assets_value_pln": 1338375.13,
+          "income_total_pln": 422471.43,
+          "liabilities_total_pln": 51895.0,
+          "filing_year": 2025,
+          "report_year": 2024,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne i lokaty w PLN",
+              "value_pln": 111645.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne i lokaty w PLN",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 370000.0,
+              "area": "64,4 m2",
+              "legal_title": "własność indywidualna / kredyt hipoteczny",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_house",
+              "description": "Dom",
+              "value_pln": 450000.0,
+              "area": "99,6 m2",
+              "legal_title": "własność indywidualna / kredyt hipoteczny",
+              "ownership": "",
+              "raw_text": "Dom",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Udział w nieruchomości z domem i działką",
+              "value_pln": 400000.0,
+              "area": "działka 35 arów, dom ok. 200 m2",
+              "legal_title": "współwłasność w udziale 12,5%, tytuł spadku",
+              "ownership": "",
+              "raw_text": "Udział w nieruchomości z domem i działką",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IV",
+              "asset_type": "securities",
+              "description": "Akcje i papiery wartościowe",
+              "value_pln": 6730.13,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Akcje i papiery wartościowe",
+              "confidence": "medium"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 1338375.13,
+          "incomes": [
+            {
+              "section_code": "VII",
+              "income_type": "company_role_income",
+              "payer": "Polska Press / ProMedia",
+              "description": "Dochód z funkcji w zarządzie",
+              "amount_pln": 356827.43,
+              "raw_text": "Dochód z funkcji w zarządzie",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "copyright_income",
+              "payer": "Tytuł własnych praw / art. 35",
+              "description": "Tytuł własnych praw / art. 35",
+              "amount_pln": 3530.0,
+              "raw_text": "Tytuł własnych praw / art. 35",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego miejskiego",
+              "amount_pln": 58614.0,
+              "raw_text": "Dieta radnego miejskiego",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "rental_income",
+              "payer": "Wynajem mieszkania",
+              "description": "Wynajem mieszkania",
+              "amount_pln": 3500.0,
+              "raw_text": "Wynajem mieszkania",
+              "confidence": "medium"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "mBank",
+              "description": "Kredyt hipoteczny BOK/BIK, pozostało do spłaty",
+              "amount_pln": 28795.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt hipoteczny BOK/BIK, pozostało do spłaty",
+              "confidence": "medium"
+            },
+            {
+              "creditor": "mBank",
+              "description": "Kredyt hipoteczny, pozostało do spłaty",
+              "amount_pln": 5425.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt hipoteczny, pozostało do spłaty",
+              "confidence": "medium"
+            },
+            {
+              "creditor": "mBank",
+              "description": "Kredyt hipoteczny, pozostało do spłaty",
+              "amount_pln": 17675.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt hipoteczny, pozostało do spłaty",
+              "confidence": "medium"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne, lokaty i papiery wartościowe według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Dom, mieszkanie i udział w nieruchomości spadkowej.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje i papiery wartościowe według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Państwa lub samorządu: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Działalność gospodarcza zawieszona / bez dochodu.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje w spółkach Polska Press / ProMedia.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Diety, najem i inne dochody.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Kredyty hipoteczne/gotówkowe według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": [
+              {
+                "label": "Środki pieniężne i lokaty w PLN",
+                "value_pln": 111645.0
+              },
+              {
+                "label": "Udział w nieruchomości z domem i działką",
+                "value_pln": 400000.0
+              }
+            ]
+          }
+        },
+        {
+          "id": 82,
+          "year": 2026,
+          "statement_date": "2026-04-29",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_MW_26/zuraw_elzbieta_2026.pdf",
+          "file_path": "data\\raw\\zuraw-elzbieta\\2026_f220014f2f5a.pdf",
+          "confidence": "medium",
+          "notes": "Manual review from rendered contact sheets. Handwritten values are working reads.",
+          "assets_value_pln": 1398314.0,
+          "income_total_pln": 794977.11,
+          "liabilities_total_pln": 323.0,
+          "filing_year": 2026,
+          "report_year": 2025,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne i lokaty w PLN",
+              "value_pln": 157330.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne i lokaty w PLN",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 370000.0,
+              "area": "64,4 m2",
+              "legal_title": "własność indywidualna / kredyt hipoteczny",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_house",
+              "description": "Dom",
+              "value_pln": 450000.0,
+              "area": "99,6 m2",
+              "legal_title": "własność indywidualna / kredyt hipoteczny",
+              "ownership": "",
+              "raw_text": "Dom",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Udział w nieruchomości z domem i działką",
+              "value_pln": 400000.0,
+              "area": "działka 35 arów, dom ok. 200 m2",
+              "legal_title": "współwłasność w udziale 12,5%, tytuł spadku",
+              "ownership": "",
+              "raw_text": "Udział w nieruchomości z domem i działką",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IV",
+              "asset_type": "securities",
+              "description": "Akcje i papiery wartościowe",
+              "value_pln": 20984.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Akcje i papiery wartościowe",
+              "confidence": "medium"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 1398314.0,
+          "incomes": [
+            {
+              "section_code": "VII",
+              "income_type": "company_role_income",
+              "payer": "Polska Press / ProMedia",
+              "description": "Dochód z funkcji w zarządzie",
+              "amount_pln": 697078.78,
+              "raw_text": "Dochód z funkcji w zarządzie",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "association_income",
+              "payer": "Stowarzyszenie wydawców Repropol",
+              "description": "Stowarzyszenie wydawców Repropol",
+              "amount_pln": 200.0,
+              "raw_text": "Stowarzyszenie wydawców Repropol",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego miejskiego",
+              "amount_pln": 49348.33,
+              "raw_text": "Dieta radnego miejskiego",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "rental_income",
+              "payer": "Wynajem mieszkania",
+              "description": "Wynajem mieszkania",
+              "amount_pln": 48350.0,
+              "raw_text": "Wynajem mieszkania",
+              "confidence": "medium"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "mBank",
+              "description": "Kredyt hipoteczny BOK/BIK, pozostało do spłaty",
+              "amount_pln": 230.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt hipoteczny BOK/BIK, pozostało do spłaty",
+              "confidence": "medium"
+            },
+            {
+              "creditor": "mBank",
+              "description": "Kredyt hipoteczny, pozostało do spłaty",
+              "amount_pln": 13.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt hipoteczny, pozostało do spłaty",
+              "confidence": "medium"
+            },
+            {
+              "creditor": "mBank",
+              "description": "Kredyt hipoteczny, pozostało do spłaty",
+              "amount_pln": 80.0,
+              "currency": "PLN",
+              "raw_text": "Kredyt hipoteczny, pozostało do spłaty",
+              "confidence": "medium"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne, lokaty i papiery wartościowe według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Dom, mieszkanie i udział w nieruchomości spadkowej.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje i papiery wartościowe według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Mienie nabyte od Skarbu Państwa lub samorządu: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Działalność gospodarcza zawieszona / bez dochodu.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje w spółkach Polska Press / ProMedia.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Diety, najem i inne dochody.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Kredyty hipoteczne/gotówkowe według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "high",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 683466.24,
+              "metrics": {
+                "income_pln": 794977.11,
+                "net_delta_pln": 111510.87,
+                "asset_delta_pln": 59938.87,
+                "debt_delta_pln": -51572.0
+              }
+            }
+          ],
+          "anomaly_score": 2,
+          "asset_changes": {
+            "new_significant_assets": []
           }
         }
       ]
