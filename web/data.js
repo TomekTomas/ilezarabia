@@ -1,5 +1,5 @@
 window.ILE_ZARABIA_DATA = {
-  "generated_at": "2026-05-15 18:16:12",
+  "generated_at": "2026-05-16 23:12:36",
   "market_context": {
     "generated_label": "wyceny z 2026-05-15",
     "fx_effective_date": "2026-05-14",
@@ -7757,6 +7757,1971 @@ window.ILE_ZARABIA_DATA = {
                 "value_pln": 63094.0
               }
             ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Stasiak Krzysztof",
+      "slug": "stasiak-krzysztof",
+      "role": "Radny/Radna",
+      "category": "Radni",
+      "statements": [
+        {
+          "id": 123,
+          "year": 2020,
+          "statement_date": "2020-05-28",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_20/stasiak_krzysztof_2020.pdf",
+          "file_path": "data\\raw\\stasiak-krzysztof\\2020_d52fd2cacc77.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 992500.0,
+          "income_total_pln": 174514.41999999998,
+          "liabilities_total_pln": 0,
+          "filing_year": 2020,
+          "report_year": 2019,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 84000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "investment_funds",
+              "description": "Jednostki funduszy inwestycyjnych / obligacje / IKZE",
+              "value_pln": 671500.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Jednostki funduszy inwestycyjnych / obligacje / IKZE",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 150000.0,
+              "area": "54 m2",
+              "legal_title": "własność obciążona prawem służebności osobistej / darowizna",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka",
+              "value_pln": 60000.0,
+              "area": "1200 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Działka",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Boks garażowy",
+              "value_pln": 27000.0,
+              "area": "16,24 m2",
+              "legal_title": "własność / darowizna",
+              "ownership": "",
+              "raw_text": "Boks garażowy",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Hyundai Tucson 2019",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Hyundai Tucson 2019",
+              "confidence": "high"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 992500.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "contract_work",
+              "payer": "Umowa zlecenia",
+              "description": "Umowa zlecenia",
+              "amount_pln": 6000.0,
+              "raw_text": "Umowa zlecenia",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Rada Miejska w Łodzi",
+              "amount_pln": 32209.56,
+              "raw_text": "Rada Miejska w Łodzi",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Stosunek pracy",
+              "description": "Stosunek pracy",
+              "amount_pln": 136304.86,
+              "raw_text": "Stosunek pracy",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: ok. 84000 zł; papiery wartościowe / fundusze: ok. 671500 zł.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie, działki i boks garażowy odczytane z części II formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta radnego i dochody ze stosunku pracy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Hyundai Tucson 2019.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0
+        },
+        {
+          "id": 182,
+          "year": 2021,
+          "statement_date": "2021-04-28",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_21/stasiak_krzysztof_2021.pdf",
+          "file_path": "data\\raw\\stasiak-krzysztof\\2021_bc1ece6396cf.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 1134000.0,
+          "income_total_pln": 172152.9,
+          "liabilities_total_pln": 0,
+          "filing_year": 2021,
+          "report_year": 2020,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 91000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "investment_funds",
+              "description": "Jednostki funduszy inwestycyjnych / obligacje / IKZE",
+              "value_pln": 806000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Jednostki funduszy inwestycyjnych / obligacje / IKZE",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 150000.0,
+              "area": "54 m2",
+              "legal_title": "własność obciążona prawem służebności osobistej / darowizna",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka",
+              "value_pln": 60000.0,
+              "area": "1200 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Działka",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Boks garażowy",
+              "value_pln": 27000.0,
+              "area": "16,24 m2",
+              "legal_title": "własność / darowizna",
+              "ownership": "",
+              "raw_text": "Boks garażowy",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Hyundai Tucson 2019",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Hyundai Tucson 2019",
+              "confidence": "high"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 1134000.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Rada Miejska w Łodzi",
+              "amount_pln": 32209.56,
+              "raw_text": "Rada Miejska w Łodzi",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Stosunek pracy",
+              "description": "Stosunek pracy",
+              "amount_pln": 139943.34,
+              "raw_text": "Stosunek pracy",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: ok. 91000 zł; papiery wartościowe / fundusze: ok. 806000 zł.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie, działki i boks garażowy odczytane z części II formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta radnego i dochody ze stosunku pracy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Hyundai Tucson 2019.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 232,
+          "year": 2022,
+          "statement_date": "2022-04-27",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_22/stasiak_krzysztof_2022.pdf",
+          "file_path": "data\\raw\\stasiak-krzysztof\\2022_62bd20f61b51.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 1267200.0,
+          "income_total_pln": 184284.81,
+          "liabilities_total_pln": 0,
+          "filing_year": 2022,
+          "report_year": 2021,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 126700.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "investment_funds",
+              "description": "Jednostki funduszy inwestycyjnych / obligacje / IKZE",
+              "value_pln": 903500.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Jednostki funduszy inwestycyjnych / obligacje / IKZE",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 150000.0,
+              "area": "54 m2",
+              "legal_title": "własność obciążona prawem służebności osobistej / darowizna",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka",
+              "value_pln": 60000.0,
+              "area": "1200 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Działka",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Boks garażowy",
+              "value_pln": 27000.0,
+              "area": "16,24 m2",
+              "legal_title": "własność / darowizna",
+              "ownership": "",
+              "raw_text": "Boks garażowy",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Hyundai Tucson 2019",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Hyundai Tucson 2019",
+              "confidence": "high"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 1267200.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Rada Miejska w Łodzi",
+              "amount_pln": 37909.91,
+              "raw_text": "Rada Miejska w Łodzi",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Stosunek pracy",
+              "description": "Stosunek pracy",
+              "amount_pln": 146374.9,
+              "raw_text": "Stosunek pracy",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: ok. 126700 zł; papiery wartościowe / fundusze: ok. 903500 zł.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie, działki i boks garażowy odczytane z części II formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta radnego i dochody ze stosunku pracy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Hyundai Tucson 2019.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 274,
+          "year": 2023,
+          "statement_date": "2023-04-26",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_23/Stasiak_Krzysztof_2023.pdf",
+          "file_path": "data\\raw\\stasiak-krzysztof\\2023_128e78d73e2c.pdf",
+          "confidence": "high",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 1317000.0,
+          "income_total_pln": 197597.69,
+          "liabilities_total_pln": 0,
+          "filing_year": 2023,
+          "report_year": 2022,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 259000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "high"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "investment_funds",
+              "description": "Jednostki funduszy inwestycyjnych / obligacje / IKZE",
+              "value_pln": 821000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Jednostki funduszy inwestycyjnych / obligacje / IKZE",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 150000.0,
+              "area": "54 m2",
+              "legal_title": "własność obciążona prawem służebności osobistej / darowizna",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka",
+              "value_pln": 60000.0,
+              "area": "1200 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Działka",
+              "confidence": "high"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Boks garażowy",
+              "value_pln": 27000.0,
+              "area": "16,24 m2",
+              "legal_title": "własność / darowizna",
+              "ownership": "",
+              "raw_text": "Boks garażowy",
+              "confidence": "high"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Hyundai Tucson 2019",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Hyundai Tucson 2019",
+              "confidence": "high"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 1317000.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Rada Miejska w Łodzi",
+              "amount_pln": 48428.28,
+              "raw_text": "Rada Miejska w Łodzi",
+              "confidence": "high"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Stosunek pracy",
+              "description": "Stosunek pracy",
+              "amount_pln": 149169.41,
+              "raw_text": "Stosunek pracy",
+              "confidence": "high"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: ok. 259000 zł; papiery wartościowe / fundusze: ok. 821000 zł.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie, działki i boks garażowy odczytane z części II formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta radnego i dochody ze stosunku pracy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Hyundai Tucson 2019.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: nie dotyczy.",
+              "confidence": "high",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "medium",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 147797.69,
+              "metrics": {
+                "income_pln": 197597.69,
+                "net_delta_pln": 49800.0,
+                "asset_delta_pln": 49800.0,
+                "debt_delta_pln": 0
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 348,
+          "year": 2024,
+          "statement_date": "2024-04-29",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_24/stasiak_krzysztof_20240429.pdf",
+          "file_path": "data\\raw\\stasiak-krzysztof\\2024_f1166872224a.pdf",
+          "confidence": "medium",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 1685000.0,
+          "income_total_pln": 195871.67,
+          "liabilities_total_pln": 0,
+          "filing_year": 2024,
+          "report_year": 2023,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 316000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "investment_funds",
+              "description": "Jednostki funduszy inwestycyjnych / obligacje / IKZE",
+              "value_pln": 1066000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Jednostki funduszy inwestycyjnych / obligacje / IKZE",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 150000.0,
+              "area": "54 m2",
+              "legal_title": "własność obciążona prawem służebności osobistej / darowizna",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka",
+              "value_pln": 100000.0,
+              "area": "1200 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Działka",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka",
+              "value_pln": 13000.0,
+              "area": "300 m2",
+              "legal_title": "udział 1/10 części we własności",
+              "ownership": "",
+              "raw_text": "Działka",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka",
+              "value_pln": 40000.0,
+              "area": "400 m2",
+              "legal_title": "własność / darowizna",
+              "ownership": "",
+              "raw_text": "Działka",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Boks garażowy",
+              "value_pln": null,
+              "area": "16,24 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Boks garażowy",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Hyundai Tucson 2019",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Hyundai Tucson 2019",
+              "confidence": "medium"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 1685000.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Rada Miejska w Łodzi",
+              "amount_pln": 48428.28,
+              "raw_text": "Rada Miejska w Łodzi",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Stosunek pracy",
+              "description": "Stosunek pracy",
+              "amount_pln": 147443.39,
+              "raw_text": "Stosunek pracy",
+              "confidence": "medium"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: ok. 316000 zł; papiery wartościowe / fundusze: ok. 1066000 zł.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie, działki i boks garażowy odczytane z części II formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta radnego i dochody ze stosunku pracy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Hyundai Tucson 2019.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "asset_jump",
+              "severity": "medium",
+              "title": "Skok majątku większy niż deklarowane źródła",
+              "description": "Wzrost aktywów jest większy niż suma dochodu i wzrostu zadłużenia w tym okresie.",
+              "amount_pln": 172128.33,
+              "metrics": {
+                "income_pln": 195871.67,
+                "asset_delta_pln": 368000.0,
+                "debt_delta_pln": 0
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 394,
+          "year": 2025,
+          "statement_date": "2025-04-25",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_25/stasiak_krzysztof_2025.pdf",
+          "file_path": "data\\raw\\stasiak-krzysztof\\2025_315285bfaec4.pdf",
+          "confidence": "medium",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 2004600.0,
+          "income_total_pln": 176918.95,
+          "liabilities_total_pln": 0,
+          "filing_year": 2025,
+          "report_year": 2024,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 68000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "investment_funds",
+              "description": "Jednostki funduszy inwestycyjnych / obligacje / IKZE",
+              "value_pln": 1506600.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Jednostki funduszy inwestycyjnych / obligacje / IKZE",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 250000.0,
+              "area": "54 m2",
+              "legal_title": "własność obciążona prawem służebności osobistej / darowizna",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka",
+              "value_pln": 100000.0,
+              "area": "1200 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Działka",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka",
+              "value_pln": 40000.0,
+              "area": "300 m2",
+              "legal_title": "udział 1/10 części we własności",
+              "ownership": "",
+              "raw_text": "Działka",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Boks garażowy",
+              "value_pln": 40000.0,
+              "area": "16,24 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Boks garażowy",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Hyundai Tucson 2019",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Hyundai Tucson 2019",
+              "confidence": "medium"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 2004600.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Rada Miejska w Łodzi",
+              "amount_pln": 50000.0,
+              "raw_text": "Rada Miejska w Łodzi",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Stosunek pracy",
+              "description": "Stosunek pracy",
+              "amount_pln": 106668.95,
+              "raw_text": "Stosunek pracy",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Stosunek pracy",
+              "description": "Stosunek pracy",
+              "amount_pln": 20250.0,
+              "raw_text": "Stosunek pracy",
+              "confidence": "medium"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: ok. 68000 zł; papiery wartościowe / fundusze: ok. 1506600 zł.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie, działki i boks garażowy odczytane z części II formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta radnego i dochody ze stosunku pracy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Hyundai Tucson 2019.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "asset_jump",
+              "severity": "medium",
+              "title": "Skok majątku większy niż deklarowane źródła",
+              "description": "Wzrost aktywów jest większy niż suma dochodu i wzrostu zadłużenia w tym okresie.",
+              "amount_pln": 142681.05,
+              "metrics": {
+                "income_pln": 176918.95,
+                "asset_delta_pln": 319600.0,
+                "debt_delta_pln": 0
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 76,
+          "year": 2026,
+          "statement_date": "2026-04-27",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_MW_26/stasiak_krzysztof_2026.pdf",
+          "file_path": "data\\raw\\stasiak-krzysztof\\2026_6a050d556b58.pdf",
+          "confidence": "medium",
+          "notes": "Manual review from rendered contact sheets. Data year in UI is filing year minus one.",
+          "assets_value_pln": 2264000.0,
+          "income_total_pln": 73540.14,
+          "liabilities_total_pln": 0,
+          "filing_year": 2026,
+          "report_year": 2025,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 37000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "investment_funds",
+              "description": "Jednostki funduszy inwestycyjnych / obligacje / IKZE",
+              "value_pln": 1822000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Jednostki funduszy inwestycyjnych / obligacje / IKZE",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 250000.0,
+              "area": "54 m2",
+              "legal_title": "własność obciążona prawem służebności osobistej / darowizna",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka",
+              "value_pln": 100000.0,
+              "area": "1200 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Działka",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka",
+              "value_pln": 15000.0,
+              "area": "300 m2",
+              "legal_title": "udział 1/10 części we własności",
+              "ownership": "",
+              "raw_text": "Działka",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_land",
+              "description": "Działka",
+              "value_pln": 40000.0,
+              "area": "400 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Działka",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Hyundai Tucson 2019",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Hyundai Tucson 2019",
+              "confidence": "medium"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 2264000.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Rada Miejska w Łodzi",
+              "amount_pln": 52377.85,
+              "raw_text": "Rada Miejska w Łodzi",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Stosunek pracy",
+              "description": "Stosunek pracy",
+              "amount_pln": 13248.0,
+              "raw_text": "Stosunek pracy",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Stosunek pracy",
+              "description": "Stosunek pracy",
+              "amount_pln": 7914.29,
+              "raw_text": "Stosunek pracy",
+              "confidence": "medium"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: ok. 37000 zł; papiery wartościowe / fundusze: ok. 1822000 zł.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie, działki i boks garażowy odczytane z części II formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy / nie posiada według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta radnego i dochody ze stosunku pracy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Hyundai Tucson 2019.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "asset_jump",
+              "severity": "medium",
+              "title": "Skok majątku większy niż deklarowane źródła",
+              "description": "Wzrost aktywów jest większy niż suma dochodu i wzrostu zadłużenia w tym okresie.",
+              "amount_pln": 185859.86,
+              "metrics": {
+                "income_pln": 73540.14,
+                "asset_delta_pln": 259400.0,
+                "debt_delta_pln": 0
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Włodarczyk Maja",
+      "slug": "wlodarczyk-maja",
+      "role": "Radny/Radna",
+      "category": "Radni",
+      "statements": [
+        {
+          "id": 356,
+          "year": 2024,
+          "statement_date": "2024-06-05",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_24/wlodarczyk_maja_240605.pdf",
+          "file_path": "data\\raw\\wlodarczyk-maja\\2024_d545d143c3fc.pdf",
+          "confidence": "low",
+          "notes": "Włodarczyk 2024: handwritten form; securities amount is a low-confidence working read.",
+          "assets_value_pln": 7600.0,
+          "income_total_pln": 0,
+          "liabilities_total_pln": 0,
+          "filing_year": 2024,
+          "report_year": 2023,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 5000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "low"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "securities",
+              "description": "Papiery wartościowe / akcje, odczyt roboczy",
+              "value_pln": 2600.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Papiery wartościowe / akcje, odczyt roboczy",
+              "confidence": "low"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 7600.0,
+          "incomes": [],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: 5000 zł; papiery wartościowe: 2600.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dochody z diety radnego, jeśli wykazane w formularzu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0
+        },
+        {
+          "id": 399,
+          "year": 2025,
+          "statement_date": "2025-04-30",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_25/wlodarczyk_maja_2025.pdf",
+          "file_path": "data\\raw\\wlodarczyk-maja\\2025_3ac9c198c6ff.pdf",
+          "confidence": "low",
+          "notes": "Włodarczyk 2025: handwritten income entry is a low-confidence working read.",
+          "assets_value_pln": 20000.0,
+          "income_total_pln": 5759.0,
+          "liabilities_total_pln": 0,
+          "filing_year": 2025,
+          "report_year": 2024,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 20000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "low"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 20000.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego",
+              "amount_pln": 5759.0,
+              "raw_text": "Dieta radnego",
+              "confidence": "low"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: 20000 zł; papiery wartościowe: nie dotyczy.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dochody z diety radnego, jeśli wykazane w formularzu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 81,
+          "year": 2026,
+          "statement_date": "2026-04-30",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_MW_26/wlodarczyk_maja_2026.pdf",
+          "file_path": "data\\raw\\wlodarczyk-maja\\2026_c8fce73efd70.pdf",
+          "confidence": "medium",
+          "notes": "Włodarczyk 2026: manual review from contact sheet; income value is readable but handwritten.",
+          "assets_value_pln": 20000.0,
+          "income_total_pln": 48588.04,
+          "liabilities_total_pln": 0,
+          "filing_year": 2026,
+          "report_year": 2025,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 20000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "medium"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 20000.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego",
+              "amount_pln": 48588.04,
+              "raw_text": "Dieta radnego",
+              "confidence": "medium"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: 20000 zł; papiery wartościowe: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dochody z diety radnego, jeśli wykazane w formularzu.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": []
           }
         }
       ]
