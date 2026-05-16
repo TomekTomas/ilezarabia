@@ -1,5 +1,5 @@
 window.ILE_ZARABIA_DATA = {
-  "generated_at": "2026-05-16 23:19:20",
+  "generated_at": "2026-05-16 23:24:16",
   "market_context": {
     "generated_label": "wyceny z 2026-05-15",
     "fx_effective_date": "2026-05-14",
@@ -8947,6 +8947,1060 @@ window.ILE_ZARABIA_DATA = {
       ]
     },
     {
+      "id": 120,
+      "name": "Reszpondek Rafał",
+      "slug": "reszpondek-rafal",
+      "role": "Radny/Radna",
+      "category": "Radni",
+      "statements": [
+        {
+          "id": 120,
+          "year": 2020,
+          "statement_date": "2020-05-28",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_20/reszpondek_rafal_2020.pdf",
+          "file_path": "data\\raw\\reszpondek-rafal\\2020_edbca9c031a1.pdf",
+          "confidence": "low",
+          "notes": "Manual review from contact sheets. Handwritten statement; values are working reads for later batch correction.",
+          "assets_value_pln": 418030.0,
+          "income_total_pln": 66196.7,
+          "liabilities_total_pln": 376000.0,
+          "filing_year": 2020,
+          "report_year": 2019,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 64830.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "low"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "securities",
+              "description": "Papiery wartościowe / środki inwestycyjne, odczyt roboczy",
+              "value_pln": 64000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Papiery wartościowe / środki inwestycyjne, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 229000.0,
+              "area": "64,55 m2",
+              "legal_title": "prawo do wyłącznego korzystania / odczyt roboczy",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "low"
+            },
+            {
+              "section_code": "III",
+              "asset_type": "shares",
+              "description": "Udziały w spółkach, odczyt roboczy",
+              "value_pln": 60200.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Udziały w spółkach, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Opel Vivaro 2016",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Opel Vivaro 2016",
+              "confidence": "low"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Mercedes 4x4 2013",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Mercedes 4x4 2013",
+              "confidence": "low"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 418030.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Dieta radnego",
+              "description": "Dieta radnego",
+              "amount_pln": 58384.69,
+              "raw_text": "Dieta radnego",
+              "confidence": "low"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Umowa o pracę",
+              "description": "Umowa o pracę",
+              "amount_pln": 7812.01,
+              "raw_text": "Umowa o pracę",
+              "confidence": "low"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "do weryfikacji",
+              "description": "Kredyty z rękopisu, suma robocza",
+              "amount_pln": 376000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyty z rękopisu, suma robocza",
+              "confidence": "low"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki, waluty i papiery wartościowe z rękopisu, wartości robocze.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie / nieruchomości odczytane roboczo z formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach, wartość robocza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje: brak istotnych pozycji poza odczytem roboczym.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Działalność gospodarcza: nie dotyczy / brak czytelnej kwoty.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje w spółkach: roboczy odczyt rękopisu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dochody z pracy, diet i funkcji, roboczy odczyt rękopisu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Opel Vivaro 2016; Mercedes 4x4 2013",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania pieniężne z rękopisu, suma robocza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0
+        },
+        {
+          "id": 177,
+          "year": 2021,
+          "statement_date": "2021-04-28",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_21/reszpondek_rafal_2021.pdf",
+          "file_path": "data\\raw\\reszpondek-rafal\\2021_b707a5d4969b.pdf",
+          "confidence": "low",
+          "notes": "Manual review from contact sheets. Handwritten statement; values are working reads for later batch correction.",
+          "assets_value_pln": 410000.0,
+          "income_total_pln": 61000.0,
+          "liabilities_total_pln": 330000.0,
+          "filing_year": 2021,
+          "report_year": 2020,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 56000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "low"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "securities",
+              "description": "Papiery wartościowe / środki inwestycyjne, odczyt roboczy",
+              "value_pln": 65000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Papiery wartościowe / środki inwestycyjne, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 229000.0,
+              "area": "64,55 m2",
+              "legal_title": "odczyt roboczy",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "low"
+            },
+            {
+              "section_code": "III",
+              "asset_type": "shares",
+              "description": "Udziały w spółkach, odczyt roboczy",
+              "value_pln": 60000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Udziały w spółkach, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Opel Vivaro 2016",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Opel Vivaro 2016",
+              "confidence": "low"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Mercedes 4x4 2013",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Mercedes 4x4 2013",
+              "confidence": "low"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 410000.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Dieta radnego / inne dochody",
+              "description": "Dieta radnego / inne dochody",
+              "amount_pln": 61000.0,
+              "raw_text": "Dieta radnego / inne dochody",
+              "confidence": "low"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "do weryfikacji",
+              "description": "Kredyty z rękopisu, suma robocza",
+              "amount_pln": 330000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyty z rękopisu, suma robocza",
+              "confidence": "low"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki, waluty i papiery wartościowe z rękopisu, wartości robocze.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie / nieruchomości odczytane roboczo z formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach, wartość robocza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje: brak istotnych pozycji poza odczytem roboczym.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Działalność gospodarcza: nie dotyczy / brak czytelnej kwoty.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje w spółkach: roboczy odczyt rękopisu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dochody z pracy, diet i funkcji, roboczy odczyt rękopisu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Opel Vivaro 2016; Mercedes 4x4 2013",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania pieniężne z rękopisu, suma robocza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": [
+              {
+                "label": "Mieszkanie",
+                "value_pln": 229000.0
+              }
+            ]
+          }
+        },
+        {
+          "id": 228,
+          "year": 2022,
+          "statement_date": "2022-04-28",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_22/reszpondek_rafal_2022.pdf",
+          "file_path": "data\\raw\\reszpondek-rafal\\2022_59172c3c526a.pdf",
+          "confidence": "low",
+          "notes": "Manual review from contact sheets. Handwritten statement; values are working reads for later batch correction.",
+          "assets_value_pln": 465000.0,
+          "income_total_pln": 81011.0,
+          "liabilities_total_pln": 300000.0,
+          "filing_year": 2022,
+          "report_year": 2021,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 70000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "low"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "securities",
+              "description": "Papiery wartościowe / środki inwestycyjne, odczyt roboczy",
+              "value_pln": 80000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Papiery wartościowe / środki inwestycyjne, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 240000.0,
+              "area": "64,55 m2",
+              "legal_title": "odczyt roboczy",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "low"
+            },
+            {
+              "section_code": "III",
+              "asset_type": "shares",
+              "description": "Udziały w spółkach, odczyt roboczy",
+              "value_pln": 75000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Udziały w spółkach, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "pojazdy z rękopisu, odczyt roboczy",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "pojazdy z rękopisu, odczyt roboczy",
+              "confidence": "low"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 465000.0,
+          "incomes": [
+            {
+              "section_code": "VII",
+              "income_type": "company_role_income",
+              "payer": "Spółka / funkcja",
+              "description": "Spółka / funkcja",
+              "amount_pln": 52000.0,
+              "raw_text": "Spółka / funkcja",
+              "confidence": "low"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Dieta radnego",
+              "description": "Dieta radnego",
+              "amount_pln": 29011.0,
+              "raw_text": "Dieta radnego",
+              "confidence": "low"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "do weryfikacji",
+              "description": "Kredyty z rękopisu, suma robocza",
+              "amount_pln": 300000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyty z rękopisu, suma robocza",
+              "confidence": "low"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki, waluty i papiery wartościowe z rękopisu, wartości robocze.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie / nieruchomości odczytane roboczo z formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach, wartość robocza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje: brak istotnych pozycji poza odczytem roboczym.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Działalność gospodarcza: nie dotyczy / brak czytelnej kwoty.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje w spółkach: roboczy odczyt rękopisu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dochody z pracy, diet i funkcji, roboczy odczyt rękopisu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "pojazdy z rękopisu, odczyt roboczy",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania pieniężne z rękopisu, suma robocza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 271,
+          "year": 2023,
+          "statement_date": "2023-04-27",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_23/Reszpondek_Rafal_2023.pdf",
+          "file_path": "data\\raw\\reszpondek-rafal\\2023_46f0db685e9c.pdf",
+          "confidence": "low",
+          "notes": "Manual review from contact sheets. Handwritten statement; values are working reads for later batch correction.",
+          "assets_value_pln": 570000.0,
+          "income_total_pln": 122000.0,
+          "liabilities_total_pln": 270000.0,
+          "filing_year": 2023,
+          "report_year": 2022,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 120000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "low"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "securities",
+              "description": "Papiery wartościowe / środki inwestycyjne, odczyt roboczy",
+              "value_pln": 100000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Papiery wartościowe / środki inwestycyjne, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 260000.0,
+              "area": "64,55 m2",
+              "legal_title": "odczyt roboczy",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "low"
+            },
+            {
+              "section_code": "III",
+              "asset_type": "shares",
+              "description": "Udziały w spółkach, odczyt roboczy",
+              "value_pln": 90000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Udziały w spółkach, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "pojazdy z rękopisu, odczyt roboczy",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "pojazdy z rękopisu, odczyt roboczy",
+              "confidence": "low"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 570000.0,
+          "incomes": [
+            {
+              "section_code": "VII",
+              "income_type": "company_role_income",
+              "payer": "Spółka / funkcja",
+              "description": "Spółka / funkcja",
+              "amount_pln": 52000.0,
+              "raw_text": "Spółka / funkcja",
+              "confidence": "low"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Dieta radnego / inne dochody",
+              "description": "Dieta radnego / inne dochody",
+              "amount_pln": 70000.0,
+              "raw_text": "Dieta radnego / inne dochody",
+              "confidence": "low"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "do weryfikacji",
+              "description": "Kredyty z rękopisu, suma robocza",
+              "amount_pln": 270000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyty z rękopisu, suma robocza",
+              "confidence": "low"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki, waluty i papiery wartościowe z rękopisu, wartości robocze.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie / nieruchomości odczytane roboczo z formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach, wartość robocza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje: brak istotnych pozycji poza odczytem roboczym.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Działalność gospodarcza: nie dotyczy / brak czytelnej kwoty.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje w spółkach: roboczy odczyt rękopisu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dochody z pracy, diet i funkcji, roboczy odczyt rękopisu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "pojazdy z rękopisu, odczyt roboczy",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania pieniężne z rękopisu, suma robocza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 343,
+          "year": 2024,
+          "statement_date": "2024-06-25",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_24/reszpondek_rafal_240624.pdf",
+          "file_path": "data\\raw\\reszpondek-rafal\\2024_ed754a5dab6e.pdf",
+          "confidence": "low",
+          "notes": "Manual review from contact sheets. Handwritten statement; values are working reads for later batch correction.",
+          "assets_value_pln": 481000.0,
+          "income_total_pln": 110032.35,
+          "liabilities_total_pln": 260000.0,
+          "filing_year": 2024,
+          "report_year": 2023,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 21000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "low"
+            },
+            {
+              "section_code": "I",
+              "asset_type": "securities",
+              "description": "Papiery wartościowe / środki inwestycyjne, odczyt roboczy",
+              "value_pln": 70000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Papiery wartościowe / środki inwestycyjne, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 270000.0,
+              "area": "64,55 m2",
+              "legal_title": "prawo do wyłącznego korzystania / odczyt roboczy",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "low"
+            },
+            {
+              "section_code": "III",
+              "asset_type": "shares",
+              "description": "Udziały w spółkach, odczyt roboczy",
+              "value_pln": 120000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Udziały w spółkach, odczyt roboczy",
+              "confidence": "low"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Mercedes 2018",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Mercedes 2018",
+              "confidence": "low"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Fiat 110 / pojazd z rękopisu",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Fiat 110 / pojazd z rękopisu",
+              "confidence": "low"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 481000.0,
+          "incomes": [
+            {
+              "section_code": "VII",
+              "income_type": "company_role_income",
+              "payer": "Spółki handlowe",
+              "description": "Spółki handlowe",
+              "amount_pln": 50000.0,
+              "raw_text": "Spółki handlowe",
+              "confidence": "low"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Dieta radnego / inne dochody",
+              "description": "Dieta radnego / inne dochody",
+              "amount_pln": 60032.35,
+              "raw_text": "Dieta radnego / inne dochody",
+              "confidence": "low"
+            }
+          ],
+          "liabilities": [
+            {
+              "creditor": "do weryfikacji",
+              "description": "Kredyty z rękopisu, suma robocza",
+              "amount_pln": 260000.0,
+              "currency": "PLN",
+              "raw_text": "Kredyty z rękopisu, suma robocza",
+              "confidence": "low"
+            }
+          ],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki, waluty i papiery wartościowe z rękopisu, wartości robocze.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Mieszkanie / nieruchomości odczytane roboczo z formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Udziały w spółkach, wartość robocza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Akcje: brak istotnych pozycji poza odczytem roboczym.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Działalność gospodarcza: nie dotyczy / brak czytelnej kwoty.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Funkcje w spółkach: roboczy odczyt rękopisu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dochody z pracy, diet i funkcji, roboczy odczyt rękopisu.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Mercedes 2018; Fiat 110 / pojazd z rękopisu",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Zobowiązania pieniężne z rękopisu, suma robocza.",
+              "confidence": "low",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "medium",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 110032.35,
+              "metrics": {
+                "income_pln": 110032.35,
+                "net_delta_pln": -79000.0,
+                "asset_delta_pln": -89000.0,
+                "debt_delta_pln": -10000.0
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": [
+              {
+                "label": "Mieszkanie",
+                "value_pln": 270000.0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": 76,
       "name": "Stasiak Krzysztof",
       "slug": "stasiak-krzysztof",
@@ -10486,6 +11540,855 @@ window.ILE_ZARABIA_DATA = {
           "anomaly_score": 1,
           "asset_changes": {
             "new_significant_assets": []
+          }
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "name": "Stefanowski Mikołaj",
+      "slug": "stefanowski-mikolaj",
+      "role": "Radny/Radna",
+      "category": "Radni",
+      "statements": [
+        {
+          "id": 124,
+          "year": 2020,
+          "statement_date": "2020-06-29",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_20/stefanowski_mikolaj_2020.pdf",
+          "file_path": "data\\raw\\stefanowski-mikolaj\\2020_5e0079bf20ad.pdf",
+          "confidence": "medium",
+          "notes": "Manual review from rendered contact sheets. Some handwritten values are working reads.",
+          "assets_value_pln": 15000.0,
+          "income_total_pln": 28666.0,
+          "liabilities_total_pln": 0,
+          "filing_year": 2020,
+          "report_year": 2019,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 15000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Ford Focus Electric 2012",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Ford Focus Electric 2012",
+              "confidence": "medium"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 15000.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego",
+              "amount_pln": 27000.0,
+              "raw_text": "Dieta radnego",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Umowa o pracę",
+              "description": "Umowa o pracę",
+              "amount_pln": 1666.0,
+              "raw_text": "Umowa o pracę",
+              "confidence": "medium"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: ok. 15000 zł; waluty i papiery wartościowe: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Nieruchomości: nie dotyczy poza wskazanym mieszkaniem w 2024.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta radnego oraz dochody z pracy/innych umów.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Ford Focus Electric 2012",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0
+        },
+        {
+          "id": 184,
+          "year": 2021,
+          "statement_date": "2021-05-30",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_21/stefanowski_mikolaj_2021.pdf",
+          "file_path": "data\\raw\\stefanowski-mikolaj\\2021_d7b802da5b5c.pdf",
+          "confidence": "medium",
+          "notes": "Manual review from rendered contact sheets. Some handwritten values are working reads.",
+          "assets_value_pln": 25000.0,
+          "income_total_pln": 32440.69,
+          "liabilities_total_pln": 0,
+          "filing_year": 2021,
+          "report_year": 2020,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 25000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Ford Focus Electric 2012",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Ford Focus Electric 2012",
+              "confidence": "medium"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 25000.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego",
+              "amount_pln": 30921.19,
+              "raw_text": "Dieta radnego",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta komisji wyborczej",
+              "amount_pln": 700.0,
+              "raw_text": "Dieta komisji wyborczej",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Wynagrodzenie z innych umów",
+              "description": "Wynagrodzenie z innych umów",
+              "amount_pln": 819.5,
+              "raw_text": "Wynagrodzenie z innych umów",
+              "confidence": "medium"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: ok. 25000 zł; waluty i papiery wartościowe: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Nieruchomości: nie dotyczy poza wskazanym mieszkaniem w 2024.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta radnego oraz dochody z pracy/innych umów.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Ford Focus Electric 2012",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 233,
+          "year": 2022,
+          "statement_date": "2022-04-28",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_22/stefanowski_mikolaj_2022.pdf",
+          "file_path": "data\\raw\\stefanowski-mikolaj\\2022_369f3dd111b9.pdf",
+          "confidence": "medium",
+          "notes": "Manual review from rendered contact sheets. Some handwritten values are working reads.",
+          "assets_value_pln": 100000.0,
+          "income_total_pln": 115417.87,
+          "liabilities_total_pln": 0,
+          "filing_year": 2022,
+          "report_year": 2021,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 100000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Nissan Leaf 2012",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Nissan Leaf 2012",
+              "confidence": "medium"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 100000.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego",
+              "amount_pln": 34464.6,
+              "raw_text": "Dieta radnego",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Umowa o pracę / inne dochody",
+              "description": "Umowa o pracę / inne dochody",
+              "amount_pln": 80953.27,
+              "raw_text": "Umowa o pracę / inne dochody",
+              "confidence": "medium"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: ok. 100000 zł; waluty i papiery wartościowe: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Nieruchomości: nie dotyczy poza wskazanym mieszkaniem w 2024.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta radnego oraz dochody z pracy/innych umów.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Nissan Leaf 2012",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": [
+              {
+                "label": "Środki pieniężne w walucie polskiej",
+                "value_pln": 100000.0
+              }
+            ]
+          }
+        },
+        {
+          "id": 275,
+          "year": 2023,
+          "statement_date": "2023-04-27",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_23/Stefanowski_Mikolaj_2023.pdf",
+          "file_path": "data\\raw\\stefanowski-mikolaj\\2023_c0c6fa522621.pdf",
+          "confidence": "medium",
+          "notes": "Manual review from rendered contact sheets. Some handwritten values are working reads.",
+          "assets_value_pln": 140000.0,
+          "income_total_pln": 179126.24,
+          "liabilities_total_pln": 0,
+          "filing_year": 2023,
+          "report_year": 2022,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 140000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Nissan Leaf 2012",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Nissan Leaf 2012",
+              "confidence": "medium"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 140000.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego",
+              "amount_pln": 40084.95,
+              "raw_text": "Dieta radnego",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Umowa o pracę / inne dochody",
+              "description": "Umowa o pracę / inne dochody",
+              "amount_pln": 118988.06,
+              "raw_text": "Umowa o pracę / inne dochody",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "other_income",
+              "payer": "Inne dochody",
+              "description": "Inne dochody",
+              "amount_pln": 20053.23,
+              "raw_text": "Inne dochody",
+              "confidence": "medium"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: ok. 140000 zł; waluty i papiery wartościowe: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Nieruchomości: nie dotyczy poza wskazanym mieszkaniem w 2024.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta radnego oraz dochody z pracy/innych umów.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Nissan Leaf 2012",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [
+            {
+              "type": "income_gap",
+              "severity": "medium",
+              "title": "Dochód nie widać w zmianie majątku",
+              "description": "Deklarowany dochód jest wyraźnie wyższy niż wzrost majątku netto. Może to oznaczać wydatki, transfery, spłatę pozycji niewidocznych w formularzu albo brak pełnego odzwierciedlenia w aktywach.",
+              "amount_pln": 139126.24,
+              "metrics": {
+                "income_pln": 179126.24,
+                "net_delta_pln": 40000.0,
+                "asset_delta_pln": 40000.0,
+                "debt_delta_pln": 0
+              }
+            }
+          ],
+          "anomaly_score": 1,
+          "asset_changes": {
+            "new_significant_assets": []
+          }
+        },
+        {
+          "id": 350,
+          "year": 2024,
+          "statement_date": "2024-04-30",
+          "source_url": "https://bip.uml.lodz.pl/files/bip/public/BIP_SS_24/stefanowski_mikolaj_20240430.pdf",
+          "file_path": "data\\raw\\stefanowski-mikolaj\\2024_3c2585ba880f.pdf",
+          "confidence": "medium",
+          "notes": "Manual review from rendered contact sheets. Some handwritten values are working reads.",
+          "assets_value_pln": 270000.0,
+          "income_total_pln": 85415.69,
+          "liabilities_total_pln": 0,
+          "filing_year": 2024,
+          "report_year": 2023,
+          "assets": [
+            {
+              "section_code": "I",
+              "asset_type": "cash_pln",
+              "description": "Środki pieniężne w walucie polskiej",
+              "value_pln": 120000.0,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Środki pieniężne w walucie polskiej",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "II",
+              "asset_type": "real_estate_flat",
+              "description": "Mieszkanie",
+              "value_pln": 150000.0,
+              "area": "64 m2",
+              "legal_title": "własność",
+              "ownership": "",
+              "raw_text": "Mieszkanie",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "IX",
+              "asset_type": "vehicle",
+              "description": "Renault / pojazd elektryczny 2014, odczyt roboczy",
+              "value_pln": null,
+              "area": "",
+              "legal_title": "",
+              "ownership": "",
+              "raw_text": "Renault / pojazd elektryczny 2014, odczyt roboczy",
+              "confidence": "medium"
+            }
+          ],
+          "assets_estimated_extra_pln": 0,
+          "assets_estimated_total_pln": 270000.0,
+          "incomes": [
+            {
+              "section_code": "VIII",
+              "income_type": "council_allowance",
+              "payer": "Rada Miejska w Łodzi",
+              "description": "Dieta radnego",
+              "amount_pln": 50940.12,
+              "raw_text": "Dieta radnego",
+              "confidence": "medium"
+            },
+            {
+              "section_code": "VIII",
+              "income_type": "employment",
+              "payer": "Umowa o pracę",
+              "description": "Umowa o pracę",
+              "amount_pln": 34475.57,
+              "raw_text": "Umowa o pracę",
+              "confidence": "medium"
+            }
+          ],
+          "liabilities": [],
+          "sections": [
+            {
+              "section_code": "I",
+              "section_title": "Środki pieniężne i papiery wartościowe",
+              "pillar": "assets",
+              "raw_text": "Środki pieniężne: ok. 120000 zł; waluty i papiery wartościowe: nie dotyczy.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "II",
+              "section_title": "Nieruchomości",
+              "pillar": "assets",
+              "raw_text": "Nieruchomości: nie dotyczy poza wskazanym mieszkaniem w 2024.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "III",
+              "section_title": "Udziały w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IV",
+              "section_title": "Akcje w spółkach handlowych",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "V",
+              "section_title": "Mienie nabyte od Skarbu Państwa lub samorządu",
+              "pillar": "assets",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VI",
+              "section_title": "Prowadzona działalność gospodarcza",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VII",
+              "section_title": "Funkcje w spółkach handlowych i dochody",
+              "pillar": "earnings",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "VIII",
+              "section_title": "Inne dochody",
+              "pillar": "earnings",
+              "raw_text": "Dieta radnego oraz dochody z pracy/innych umów.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "IX",
+              "section_title": "Składniki mienia ruchomego powyżej 10 000 zł",
+              "pillar": "assets",
+              "raw_text": "Renault / pojazd elektryczny 2014, odczyt roboczy",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            },
+            {
+              "section_code": "X",
+              "section_title": "Zobowiązania pieniężne",
+              "pillar": "debts",
+              "raw_text": "Nie dotyczy według formularza.",
+              "confidence": "medium",
+              "review_status": "manual_reviewed",
+              "structured": {}
+            }
+          ],
+          "anomalies": [],
+          "anomaly_score": 0,
+          "asset_changes": {
+            "new_significant_assets": [
+              {
+                "label": "Mieszkanie",
+                "value_pln": 150000.0
+              }
+            ]
           }
         }
       ]
